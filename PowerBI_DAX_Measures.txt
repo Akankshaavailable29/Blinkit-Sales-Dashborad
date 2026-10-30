@@ -1,0 +1,39 @@
+Total Orders = DISTINCTCOUNT(Orders[Order_ID])
+
+Total Sales = SUM(Orders[Sales_Amount])
+
+Total Profit = SUM(Orders[Profit])
+
+Average Order Value = DIVIDE([Total Sales], [Total Orders], 0)
+
+Average Rating = AVERAGE(Orders[Rating])
+
+Total Quantity = SUM(Orders[Quantity])
+
+Average Delivery Time (min) = AVERAGE(Orders[Delivery_Time_Min])
+
+Delivered Orders =
+CALCULATE(
+    DISTINCTCOUNT(Orders[Order_ID]),
+    Orders[Order_Status] = "Delivered"
+)
+
+Cancelled Orders =
+CALCULATE(
+    DISTINCTCOUNT(Orders[Order_ID]),
+    Orders[Order_Status] = "Cancelled"
+)
+
+Returned Orders =
+CALCULATE(
+    DISTINCTCOUNT(Orders[Order_ID]),
+    Orders[Order_Status] = "Returned"
+)
+
+Delivery Rate =
+DIVIDE([Delivered Orders], [Total Orders], 0)
+
+-- Formatting suggestions:
+-- Total Sales, Total Profit, Average Order Value: currency/decimal format as appropriate.
+-- Delivery Rate: percentage.
+-- Verify column names and status spelling against your imported table before using.

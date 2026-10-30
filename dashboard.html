@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blinkit Sales Analysis Dashboard</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+:root{--yellow:#F8CB46;--pale:#FFF3B0;--green:#1B5E20;--green2:#2E7D32;--ink:#202820;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:#f4f5ef;font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+header{background:var(--green);color:white;padding:22px 28px;border-bottom:8px solid var(--yellow)}
+header .tag{font-size:12px;letter-spacing:2px;color:var(--yellow);font-weight:700}h1{margin:8px 0 4px;font-size:28px}header p{margin:0;color:#e8f2e8}
+.wrap{max-width:1400px;margin:auto;padding:18px}.filters{display:flex;gap:12px;flex-wrap:wrap;background:var(--pale);padding:14px;border-radius:14px;margin-bottom:16px}
+label{font-size:12px;font-weight:700;color:var(--green);display:flex;flex-direction:column;gap:5px}select{min-width:145px;padding:9px;border:1px solid #d7d7b5;border-radius:8px;background:white;color:var(--ink)}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:16px}
+.kpi{background:white;border-radius:14px;padding:18px;border-top:5px solid var(--yellow);box-shadow:0 2px 10px #14220d12}
+.kpi .label{font-size:12px;color:#687568;font-weight:700;text-transform:uppercase;letter-spacing:.6px}.kpi .value{font-size:26px;font-weight:800;color:var(--green);margin-top:9px}.kpi .note{font-size:11px;color:#718071;margin-top:5px}
+.charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.chart{background:white;border-radius:14px;padding:8px;min-height:350px;box-shadow:0 2px 10px #14220d12}
+footer{font-size:11px;color:#667266;padding:18px 4px}
+@media(max-width:850px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.charts{grid-template-columns:1fr}}
+@media(max-width:460px){.kpis{grid-template-columns:1fr}h1{font-size:22px}}
+</style></head><body>
+<header><div class="tag">RETAIL ANALYTICS • PORTFOLIO PROJECT</div><h1>BLINKIT SALES ANALYSIS</h1><p>Sales performance, order health and product insights</p></header>
+<div class="wrap">
+<div class="filters">
+<label>Year<select id="year"><option value="All">All years</option></select></label>
+<label>City<select id="city"><option value="All">All cities</option></select></label>
+<label>Category<select id="category"><option value="All">All categories</option></select></label>
+<label>Store Type<select id="store"><option value="All">All store types</option></select></label>
+<label>Order Status<select id="status"><option value="All">All statuses</option></select></label>
+</div>
+<div class="kpis">
+<div class="kpi"><div class="label">Total Sales</div><div class="value" id="sales">—</div><div class="note">Sum of Sales_Amount</div></div>
+<div class="kpi"><div class="label">Total Orders</div><div class="value" id="orders">—</div><div class="note">Distinct Order_ID</div></div>
+<div class="kpi"><div class="label">Total Profit</div><div class="value" id="profit">—</div><div class="note">Sum of Profit</div></div>
+<div class="kpi"><div class="label">Average Rating</div><div class="value" id="rating">—</div><div class="note">Average customer rating</div></div>
+</div>
+<div class="charts"><div class="chart" id="catChart"></div><div class="chart" id="statusChart"></div><div class="chart" id="cityChart"></div><div class="chart" id="monthChart"></div></div>
+<footer>Dataset: supplied practice dataset. Values are computed from the included CSV. Not verified as official Blinkit company data. Filters update the KPI cards and charts. Internet is required to load Plotly charts.</footer>
+</div>
+<script>
+const csvPath='blinkit_orders.csv';
+function parseCSV(text){const lines=text.trim().split(/\r?\n/);const headers=lines.shift().split(',');return lines.map(line=>{const cells=[];let cur='',q=false;for(let i=0;i<line.length;i++){const c=line[i];if(c==='"'){if(q&&line[i+1]==='"'){cur+='"';i++}else q=!q}else if(c===','&&!q){cells.push(cur);cur=''}else cur+=c}cells.push(cur);const o={};headers.forEach((h,i)=>o[h]=cells[i]??'');return o})}
+let data=[];
+const fmt=n=>Number(n||0).toLocaleString('en-IN',{maximumFractionDigits:2,minimumFractionDigits:0});
+const uniq=k=>[...new Set(data.map(d=>d[k]).filter(v=>v!==''&&v!=null))].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true}));
+function fill(id,key){const s=document.getElementById(id);uniq(key).forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;s.appendChild(o)})}
+function filtered(){return data.filter(d=>['year','city','category','store','status'].every(id=>{const v=document.getElementById(id).value;if(v==='All')return true;const k={year:'Year',city:'City',category:'Category',store:'Store_Type',status:'Order_Status'}[id];return String(d[k])===v}))}
+function sum(rows,k){return rows.reduce((a,d)=>a+(Number(d[k])||0),0)}
+function group(rows,key,val){const o={};rows.forEach(d=>{const k=d[key]||'Unknown';o[k]=(o[k]||0)+(val==='__count'?1:(Number(d[val])||0))});return Object.entries(o).sort((a,b)=>b[1]-a[1])}
+function layout(title){return {title:{text:title,font:{size:16,color:'#1B5E20'}},margin:{l:45,r:20,t:50,b:80},paper_bgcolor:'#fff',plot_bgcolor:'#fff',font:{family:'Arial',color:'#354435'},xaxis:{gridcolor:'#edf0e8'},yaxis:{gridcolor:'#edf0e8'},autosize:true}}
+function redraw(){const rows=filtered();document.getElementById('sales').textContent=fmt(sum(rows,'Sales_Amount'));document.getElementById('orders').textContent=fmt(new Set(rows.map(d=>d.Order_ID)).size);document.getElementById('profit').textContent=fmt(sum(rows,'Profit'));const ratings=rows.map(d=>Number(d.Rating)).filter(n=>Number.isFinite(n)&&n>0);document.getElementById('rating').textContent=ratings.length?(ratings.reduce((a,b)=>a+b,0)/ratings.length).toFixed(2):'—';
+let g=group(rows,'Category','Sales_Amount').slice(0,10).reverse();Plotly.react('catChart',[{type:'bar',orientation:'h',y:g.map(x=>x[0]),x:g.map(x=>x[1]),marker:{color:'#2E7D32'}}],layout('Sales by Category'),{responsive:true,displayModeBar:false});
+g=group(rows,'Order_Status','__count');Plotly.react('statusChart',[{type:'pie',labels:g.map(x=>x[0]),values:g.map(x=>x[1]),hole:.52,marker:{colors:['#F8CB46','#2E7D32','#85B56A','#E9A23B','#9CA3AF']},textinfo:'label+percent'}],{...layout('Order Status Mix'),showlegend:true,margin:{l:15,r:15,t:50,b:15}},{responsive:true,displayModeBar:false});
+g=group(rows,'City','Sales_Amount').slice(0,10).reverse();Plotly.react('cityChart',[{type:'bar',orientation:'h',y:g.map(x=>x[0]),x:g.map(x=>x[1]),marker:{color:'#F8CB46'}}],layout('Top Cities by Sales'),{responsive:true,displayModeBar:false});
+const months={};rows.forEach(d=>{const key=(d.Year||'')+'-'+String(d.Month_No||'').padStart(2,'0');if(key!=='-00')months[key]=(months[key]||0)+(Number(d.Sales_Amount)||0)});const ms=Object.entries(months).sort((a,b)=>a[0].localeCompare(b[0]));Plotly.react('monthChart',[{type:'scatter',mode:'lines+markers',x:ms.map(x=>x[0]),y:ms.map(x=>x[1]),line:{color:'#1B5E20',width:3},marker:{color:'#F8CB46',size:7}}],layout('Monthly Sales Trend'),{responsive:true,displayModeBar:false});
+}
+fetch(csvPath).then(r=>{if(!r.ok)throw Error('CSV file not found');return r.text()}).then(t=>{data=parseCSV(t);fill('year','Year');fill('city','City');fill('category','Category');fill('store','Store_Type');fill('status','Order_Status');['year','city','category','store','status'].forEach(id=>document.getElementById(id).addEventListener('change',redraw));redraw()}).catch(e=>{document.querySelector('.wrap').insertAdjacentHTML('afterbegin','<p style="background:#fff3b0;padding:14px;border-radius:10px">Could not load blinkit_orders.csv. Keep dashboard.html and blinkit_orders.csv in the same folder and open using a local web server, or use the Power BI CSV file.</p>')});
+</script></body></html>

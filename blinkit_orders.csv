@@ -1,0 +1,1001 @@
+Order_ID,Order_Date,Year,Month,Month_No,Day,City,State,Region,Store_ID,Store_Type,Category,Sub_Category,Brand,Product_Name,Quantity,Unit_Price,Payment_Mode,Order_Status,Customer_Type,Delivery_Time_Min,Rating,Sales_Amount,Discount,Profit
+1,2023-01-01,2023,January,1,1,Hyderabad,Delhi,West,S115,Express,Fruits,Regular,Amul,Product-30,2,72.79,Card,Cancelled,New,48,3.1,145.58,17.2,32.97
+2,2023-01-02,2023,January,1,2,Pune,Tamil Nadu,West,S116,Express,Dairy,Frozen,Local,Product-39,7,370.93,Cash,Cancelled,Returning,55,3.6,2596.51,30.01,403.61
+3,2023-01-03,2023,January,1,3,Kolkata,Maharashtra,South,S137,Express,Vegetables,Fresh,Nestle,Product-32,4,410.76,Cash,Returned,Returning,50,3.1,1643.04,37.44,422.93
+4,2023-01-04,2023,January,1,4,Bengaluru,Delhi,South,S125,Super,Fruits,Fresh,Nestle,Product-31,7,294.55,UPI,Delivered,New,28,3.8,2061.85,250.19,499.21
+5,2023-01-05,2023,January,1,5,Bengaluru,Karnataka,West,S114,Express,Fruits,Fresh,ITC,Product-8,6,137.21,Card,Cancelled,Returning,49,4.2,823.26,111.88,236.42
+6,2023-01-06,2023,January,1,6,Hyderabad,Delhi,West,S107,Express,Fruits,Fresh,Local,Product-34,5,173.12,UPI,Returned,Returning,46,3.6,865.6,121.63,251.63
+7,2023-01-07,2023,January,1,7,Pune,Telangana,South,S141,Super,Vegetables,Fresh,ITC,Product-48,5,27.75,Card,Cancelled,Returning,27,3.8,138.75,19.72,41.43
+8,2023-01-08,2023,January,1,8,Kolkata,West Bengal,South,S118,Express,Snacks,Organic,Local,Product-33,9,272.83,Wallet,Delivered,Returning,51,5.0,2455.47,332.09,488.62
+9,2023-01-09,2023,January,1,9,Mumbai,West Bengal,East,S146,Express,Dairy,Frozen,Amul,Product-17,3,237.85,Cash,Cancelled,New,52,3.9,713.55,46.48,76.14
+10,2023-01-10,2023,January,1,10,Pune,Karnataka,North,S120,Super,Beverages,Fresh,Local,Product-19,2,32.37,UPI,Cancelled,New,59,4.5,64.74,6.41,14.26
+11,2023-01-11,2023,January,1,11,Kolkata,Maharashtra,East,S126,Express,Fruits,Fresh,Local,Product-19,8,412.29,Card,Cancelled,New,22,4.1,3298.32,391.53,457.6
+12,2023-01-12,2023,January,1,12,Delhi,Delhi,North,S135,Super,Vegetables,Organic,Local,Product-2,7,227.0,UPI,Delivered,Returning,26,4.1,1589.0,159.8,255.43
+13,2023-01-13,2023,January,1,13,Delhi,Maharashtra,North,S111,Express,Vegetables,Regular,Nestle,Product-3,2,399.75,Cash,Cancelled,Returning,47,3.7,799.5,18.99,184.73
+14,2023-01-14,2023,January,1,14,Mumbai,Maharashtra,South,S130,Super,Dairy,Frozen,ITC,Product-31,5,200.5,Cash,Cancelled,New,57,3.0,1002.5,20.65,118.2
+15,2023-01-15,2023,January,1,15,Kolkata,Maharashtra,North,S131,Super,Fruits,Frozen,Local,Product-10,3,463.93,UPI,Cancelled,Returning,50,3.6,1391.79,8.8,254.86
+16,2023-01-16,2023,January,1,16,Hyderabad,Telangana,East,S109,Super,Snacks,Organic,Britannia,Product-29,7,310.5,Wallet,Cancelled,Returning,44,4.8,2173.5,59.22,293.2
+17,2023-01-17,2023,January,1,17,Mumbai,Telangana,East,S123,Super,Dairy,Regular,Nestle,Product-42,8,362.6,Cash,Cancelled,New,49,3.9,2900.8,128.01,410.63
+18,2023-01-18,2023,January,1,18,Hyderabad,Telangana,South,S119,Super,Beverages,Frozen,Local,Product-24,1,453.14,Wallet,Delivered,Returning,33,4.1,453.14,9.33,61.15
+19,2023-01-19,2023,January,1,19,Mumbai,Karnataka,West,S126,Express,Beverages,Regular,ITC,Product-20,8,457.35,Cash,Cancelled,Returning,54,3.2,3658.8,189.93,753.33
+20,2023-01-20,2023,January,1,20,Bengaluru,Maharashtra,East,S150,Express,Dairy,Frozen,Nestle,Product-34,7,229.58,Card,Returned,Returning,28,4.6,1607.06,47.05,378.14
+21,2023-01-21,2023,January,1,21,Delhi,Tamil Nadu,West,S148,Express,Fruits,Frozen,Britannia,Product-26,3,51.09,UPI,Cancelled,Returning,49,4.2,153.27,13.19,37.37
+22,2023-01-22,2023,January,1,22,Kolkata,Maharashtra,South,S120,Super,Beverages,Organic,Local,Product-11,2,215.58,Card,Returned,Returning,51,4.4,431.16,14.48,91.49
+23,2023-01-23,2023,January,1,23,Bengaluru,Telangana,South,S149,Super,Snacks,Frozen,Nestle,Product-39,1,255.62,Cash,Cancelled,New,56,4.7,255.62,31.05,73.89
+24,2023-01-24,2023,January,1,24,Hyderabad,Maharashtra,North,S101,Super,Beverages,Organic,Nestle,Product-14,9,43.31,Cash,Cancelled,Returning,52,3.4,389.79,53.15,72.44
+25,2023-01-25,2023,January,1,25,Hyderabad,Karnataka,West,S137,Express,Snacks,Regular,Amul,Product-22,4,74.56,Wallet,Returned,New,27,3.5,298.24,21.13,82.49
+26,2023-01-26,2023,January,1,26,Chennai,Karnataka,East,S147,Super,Snacks,Frozen,Amul,Product-16,1,491.46,Wallet,Cancelled,New,22,4.8,491.46,5.36,76.65
+27,2023-01-27,2023,January,1,27,Mumbai,Maharashtra,East,S143,Express,Snacks,Organic,Amul,Product-17,3,430.27,UPI,Delivered,New,27,3.7,1290.81,133.59,218.81
+28,2023-01-28,2023,January,1,28,Mumbai,Delhi,East,S132,Super,Vegetables,Frozen,Local,Product-39,8,97.86,Cash,Cancelled,Returning,22,3.9,782.88,73.35,208.18
+29,2023-01-29,2023,January,1,29,Chennai,West Bengal,North,S106,Super,Vegetables,Frozen,Amul,Product-50,2,326.56,Card,Delivered,New,34,3.1,653.12,19.49,105.76
+30,2023-01-30,2023,January,1,30,Mumbai,West Bengal,South,S148,Express,Fruits,Organic,Local,Product-21,8,351.76,UPI,Delivered,New,41,3.1,2814.08,334.88,720.98
+31,2023-01-31,2023,January,1,31,Bengaluru,Tamil Nadu,South,S101,Super,Dairy,Organic,Nestle,Product-20,2,231.79,Card,Delivered,Returning,57,3.5,463.58,13.68,105.56
+32,2023-02-01,2023,February,2,1,Chennai,Tamil Nadu,North,S124,Express,Snacks,Organic,Britannia,Product-6,5,412.61,Wallet,Cancelled,New,15,3.4,2063.05,79.56,392.53
+33,2023-02-02,2023,February,2,2,Mumbai,Delhi,South,S141,Express,Fruits,Organic,ITC,Product-30,4,315.76,Wallet,Returned,Returning,18,3.6,1263.04,135.35,224.03
+34,2023-02-03,2023,February,2,3,Delhi,Tamil Nadu,West,S110,Express,Beverages,Frozen,Amul,Product-45,8,153.07,Wallet,Cancelled,Returning,13,4.7,1224.56,100.22,183.31
+35,2023-02-04,2023,February,2,4,Mumbai,Delhi,West,S104,Super,Fruits,Frozen,Britannia,Product-48,1,164.83,UPI,Cancelled,Returning,10,4.1,164.83,11.89,40.32
+36,2023-02-05,2023,February,2,5,Pune,Karnataka,South,S148,Super,Fruits,Fresh,Britannia,Product-5,5,23.85,Card,Delivered,New,12,3.6,119.25,15.11,17.56
+37,2023-02-06,2023,February,2,6,Kolkata,Maharashtra,East,S139,Super,Vegetables,Organic,Local,Product-27,7,454.2,UPI,Delivered,New,57,3.2,3179.4,442.86,493.52
+38,2023-02-07,2023,February,2,7,Kolkata,Delhi,South,S137,Super,Dairy,Frozen,ITC,Product-28,8,294.07,Cash,Delivered,Returning,46,3.8,2352.56,106.65,513.8
+39,2023-02-08,2023,February,2,8,Hyderabad,West Bengal,North,S108,Super,Vegetables,Regular,Britannia,Product-49,7,65.15,UPI,Returned,New,13,3.5,456.0500000000001,48.37,111.16
+40,2023-02-09,2023,February,2,9,Kolkata,Karnataka,West,S105,Super,Snacks,Regular,Local,Product-48,9,225.17,Cash,Cancelled,Returning,37,4.8,2026.53,190.61,330.26
+41,2023-02-10,2023,February,2,10,Pune,Telangana,North,S142,Super,Vegetables,Regular,Britannia,Product-10,2,142.31,Card,Returned,Returning,12,3.8,284.62,34.7,38.58
+42,2023-02-11,2023,February,2,11,Bengaluru,Maharashtra,West,S104,Super,Vegetables,Frozen,Britannia,Product-23,8,161.01,Wallet,Delivered,Returning,14,4.9,1288.08,141.04,222.31
+43,2023-02-12,2023,February,2,12,Bengaluru,Maharashtra,East,S147,Super,Dairy,Frozen,Britannia,Product-28,3,25.49,Wallet,Cancelled,Returning,12,5.0,76.47,3.28,20.59
+44,2023-02-13,2023,February,2,13,Mumbai,West Bengal,North,S123,Express,Dairy,Regular,Local,Product-44,5,490.86,UPI,Delivered,New,48,4.4,2454.3,132.88,486.3
+45,2023-02-14,2023,February,2,14,Bengaluru,West Bengal,West,S135,Super,Snacks,Frozen,Nestle,Product-37,3,80.02,Card,Delivered,New,26,4.8,240.06,29.49,68.11
+46,2023-02-15,2023,February,2,15,Mumbai,Delhi,West,S107,Express,Vegetables,Regular,ITC,Product-46,7,35.03,Cash,Returned,Returning,55,4.7,245.21,3.91,36.74
+47,2023-02-16,2023,February,2,16,Pune,Delhi,South,S102,Express,Snacks,Organic,Local,Product-49,2,235.43,Cash,Returned,New,26,4.7,470.86,21.71,55.51
+48,2023-02-17,2023,February,2,17,Mumbai,West Bengal,North,S115,Express,Beverages,Fresh,Nestle,Product-24,7,434.26,Cash,Cancelled,New,16,3.6,3039.82,120.82,757.91
+49,2023-02-18,2023,February,2,18,Mumbai,Maharashtra,North,S104,Super,Vegetables,Regular,Nestle,Product-4,3,153.4,Card,Cancelled,Returning,10,3.0,460.2,64.78,127.33
+50,2023-02-19,2023,February,2,19,Kolkata,Maharashtra,North,S123,Super,Snacks,Organic,ITC,Product-35,2,176.05,Cash,Returned,New,28,4.6,352.1,5.01,54.74
+51,2023-02-20,2023,February,2,20,Chennai,Delhi,West,S112,Express,Fruits,Fresh,ITC,Product-15,9,399.63,Wallet,Returned,New,34,5.0,3596.67,316.16,670.57
+52,2023-02-21,2023,February,2,21,Hyderabad,Delhi,West,S125,Express,Dairy,Frozen,Local,Product-27,7,407.55,Wallet,Returned,New,59,4.7,2852.85,314.62,558.43
+53,2023-02-22,2023,February,2,22,Hyderabad,Tamil Nadu,North,S122,Super,Vegetables,Frozen,Local,Product-19,1,218.95,Wallet,Cancelled,New,34,3.0,218.95,14.1,23.74
+54,2023-02-23,2023,February,2,23,Hyderabad,Maharashtra,South,S130,Express,Dairy,Regular,Local,Product-47,3,51.88,Cash,Delivered,Returning,27,4.7,155.64,1.72,36.7
+55,2023-02-24,2023,February,2,24,Delhi,Karnataka,West,S124,Express,Dairy,Fresh,Nestle,Product-19,6,467.31,Cash,Returned,New,44,4.6,2803.86,372.93,385.04
+56,2023-02-25,2023,February,2,25,Pune,Karnataka,North,S110,Super,Vegetables,Fresh,Nestle,Product-32,1,354.49,UPI,Cancelled,Returning,35,4.0,354.49,52.13,80.4
+57,2023-02-26,2023,February,2,26,Bengaluru,Delhi,South,S147,Super,Dairy,Regular,Britannia,Product-16,7,353.29,Cash,Returned,Returning,31,4.3,2473.03,35.42,334.55
+58,2023-02-27,2023,February,2,27,Mumbai,Telangana,South,S102,Express,Dairy,Regular,Local,Product-24,4,77.99,UPI,Delivered,New,21,4.8,311.96,44.21,89.6
+59,2023-02-28,2023,February,2,28,Chennai,Karnataka,North,S108,Super,Beverages,Organic,Nestle,Product-25,9,80.85,Card,Cancelled,New,26,3.7,727.65,23.23,73.88
+60,2023-03-01,2023,March,3,1,Hyderabad,Telangana,South,S133,Super,Vegetables,Organic,Amul,Product-14,3,224.26,Card,Returned,New,48,4.2,672.78,42.23,150.09
+61,2023-03-02,2023,March,3,2,Mumbai,West Bengal,North,S140,Super,Snacks,Frozen,Nestle,Product-42,5,205.46,Cash,Returned,Returning,51,3.8,1027.3,121.13,190.39
+62,2023-03-03,2023,March,3,3,Chennai,West Bengal,East,S103,Express,Beverages,Organic,Local,Product-24,9,96.0,Card,Returned,Returning,48,3.8,864.0,125.63,219.37
+63,2023-03-04,2023,March,3,4,Hyderabad,Karnataka,East,S115,Express,Dairy,Frozen,Britannia,Product-34,3,200.02,Card,Delivered,New,53,4.7,600.0600000000001,19.99,72.59
+64,2023-03-05,2023,March,3,5,Bengaluru,Maharashtra,South,S143,Super,Fruits,Fresh,Amul,Product-46,8,247.62,Cash,Returned,Returning,37,3.9,1980.96,275.68,277.71
+65,2023-03-06,2023,March,3,6,Pune,Maharashtra,West,S109,Super,Dairy,Regular,Britannia,Product-38,3,243.91,UPI,Cancelled,New,50,4.0,731.73,9.03,164.32
+66,2023-03-07,2023,March,3,7,Bengaluru,Telangana,East,S110,Super,Vegetables,Fresh,ITC,Product-12,5,29.25,UPI,Delivered,Returning,25,3.1,146.25,13.64,15.25
+67,2023-03-08,2023,March,3,8,Bengaluru,Maharashtra,West,S120,Super,Dairy,Frozen,ITC,Product-38,6,497.65,UPI,Returned,Returning,47,4.8,2985.9,417.04,330.22
+68,2023-03-09,2023,March,3,9,Bengaluru,West Bengal,North,S101,Super,Vegetables,Regular,Local,Product-40,5,100.03,UPI,Returned,Returning,28,3.7,500.15,40.22,77.21
+69,2023-03-10,2023,March,3,10,Pune,Telangana,West,S120,Express,Fruits,Regular,Britannia,Product-35,4,196.16,Cash,Cancelled,New,18,3.4,784.64,63.36,135.59
+70,2023-03-11,2023,March,3,11,Bengaluru,Delhi,East,S119,Express,Beverages,Frozen,Local,Product-3,4,459.89,Cash,Returned,New,39,3.6,1839.56,125.54,423.52
+71,2023-03-12,2023,March,3,12,Bengaluru,Karnataka,South,S116,Express,Vegetables,Fresh,Nestle,Product-44,9,477.54,Cash,Delivered,New,15,4.8,4297.860000000001,335.18,519.66
+72,2023-03-13,2023,March,3,13,Hyderabad,Telangana,West,S111,Super,Beverages,Organic,Local,Product-15,3,185.28,UPI,Delivered,Returning,18,4.1,555.84,22.19,60.72
+73,2023-03-14,2023,March,3,14,Bengaluru,Karnataka,North,S111,Super,Dairy,Regular,Amul,Product-6,2,135.62,Card,Cancelled,New,47,3.8,271.24,11.14,68.74
+74,2023-03-15,2023,March,3,15,Pune,Karnataka,South,S105,Express,Dairy,Organic,ITC,Product-33,8,196.14,UPI,Delivered,New,38,3.5,1569.12,176.17,215.8
+75,2023-03-16,2023,March,3,16,Bengaluru,Karnataka,West,S126,Express,Beverages,Frozen,Local,Product-37,8,136.76,Card,Returned,Returning,11,3.1,1094.08,42.4,290.91
+76,2023-03-17,2023,March,3,17,Kolkata,Delhi,North,S139,Super,Vegetables,Fresh,Local,Product-30,6,432.32,Card,Cancelled,New,53,3.0,2593.92,80.99,412.31
+77,2023-03-18,2023,March,3,18,Pune,Karnataka,North,S107,Express,Beverages,Fresh,Amul,Product-43,6,59.83,Cash,Delivered,Returning,51,3.1,358.98,29.61,67.17
+78,2023-03-19,2023,March,3,19,Chennai,Delhi,North,S109,Express,Beverages,Organic,ITC,Product-47,5,385.51,Card,Returned,New,42,4.4,1927.55,155.33,572.35
+79,2023-03-20,2023,March,3,20,Pune,Karnataka,West,S108,Super,Beverages,Regular,ITC,Product-28,9,260.42,Wallet,Returned,Returning,39,3.7,2343.78,14.65,276.37
+80,2023-03-21,2023,March,3,21,Chennai,West Bengal,East,S115,Express,Fruits,Regular,Nestle,Product-37,2,464.04,Card,Delivered,Returning,11,3.2,928.08,97.91,101.92
+81,2023-03-22,2023,March,3,22,Pune,West Bengal,East,S126,Super,Beverages,Regular,Amul,Product-10,9,382.21,Wallet,Delivered,Returning,10,4.8,3439.89,65.34,476.94
+82,2023-03-23,2023,March,3,23,Delhi,Karnataka,North,S133,Super,Snacks,Fresh,Nestle,Product-42,1,235.4,Card,Returned,New,21,4.2,235.4,26.5,45.61
+83,2023-03-24,2023,March,3,24,Bengaluru,West Bengal,North,S137,Express,Snacks,Regular,ITC,Product-47,8,24.33,UPI,Returned,New,35,3.5,194.64,14.02,44.45
+84,2023-03-25,2023,March,3,25,Delhi,Maharashtra,West,S105,Super,Vegetables,Organic,Local,Product-19,9,472.14,Cash,Returned,New,14,3.0,4249.26,158.8,1031.54
+85,2023-03-26,2023,March,3,26,Delhi,Tamil Nadu,South,S113,Super,Beverages,Regular,Britannia,Product-19,7,371.95,Wallet,Cancelled,New,49,3.2,2603.65,133.8,474.54
+86,2023-03-27,2023,March,3,27,Chennai,Maharashtra,West,S120,Express,Snacks,Fresh,Amul,Product-29,5,234.74,Cash,Delivered,Returning,21,4.0,1173.7,90.86,123.78
+87,2023-03-28,2023,March,3,28,Bengaluru,Maharashtra,East,S122,Express,Beverages,Fresh,Local,Product-44,4,80.19,Cash,Returned,New,55,3.3,320.76,19.51,52.58
+88,2023-03-29,2023,March,3,29,Bengaluru,Maharashtra,North,S145,Express,Dairy,Fresh,Amul,Product-37,8,239.81,UPI,Delivered,New,54,3.3,1918.48,181.15,567.18
+89,2023-03-30,2023,March,3,30,Delhi,Delhi,West,S149,Express,Dairy,Organic,ITC,Product-32,4,326.43,Wallet,Delivered,Returning,14,4.2,1305.72,5.13,353.87
+90,2023-03-31,2023,March,3,31,Mumbai,Delhi,West,S136,Super,Vegetables,Organic,Amul,Product-49,9,87.97,Cash,Cancelled,New,43,3.2,791.73,51.87,229.63
+91,2023-04-01,2023,April,4,1,Hyderabad,Karnataka,West,S122,Super,Vegetables,Fresh,ITC,Product-41,7,230.03,Card,Returned,New,57,3.5,1610.21,80.12,360.47
+92,2023-04-02,2023,April,4,2,Chennai,Maharashtra,East,S121,Express,Dairy,Regular,ITC,Product-18,5,154.56,Card,Cancelled,New,11,4.2,772.8,85.47,176.19
+93,2023-04-03,2023,April,4,3,Bengaluru,Delhi,North,S142,Express,Vegetables,Regular,Nestle,Product-39,9,170.62,Wallet,Delivered,Returning,11,3.1,1535.58,145.31,245.72
+94,2023-04-04,2023,April,4,4,Pune,Telangana,South,S106,Super,Beverages,Regular,ITC,Product-37,4,236.83,Card,Delivered,Returning,52,3.9,947.32,15.32,265.16
+95,2023-04-05,2023,April,4,5,Pune,Karnataka,West,S146,Super,Snacks,Regular,Britannia,Product-1,9,334.96,Cash,Returned,New,11,3.5,3014.64,40.2,646.25
+96,2023-04-06,2023,April,4,6,Hyderabad,Delhi,North,S134,Super,Beverages,Fresh,Local,Product-3,7,370.25,Card,Returned,New,57,4.2,2591.75,227.64,393.92
+97,2023-04-07,2023,April,4,7,Bengaluru,Karnataka,East,S145,Express,Fruits,Fresh,Amul,Product-36,1,418.03,Card,Delivered,Returning,38,4.5,418.03,58.51,81.63
+98,2023-04-08,2023,April,4,8,Kolkata,Karnataka,North,S106,Super,Dairy,Regular,ITC,Product-8,9,283.21,Card,Delivered,New,27,3.3,2548.89,259.47,565.48
+99,2023-04-09,2023,April,4,9,Kolkata,Maharashtra,East,S106,Express,Beverages,Fresh,Britannia,Product-19,7,390.21,Cash,Returned,New,11,4.7,2731.47,272.94,515.55
+100,2023-04-10,2023,April,4,10,Hyderabad,Telangana,South,S148,Super,Dairy,Regular,Britannia,Product-35,2,412.01,Cash,Delivered,Returning,31,4.8,824.02,59.87,108.3
+101,2023-04-11,2023,April,4,11,Hyderabad,Tamil Nadu,South,S131,Express,Dairy,Organic,Britannia,Product-9,1,299.08,Card,Cancelled,New,44,4.8,299.08,9.97,80.94
+102,2023-04-12,2023,April,4,12,Chennai,Delhi,North,S101,Super,Fruits,Organic,Britannia,Product-26,7,451.77,Card,Delivered,Returning,45,3.8,3162.39,54.2,755.01
+103,2023-04-13,2023,April,4,13,Hyderabad,West Bengal,North,S111,Super,Snacks,Organic,ITC,Product-47,5,452.15,Card,Delivered,New,48,4.7,2260.75,63.3,492.93
+104,2023-04-14,2023,April,4,14,Bengaluru,Maharashtra,East,S123,Express,Vegetables,Frozen,Amul,Product-3,2,345.97,Wallet,Delivered,New,26,3.7,691.94,102.31,204.23
+105,2023-04-15,2023,April,4,15,Bengaluru,Telangana,South,S105,Express,Dairy,Organic,ITC,Product-22,1,401.71,UPI,Delivered,New,18,3.8,401.71,46.6,120.02
+106,2023-04-16,2023,April,4,16,Mumbai,Maharashtra,West,S131,Express,Dairy,Frozen,Nestle,Product-21,6,195.07,Cash,Delivered,Returning,29,3.6,1170.42,13.34,346.59
+107,2023-04-17,2023,April,4,17,Hyderabad,Delhi,South,S134,Super,Snacks,Fresh,Local,Product-11,4,274.93,Cash,Returned,New,35,4.6,1099.72,47.81,119.12
+108,2023-04-18,2023,April,4,18,Bengaluru,Maharashtra,South,S147,Express,Vegetables,Organic,Local,Product-29,8,215.86,Card,Delivered,New,55,4.4,1726.88,190.32,500.05
+109,2023-04-19,2023,April,4,19,Mumbai,Tamil Nadu,North,S108,Express,Snacks,Regular,Britannia,Product-9,9,245.47,Wallet,Returned,New,11,4.1,2209.23,97.89,360.25
+110,2023-04-20,2023,April,4,20,Delhi,Tamil Nadu,East,S126,Super,Dairy,Organic,Nestle,Product-11,9,371.96,Cash,Cancelled,New,48,4.5,3347.64,85.98,772.17
+111,2023-04-21,2023,April,4,21,Delhi,Maharashtra,North,S150,Super,Beverages,Fresh,Local,Product-8,1,125.47,UPI,Returned,Returning,49,3.6,125.47,17.32,37.6
+112,2023-04-22,2023,April,4,22,Kolkata,West Bengal,South,S133,Express,Dairy,Organic,Britannia,Product-20,3,181.76,Wallet,Cancelled,New,29,4.8,545.28,47.59,150.37
+113,2023-04-23,2023,April,4,23,Bengaluru,Karnataka,East,S122,Express,Fruits,Organic,Amul,Product-24,1,49.17,Wallet,Cancelled,Returning,11,3.9,49.17,0.1,6.61
+114,2023-04-24,2023,April,4,24,Chennai,Tamil Nadu,North,S118,Express,Beverages,Frozen,Local,Product-4,5,300.39,Wallet,Returned,New,54,4.2,1501.95,24.99,294.75
+115,2023-04-25,2023,April,4,25,Delhi,Tamil Nadu,East,S133,Express,Beverages,Organic,Local,Product-48,9,456.07,Card,Cancelled,New,30,3.8,4104.63,259.44,486.49
+116,2023-04-26,2023,April,4,26,Bengaluru,Telangana,East,S103,Express,Beverages,Frozen,ITC,Product-19,7,243.85,Wallet,Returned,Returning,29,3.4,1706.95,173.61,177.23
+117,2023-04-27,2023,April,4,27,Chennai,Telangana,North,S112,Express,Snacks,Frozen,Local,Product-11,7,401.75,Card,Returned,New,43,4.0,2812.25,342.32,783.94
+118,2023-04-28,2023,April,4,28,Hyderabad,Tamil Nadu,West,S135,Super,Dairy,Regular,Britannia,Product-39,3,215.45,UPI,Cancelled,Returning,23,4.0,646.3499999999999,25.41,119.98
+119,2023-04-29,2023,April,4,29,Hyderabad,Delhi,South,S116,Super,Dairy,Frozen,ITC,Product-29,5,477.31,UPI,Returned,Returning,20,4.1,2386.55,295.91,409.61
+120,2023-04-30,2023,April,4,30,Chennai,West Bengal,South,S150,Express,Fruits,Organic,Amul,Product-43,9,336.73,UPI,Cancelled,New,12,4.6,3030.57,87.16,847.6
+121,2023-05-01,2023,May,5,1,Mumbai,Delhi,South,S132,Express,Beverages,Fresh,Nestle,Product-30,4,290.8,Wallet,Returned,New,20,3.6,1163.2,25.96,231.13
+122,2023-05-02,2023,May,5,2,Kolkata,Tamil Nadu,South,S122,Express,Beverages,Organic,Britannia,Product-37,1,263.35,Wallet,Delivered,New,12,4.1,263.35,32.28,78.1
+123,2023-05-03,2023,May,5,3,Kolkata,West Bengal,North,S118,Express,Fruits,Regular,Amul,Product-4,9,304.85,Cash,Cancelled,New,22,4.6,2743.65,108.01,353.5
+124,2023-05-04,2023,May,5,4,Chennai,Karnataka,South,S117,Express,Snacks,Fresh,ITC,Product-6,1,394.22,Cash,Returned,Returning,19,4.8,394.22,34.06,82.6
+125,2023-05-05,2023,May,5,5,Kolkata,Maharashtra,West,S148,Express,Beverages,Fresh,ITC,Product-40,6,473.61,Card,Delivered,New,29,4.6,2841.66,317.72,485.69
+126,2023-05-06,2023,May,5,6,Chennai,West Bengal,East,S138,Super,Dairy,Regular,Local,Product-6,2,203.98,Wallet,Returned,Returning,57,3.5,407.96,13.09,41.27
+127,2023-05-07,2023,May,5,7,Hyderabad,Maharashtra,East,S121,Super,Beverages,Fresh,Britannia,Product-41,2,117.27,Wallet,Delivered,New,33,4.5,234.54,18.24,61.33
+128,2023-05-08,2023,May,5,8,Bengaluru,Telangana,North,S111,Express,Beverages,Frozen,ITC,Product-17,6,385.0,UPI,Delivered,Returning,39,3.2,2310.0,345.4,431.66
+129,2023-05-09,2023,May,5,9,Pune,Tamil Nadu,South,S149,Super,Fruits,Fresh,Britannia,Product-11,2,28.72,Card,Delivered,Returning,46,3.3,57.44,0.14,11.3
+130,2023-05-10,2023,May,5,10,Delhi,Karnataka,East,S111,Express,Beverages,Fresh,Amul,Product-49,9,64.97,Cash,Cancelled,New,41,4.3,584.73,18.71,162.34
+131,2023-05-11,2023,May,5,11,Chennai,West Bengal,East,S107,Express,Beverages,Regular,Local,Product-25,7,413.96,Wallet,Delivered,New,36,3.9,2897.72,395.98,329.17
+132,2023-05-12,2023,May,5,12,Hyderabad,Delhi,East,S102,Super,Fruits,Regular,Nestle,Product-19,6,110.61,UPI,Delivered,New,13,4.4,663.66,67.92,149.92
+133,2023-05-13,2023,May,5,13,Hyderabad,Telangana,North,S147,Super,Snacks,Regular,Britannia,Product-28,2,103.87,UPI,Delivered,Returning,55,4.3,207.74,21.59,54.74
+134,2023-05-14,2023,May,5,14,Pune,Maharashtra,South,S150,Express,Beverages,Regular,ITC,Product-42,2,367.75,UPI,Returned,New,41,3.1,735.5,44.24,152.37
+135,2023-05-15,2023,May,5,15,Pune,West Bengal,North,S120,Express,Dairy,Organic,Britannia,Product-39,4,54.0,UPI,Returned,Returning,59,4.8,216.0,7.68,62.61
+136,2023-05-16,2023,May,5,16,Chennai,Tamil Nadu,South,S125,Express,Fruits,Frozen,Amul,Product-46,4,261.07,UPI,Delivered,New,26,3.2,1044.28,22.46,122.89
+137,2023-05-17,2023,May,5,17,Delhi,Karnataka,West,S123,Super,Dairy,Regular,ITC,Product-21,5,84.71,Card,Returned,New,26,4.6,423.55,19.86,104.83
+138,2023-05-18,2023,May,5,18,Mumbai,Delhi,West,S124,Express,Beverages,Regular,Britannia,Product-1,4,147.32,Wallet,Returned,Returning,15,5.0,589.28,55.59,160.62
+139,2023-05-19,2023,May,5,19,Hyderabad,Telangana,East,S146,Super,Fruits,Regular,Britannia,Product-44,7,403.4,Card,Returned,Returning,42,4.0,2823.8,414.89,379.25
+140,2023-05-20,2023,May,5,20,Kolkata,Telangana,East,S106,Express,Fruits,Fresh,Amul,Product-2,9,33.86,Wallet,Returned,Returning,37,4.1,304.74,34.44,43.61
+141,2023-05-21,2023,May,5,21,Kolkata,Delhi,South,S139,Super,Beverages,Frozen,ITC,Product-40,2,179.07,UPI,Delivered,Returning,12,3.6,358.14,36.32,71.58
+142,2023-05-22,2023,May,5,22,Delhi,West Bengal,East,S116,Super,Vegetables,Frozen,Nestle,Product-34,1,394.54,Cash,Delivered,Returning,37,3.2,394.54,1.65,74.57
+143,2023-05-23,2023,May,5,23,Hyderabad,Delhi,South,S132,Super,Beverages,Frozen,Nestle,Product-49,6,449.78,Cash,Delivered,New,25,4.9,2698.68,388.26,613.32
+144,2023-05-24,2023,May,5,24,Kolkata,West Bengal,East,S120,Express,Fruits,Regular,Amul,Product-29,8,29.93,Cash,Cancelled,Returning,54,4.9,239.44,26.93,61.27
+145,2023-05-25,2023,May,5,25,Mumbai,West Bengal,West,S104,Express,Snacks,Fresh,Britannia,Product-27,3,405.03,Wallet,Cancelled,New,17,4.5,1215.09,82.45,232.9
+146,2023-05-26,2023,May,5,26,Delhi,Telangana,West,S113,Express,Vegetables,Frozen,Nestle,Product-35,5,346.97,Card,Returned,New,37,3.3,1734.85,83.69,207.57
+147,2023-05-27,2023,May,5,27,Bengaluru,Tamil Nadu,East,S148,Express,Beverages,Frozen,ITC,Product-20,4,401.36,UPI,Returned,Returning,13,4.3,1605.44,44.82,240.47
+148,2023-05-28,2023,May,5,28,Delhi,Delhi,North,S113,Super,Snacks,Frozen,Amul,Product-16,4,225.99,Card,Cancelled,New,16,3.1,903.96,100.29,122.06
+149,2023-05-29,2023,May,5,29,Kolkata,Maharashtra,West,S105,Super,Beverages,Frozen,Amul,Product-4,1,109.87,Card,Cancelled,Returning,39,4.4,109.87,1.8,25.55
+150,2023-05-30,2023,May,5,30,Hyderabad,Tamil Nadu,East,S144,Express,Vegetables,Frozen,Amul,Product-21,7,38.1,Cash,Returned,Returning,21,4.6,266.7,23.03,65.7
+151,2023-05-31,2023,May,5,31,Pune,Telangana,North,S149,Super,Vegetables,Organic,Amul,Product-33,4,154.79,Wallet,Returned,New,13,3.6,619.16,43.03,120.8
+152,2023-06-01,2023,June,6,1,Chennai,Telangana,East,S144,Super,Dairy,Frozen,Britannia,Product-50,2,417.88,UPI,Returned,Returning,11,3.7,835.76,51.68,224.26
+153,2023-06-02,2023,June,6,2,Kolkata,Maharashtra,West,S121,Express,Beverages,Regular,ITC,Product-6,8,376.55,Cash,Cancelled,New,48,4.3,3012.4,90.05,534.24
+154,2023-06-03,2023,June,6,3,Delhi,Karnataka,West,S118,Super,Beverages,Frozen,ITC,Product-43,8,433.93,UPI,Returned,New,42,4.7,3471.44,323.39,777.45
+155,2023-06-04,2023,June,6,4,Pune,Tamil Nadu,South,S108,Super,Vegetables,Regular,ITC,Product-6,2,115.43,Card,Delivered,New,23,4.6,230.86,33.47,68.35
+156,2023-06-05,2023,June,6,5,Chennai,Tamil Nadu,North,S126,Express,Beverages,Regular,Amul,Product-44,7,95.62,Card,Cancelled,New,22,3.6,669.34,40.63,155.69
+157,2023-06-06,2023,June,6,6,Pune,Maharashtra,West,S118,Super,Snacks,Organic,Britannia,Product-27,4,327.7,UPI,Delivered,Returning,59,3.4,1310.8,159.52,256.32
+158,2023-06-07,2023,June,6,7,Kolkata,Karnataka,North,S144,Express,Vegetables,Organic,Nestle,Product-2,3,133.48,Wallet,Cancelled,New,18,3.7,400.4399999999999,45.85,108.74
+159,2023-06-08,2023,June,6,8,Hyderabad,Telangana,North,S149,Express,Dairy,Regular,ITC,Product-23,4,399.17,UPI,Returned,Returning,55,4.9,1596.68,76.2,208.29
+160,2023-06-09,2023,June,6,9,Pune,West Bengal,South,S118,Express,Beverages,Frozen,Amul,Product-20,7,182.18,Cash,Delivered,New,14,3.8,1275.26,114.17,297.85
+161,2023-06-10,2023,June,6,10,Mumbai,Delhi,North,S119,Super,Dairy,Organic,Local,Product-41,5,298.96,Cash,Returned,Returning,36,3.1,1494.8,110.16,398.48
+162,2023-06-11,2023,June,6,11,Hyderabad,Tamil Nadu,North,S142,Super,Beverages,Organic,Nestle,Product-9,6,456.9,UPI,Cancelled,Returning,18,4.4,2741.4,365.1,652.49
+163,2023-06-12,2023,June,6,12,Kolkata,Karnataka,South,S143,Super,Snacks,Fresh,Britannia,Product-7,1,302.15,Cash,Returned,New,36,3.6,302.15,0.61,45.18
+164,2023-06-13,2023,June,6,13,Chennai,Delhi,West,S127,Express,Beverages,Regular,Local,Product-15,7,397.97,Cash,Delivered,Returning,10,4.8,2785.79,361.47,335.2
+165,2023-06-14,2023,June,6,14,Pune,Delhi,West,S143,Super,Beverages,Organic,Nestle,Product-49,8,96.53,Cash,Delivered,New,46,3.2,772.24,9.84,158.88
+166,2023-06-15,2023,June,6,15,Chennai,Telangana,North,S123,Super,Vegetables,Frozen,Britannia,Product-15,3,146.92,Card,Returned,New,24,4.3,440.76,25.9,61.82
+167,2023-06-16,2023,June,6,16,Hyderabad,Delhi,South,S113,Express,Vegetables,Fresh,Nestle,Product-41,9,329.15,UPI,Delivered,Returning,28,5.0,2962.35,382.63,753.93
+168,2023-06-17,2023,June,6,17,Bengaluru,Tamil Nadu,West,S105,Express,Vegetables,Frozen,Amul,Product-47,1,133.49,Wallet,Returned,New,46,4.8,133.49,8.64,19.78
+169,2023-06-18,2023,June,6,18,Hyderabad,Delhi,South,S118,Super,Vegetables,Frozen,Local,Product-38,2,46.12,Cash,Returned,Returning,26,4.2,92.24,7.4,20.34
+170,2023-06-19,2023,June,6,19,Pune,Telangana,South,S150,Express,Fruits,Regular,Local,Product-27,2,286.81,UPI,Delivered,Returning,21,3.3,573.62,44.37,163.9
+171,2023-06-20,2023,June,6,20,Bengaluru,Maharashtra,South,S102,Express,Fruits,Organic,Amul,Product-4,9,333.7,Wallet,Returned,New,52,4.8,3003.3,110.8,754.09
+172,2023-06-21,2023,June,6,21,Kolkata,West Bengal,South,S108,Express,Snacks,Organic,Local,Product-21,2,304.63,UPI,Delivered,New,56,3.4,609.26,59.91,118.57
+173,2023-06-22,2023,June,6,22,Mumbai,Karnataka,North,S127,Super,Vegetables,Fresh,Nestle,Product-29,1,259.82,UPI,Returned,New,23,3.1,259.82,7.85,64.77
+174,2023-06-23,2023,June,6,23,Pune,Karnataka,East,S135,Super,Beverages,Fresh,ITC,Product-9,3,20.92,Wallet,Returned,New,17,3.5,62.76000000000001,3.6,12.94
+175,2023-06-24,2023,June,6,24,Chennai,Delhi,South,S101,Express,Snacks,Organic,ITC,Product-9,8,246.24,Card,Returned,Returning,53,3.5,1969.92,103.76,576.6
+176,2023-06-25,2023,June,6,25,Chennai,Tamil Nadu,South,S143,Express,Vegetables,Organic,Britannia,Product-26,7,382.84,UPI,Delivered,Returning,22,4.4,2679.88,321.95,612.88
+177,2023-06-26,2023,June,6,26,Kolkata,Tamil Nadu,North,S119,Express,Fruits,Frozen,ITC,Product-7,9,477.55,Wallet,Delivered,Returning,49,4.6,4297.95,556.17,623.16
+178,2023-06-27,2023,June,6,27,Bengaluru,West Bengal,East,S150,Super,Fruits,Fresh,Britannia,Product-34,6,20.18,Card,Returned,New,21,3.9,121.08,2.02,14.07
+179,2023-06-28,2023,June,6,28,Hyderabad,Tamil Nadu,North,S127,Express,Snacks,Regular,Nestle,Product-9,5,439.23,Cash,Cancelled,New,27,4.4,2196.15,189.89,333.93
+180,2023-06-29,2023,June,6,29,Mumbai,Tamil Nadu,West,S127,Express,Dairy,Organic,Nestle,Product-8,4,307.41,UPI,Returned,New,38,4.0,1229.64,86.64,194.65
+181,2023-06-30,2023,June,6,30,Bengaluru,Maharashtra,North,S141,Super,Vegetables,Regular,Britannia,Product-20,2,462.52,Card,Delivered,New,42,4.1,925.04,42.68,119.21
+182,2023-07-01,2023,July,7,1,Pune,West Bengal,North,S101,Super,Snacks,Fresh,ITC,Product-37,9,266.13,UPI,Returned,Returning,40,4.7,2395.17,325.16,665.11
+183,2023-07-02,2023,July,7,2,Hyderabad,West Bengal,North,S101,Super,Dairy,Frozen,Local,Product-40,8,250.86,UPI,Returned,Returning,22,3.2,2006.88,178.64,425.45
+184,2023-07-03,2023,July,7,3,Hyderabad,Karnataka,South,S123,Express,Fruits,Regular,Local,Product-50,7,494.61,UPI,Returned,Returning,27,4.6,3462.27,287.35,630.93
+185,2023-07-04,2023,July,7,4,Chennai,West Bengal,East,S126,Super,Fruits,Frozen,Amul,Product-30,9,370.35,Card,Cancelled,New,59,4.4,3333.15,496.4,933.87
+186,2023-07-05,2023,July,7,5,Hyderabad,West Bengal,West,S112,Express,Beverages,Regular,Local,Product-49,5,322.94,Cash,Cancelled,Returning,19,3.5,1614.7,155.95,198.17
+187,2023-07-06,2023,July,7,6,Chennai,Tamil Nadu,East,S101,Express,Vegetables,Frozen,Britannia,Product-41,3,69.76,Wallet,Cancelled,New,37,4.7,209.28,29.25,37.57
+188,2023-07-07,2023,July,7,7,Delhi,West Bengal,North,S143,Express,Beverages,Fresh,ITC,Product-30,9,152.98,Cash,Cancelled,New,44,4.0,1376.82,125.06,259.18
+189,2023-07-08,2023,July,7,8,Pune,Tamil Nadu,South,S116,Super,Dairy,Regular,Nestle,Product-1,4,67.92,Wallet,Cancelled,Returning,25,4.7,271.68,31.75,31.98
+190,2023-07-09,2023,July,7,9,Kolkata,West Bengal,South,S133,Express,Dairy,Frozen,Local,Product-9,5,256.27,Card,Returned,New,51,3.3,1281.35,53.85,308.5
+191,2023-07-10,2023,July,7,10,Bengaluru,Delhi,North,S139,Express,Beverages,Regular,ITC,Product-31,8,109.54,Cash,Cancelled,New,20,4.7,876.32,35.84,150.45
+192,2023-07-11,2023,July,7,11,Bengaluru,Tamil Nadu,West,S122,Express,Vegetables,Fresh,Nestle,Product-9,3,86.72,Cash,Cancelled,New,19,4.8,260.16,8.88,47.76
+193,2023-07-12,2023,July,7,12,Delhi,Tamil Nadu,East,S122,Super,Fruits,Frozen,ITC,Product-12,9,93.01,Card,Delivered,New,49,4.0,837.09,91.48,124.29
+194,2023-07-13,2023,July,7,13,Hyderabad,Tamil Nadu,East,S127,Super,Beverages,Organic,Local,Product-41,5,207.75,Card,Cancelled,Returning,30,4.4,1038.75,83.59,172.24
+195,2023-07-14,2023,July,7,14,Mumbai,Karnataka,West,S123,Super,Snacks,Regular,Local,Product-38,2,246.44,UPI,Cancelled,Returning,33,4.1,492.88,69.91,54.42
+196,2023-07-15,2023,July,7,15,Chennai,Maharashtra,North,S117,Express,Vegetables,Regular,Local,Product-44,9,223.16,UPI,Cancelled,Returning,34,4.5,2008.44,78.8,525.43
+197,2023-07-16,2023,July,7,16,Bengaluru,West Bengal,South,S124,Super,Dairy,Frozen,ITC,Product-26,4,130.01,Cash,Delivered,Returning,11,3.4,520.04,63.07,144.18
+198,2023-07-17,2023,July,7,17,Chennai,West Bengal,East,S132,Express,Fruits,Organic,Britannia,Product-14,3,156.46,Card,Returned,Returning,22,3.9,469.38,63.92,116.69
+199,2023-07-18,2023,July,7,18,Mumbai,Maharashtra,West,S111,Express,Beverages,Fresh,Nestle,Product-37,2,377.37,Cash,Cancelled,Returning,39,4.9,754.74,81.68,96.19
+200,2023-07-19,2023,July,7,19,Chennai,Maharashtra,West,S105,Super,Beverages,Organic,Amul,Product-15,3,183.03,Wallet,Returned,New,57,4.5,549.09,9.49,65.8
+201,2023-07-20,2023,July,7,20,Pune,Tamil Nadu,North,S115,Express,Dairy,Organic,Local,Product-19,1,290.2,UPI,Cancelled,Returning,24,3.1,290.2,2.96,32.65
+202,2023-07-21,2023,July,7,21,Chennai,Karnataka,North,S136,Express,Fruits,Fresh,Nestle,Product-26,1,263.17,UPI,Delivered,New,59,3.3,263.17,10.55,60.64
+203,2023-07-22,2023,July,7,22,Mumbai,Maharashtra,West,S119,Express,Beverages,Organic,ITC,Product-16,6,330.95,UPI,Cancelled,Returning,33,4.0,1985.7,154.9,480.22
+204,2023-07-23,2023,July,7,23,Hyderabad,Tamil Nadu,South,S106,Super,Beverages,Regular,Local,Product-48,6,313.7,Card,Returned,New,26,4.5,1882.2,182.58,272.95
+205,2023-07-24,2023,July,7,24,Bengaluru,Maharashtra,East,S141,Express,Beverages,Organic,ITC,Product-3,2,114.72,Cash,Returned,Returning,35,3.3,229.44,2.31,47.89
+206,2023-07-25,2023,July,7,25,Kolkata,Karnataka,West,S136,Super,Dairy,Frozen,ITC,Product-28,9,79.03,Card,Returned,New,13,3.1,711.27,90.35,104.41
+207,2023-07-26,2023,July,7,26,Chennai,Telangana,North,S108,Express,Fruits,Organic,Amul,Product-9,4,315.23,Card,Cancelled,Returning,27,3.1,1260.92,146.13,243.47
+208,2023-07-27,2023,July,7,27,Pune,Telangana,West,S133,Express,Dairy,Regular,ITC,Product-4,9,269.03,Cash,Delivered,Returning,37,3.4,2421.27,122.38,326.2
+209,2023-07-28,2023,July,7,28,Delhi,Telangana,East,S116,Super,Fruits,Fresh,Local,Product-15,3,274.78,Cash,Delivered,New,46,4.8,824.3399999999999,55.4,134.74
+210,2023-07-29,2023,July,7,29,Mumbai,Tamil Nadu,South,S116,Super,Vegetables,Regular,Nestle,Product-1,8,278.35,Wallet,Returned,New,57,4.5,2226.8,302.36,333.9
+211,2023-07-30,2023,July,7,30,Delhi,Maharashtra,North,S143,Super,Fruits,Organic,ITC,Product-14,3,77.92,Wallet,Returned,Returning,38,3.9,233.76,30.97,44.72
+212,2023-07-31,2023,July,7,31,Mumbai,West Bengal,West,S126,Super,Fruits,Regular,Nestle,Product-49,3,418.3,Card,Delivered,Returning,30,3.3,1254.9,66.48,341.97
+213,2023-08-01,2023,August,8,1,Kolkata,Karnataka,North,S107,Express,Dairy,Organic,Local,Product-35,7,476.29,Cash,Cancelled,New,37,3.3,3334.03,66.7,529.27
+214,2023-08-02,2023,August,8,2,Delhi,Karnataka,West,S147,Express,Fruits,Regular,Amul,Product-8,2,339.89,UPI,Returned,New,22,4.1,679.78,85.94,73.07
+215,2023-08-03,2023,August,8,3,Pune,Maharashtra,North,S144,Super,Fruits,Fresh,ITC,Product-6,2,392.31,UPI,Returned,New,44,4.3,784.62,72.36,179.69
+216,2023-08-04,2023,August,8,4,Pune,West Bengal,West,S124,Express,Snacks,Frozen,Britannia,Product-36,6,272.1,Card,Delivered,Returning,59,4.4,1632.6,37.88,424.64
+217,2023-08-05,2023,August,8,5,Chennai,Maharashtra,South,S144,Super,Beverages,Frozen,Britannia,Product-14,9,268.92,Card,Returned,New,35,3.3,2420.28,16.24,654.12
+218,2023-08-06,2023,August,8,6,Chennai,Karnataka,South,S122,Express,Snacks,Fresh,Amul,Product-38,9,169.25,Wallet,Returned,Returning,40,4.2,1523.25,135.2,221.9
+219,2023-08-07,2023,August,8,7,Bengaluru,Telangana,South,S141,Express,Dairy,Organic,Local,Product-50,4,412.13,Cash,Delivered,Returning,22,3.2,1648.52,149.29,394.86
+220,2023-08-08,2023,August,8,8,Pune,West Bengal,North,S136,Super,Dairy,Organic,ITC,Product-2,6,25.48,Wallet,Returned,Returning,31,3.8,152.88,22.59,22.63
+221,2023-08-09,2023,August,8,9,Kolkata,Maharashtra,East,S139,Express,Fruits,Fresh,Britannia,Product-35,8,275.37,Card,Delivered,New,36,3.9,2202.96,170.48,421.02
+222,2023-08-10,2023,August,8,10,Mumbai,Maharashtra,South,S110,Express,Dairy,Frozen,Local,Product-45,7,439.78,Wallet,Delivered,Returning,32,4.3,3078.46,297.9,606.6
+223,2023-08-11,2023,August,8,11,Mumbai,Telangana,East,S146,Super,Snacks,Frozen,Amul,Product-2,1,468.08,UPI,Delivered,New,42,4.2,468.08,41.93,92.42
+224,2023-08-12,2023,August,8,12,Pune,Maharashtra,West,S146,Express,Dairy,Organic,Nestle,Product-24,8,340.97,Wallet,Returned,Returning,17,4.7,2727.76,284.44,761.41
+225,2023-08-13,2023,August,8,13,Pune,Telangana,East,S123,Express,Dairy,Organic,ITC,Product-27,4,301.4,Card,Cancelled,Returning,33,3.4,1205.6,145.25,234.58
+226,2023-08-14,2023,August,8,14,Kolkata,West Bengal,North,S115,Express,Fruits,Organic,Local,Product-29,8,497.07,UPI,Delivered,New,33,4.5,3976.56,507.52,580.97
+227,2023-08-15,2023,August,8,15,Pune,Tamil Nadu,North,S109,Super,Fruits,Organic,Britannia,Product-16,9,51.06,Wallet,Cancelled,Returning,39,4.1,459.54,46.98,59.08
+228,2023-08-16,2023,August,8,16,Chennai,West Bengal,East,S140,Express,Dairy,Regular,ITC,Product-4,3,140.1,Cash,Cancelled,New,22,4.9,420.3,16.1,108.26
+229,2023-08-17,2023,August,8,17,Bengaluru,Maharashtra,East,S117,Express,Fruits,Organic,Nestle,Product-46,2,237.39,Card,Returned,Returning,45,3.0,474.78,9.88,128.99
+230,2023-08-18,2023,August,8,18,Delhi,Tamil Nadu,North,S109,Super,Fruits,Regular,Britannia,Product-47,3,234.18,Wallet,Delivered,Returning,12,4.6,702.54,87.16,91.46
+231,2023-08-19,2023,August,8,19,Mumbai,Telangana,West,S129,Express,Beverages,Organic,ITC,Product-45,8,429.62,UPI,Delivered,Returning,26,4.7,3436.96,298.63,766.98
+232,2023-08-20,2023,August,8,20,Chennai,Delhi,West,S147,Express,Vegetables,Frozen,Nestle,Product-2,4,333.53,UPI,Cancelled,New,36,4.4,1334.12,74.66,273.05
+233,2023-08-21,2023,August,8,21,Delhi,West Bengal,West,S140,Super,Fruits,Fresh,Britannia,Product-40,8,100.06,UPI,Delivered,New,11,4.8,800.48,61.06,216.5
+234,2023-08-22,2023,August,8,22,Delhi,Karnataka,North,S113,Express,Vegetables,Fresh,Amul,Product-26,1,304.27,Card,Delivered,Returning,19,4.0,304.27,37.97,69.37
+235,2023-08-23,2023,August,8,23,Kolkata,Karnataka,South,S117,Express,Fruits,Frozen,Nestle,Product-35,8,419.01,Cash,Returned,Returning,17,3.3,3352.08,46.19,786.16
+236,2023-08-24,2023,August,8,24,Hyderabad,Maharashtra,South,S146,Express,Beverages,Fresh,Britannia,Product-22,3,43.84,Card,Cancelled,New,24,3.4,131.52,19.5,15.71
+237,2023-08-25,2023,August,8,25,Delhi,Telangana,East,S110,Super,Snacks,Fresh,Nestle,Product-20,7,56.13,Wallet,Returned,New,29,4.0,392.91,23.2,45.52
+238,2023-08-26,2023,August,8,26,Bengaluru,Delhi,East,S111,Super,Fruits,Organic,ITC,Product-13,8,283.48,UPI,Cancelled,New,49,4.8,2267.84,204.19,611.56
+239,2023-08-27,2023,August,8,27,Hyderabad,West Bengal,South,S116,Super,Vegetables,Fresh,Amul,Product-24,9,256.17,Cash,Returned,Returning,38,4.9,2305.53,286.39,486.16
+240,2023-08-28,2023,August,8,28,Mumbai,Telangana,South,S126,Express,Fruits,Fresh,Britannia,Product-37,1,443.81,Card,Cancelled,New,55,4.9,443.81,1.2,120.04
+241,2023-08-29,2023,August,8,29,Pune,Tamil Nadu,South,S138,Express,Vegetables,Regular,ITC,Product-18,3,54.37,UPI,Delivered,New,16,3.6,163.11,1.02,41.1
+242,2023-08-30,2023,August,8,30,Hyderabad,Telangana,West,S135,Super,Snacks,Organic,Britannia,Product-42,5,97.28,Card,Cancelled,Returning,17,4.8,486.4,51.82,141.73
+243,2023-08-31,2023,August,8,31,Pune,Karnataka,East,S114,Super,Snacks,Organic,Britannia,Product-49,5,39.76,Card,Delivered,New,40,3.4,198.8,3.85,42.49
+244,2023-09-01,2023,September,9,1,Hyderabad,Delhi,East,S106,Super,Fruits,Organic,Britannia,Product-38,1,217.8,Cash,Delivered,New,27,4.7,217.8,3.34,35.7
+245,2023-09-02,2023,September,9,2,Kolkata,West Bengal,West,S144,Super,Beverages,Organic,Local,Product-41,6,498.26,Wallet,Delivered,Returning,44,5.0,2989.56,119.82,710.17
+246,2023-09-03,2023,September,9,3,Bengaluru,Karnataka,East,S147,Express,Beverages,Organic,ITC,Product-31,4,48.81,Cash,Cancelled,New,33,3.2,195.24,21.13,58.08
+247,2023-09-04,2023,September,9,4,Kolkata,West Bengal,North,S130,Super,Snacks,Regular,Nestle,Product-14,3,191.85,Wallet,Returned,New,49,3.2,575.55,41.47,146.03
+248,2023-09-05,2023,September,9,5,Delhi,Delhi,South,S112,Super,Vegetables,Regular,Nestle,Product-3,2,38.05,Wallet,Delivered,New,37,4.9,76.1,2.0,21.12
+249,2023-09-06,2023,September,9,6,Hyderabad,Telangana,East,S120,Express,Dairy,Regular,Nestle,Product-25,4,182.1,UPI,Returned,Returning,44,4.1,728.4,101.53,84.08
+250,2023-09-07,2023,September,9,7,Pune,Karnataka,West,S125,Super,Fruits,Frozen,Local,Product-34,3,369.92,UPI,Delivered,Returning,13,3.8,1109.76,102.25,224.03
+251,2023-09-08,2023,September,9,8,Mumbai,Telangana,West,S144,Express,Beverages,Fresh,Britannia,Product-4,7,80.76,UPI,Returned,Returning,35,3.2,565.32,38.76,126.47
+252,2023-09-09,2023,September,9,9,Delhi,Telangana,South,S139,Express,Fruits,Regular,Britannia,Product-16,9,69.86,Card,Delivered,New,16,4.2,628.74,46.14,98.66
+253,2023-09-10,2023,September,9,10,Hyderabad,Karnataka,North,S121,Super,Fruits,Organic,Nestle,Product-41,8,53.55,UPI,Delivered,New,16,4.2,428.4,46.67,97.54
+254,2023-09-11,2023,September,9,11,Mumbai,Maharashtra,East,S135,Express,Vegetables,Organic,Local,Product-2,8,462.47,UPI,Delivered,New,43,4.5,3699.76,378.21,693.44
+255,2023-09-12,2023,September,9,12,Mumbai,Tamil Nadu,South,S130,Super,Snacks,Organic,Amul,Product-38,3,160.26,Card,Cancelled,Returning,21,3.6,480.78,8.49,141.03
+256,2023-09-13,2023,September,9,13,Hyderabad,Tamil Nadu,South,S128,Super,Vegetables,Frozen,Nestle,Product-22,6,487.81,UPI,Cancelled,Returning,58,4.0,2926.86,308.66,601.58
+257,2023-09-14,2023,September,9,14,Pune,Karnataka,West,S150,Super,Dairy,Fresh,Amul,Product-47,7,180.0,Cash,Returned,New,48,4.8,1260.0,94.91,314.13
+258,2023-09-15,2023,September,9,15,Kolkata,Tamil Nadu,North,S128,Express,Fruits,Organic,Britannia,Product-1,4,42.59,Card,Returned,New,15,4.0,170.36,21.8,40.64
+259,2023-09-16,2023,September,9,16,Mumbai,Telangana,East,S124,Express,Fruits,Organic,Britannia,Product-14,8,486.71,Cash,Delivered,New,23,3.7,3893.68,275.99,1098.78
+260,2023-09-17,2023,September,9,17,Delhi,Delhi,East,S118,Super,Fruits,Fresh,Local,Product-18,9,440.26,Card,Returned,Returning,33,4.6,3962.34,195.56,1083.56
+261,2023-09-18,2023,September,9,18,Mumbai,Telangana,East,S125,Express,Beverages,Frozen,Amul,Product-35,6,214.63,Card,Returned,New,24,3.0,1287.78,106.59,140.01
+262,2023-09-19,2023,September,9,19,Bengaluru,Maharashtra,East,S143,Super,Beverages,Regular,ITC,Product-4,7,271.96,Wallet,Cancelled,New,41,4.1,1903.72,116.3,303.23
+263,2023-09-20,2023,September,9,20,Chennai,Delhi,East,S115,Express,Beverages,Fresh,ITC,Product-45,8,108.01,Card,Returned,Returning,22,5.0,864.08,123.14,251.58
+264,2023-09-21,2023,September,9,21,Chennai,Maharashtra,North,S109,Super,Snacks,Organic,Nestle,Product-3,1,21.69,Card,Returned,Returning,10,4.2,21.69,1.68,4.95
+265,2023-09-22,2023,September,9,22,Mumbai,Tamil Nadu,East,S141,Super,Beverages,Regular,Britannia,Product-34,8,293.37,Card,Returned,New,33,4.8,2346.96,68.21,424.57
+266,2023-09-23,2023,September,9,23,Pune,Telangana,North,S139,Super,Vegetables,Fresh,Britannia,Product-49,3,498.44,Card,Delivered,New,13,3.8,1495.32,192.87,287.85
+267,2023-09-24,2023,September,9,24,Bengaluru,West Bengal,East,S114,Super,Fruits,Organic,Local,Product-42,6,256.59,Card,Delivered,Returning,11,4.7,1539.54,152.45,213.78
+268,2023-09-25,2023,September,9,25,Delhi,Telangana,North,S103,Super,Vegetables,Fresh,ITC,Product-26,6,71.42,Wallet,Returned,New,55,3.7,428.52,59.93,64.11
+269,2023-09-26,2023,September,9,26,Mumbai,Karnataka,South,S108,Super,Snacks,Organic,Local,Product-18,2,426.16,Card,Cancelled,New,50,4.4,852.32,10.16,216.07
+270,2023-09-27,2023,September,9,27,Mumbai,Maharashtra,North,S119,Express,Beverages,Frozen,Britannia,Product-3,2,29.18,UPI,Delivered,New,35,3.0,58.36,7.87,15.79
+271,2023-09-28,2023,September,9,28,Hyderabad,West Bengal,South,S104,Super,Snacks,Fresh,Britannia,Product-25,5,194.79,Card,Returned,New,55,3.9,973.9499999999999,116.68,144.36
+272,2023-09-29,2023,September,9,29,Chennai,West Bengal,North,S145,Super,Fruits,Regular,Amul,Product-9,9,71.69,UPI,Delivered,New,39,4.2,645.21,39.02,182.29
+273,2023-09-30,2023,September,9,30,Hyderabad,Maharashtra,West,S102,Express,Dairy,Fresh,Amul,Product-40,3,404.65,UPI,Delivered,New,51,3.0,1213.95,174.96,326.81
+274,2023-10-01,2023,October,10,1,Bengaluru,Telangana,South,S150,Express,Beverages,Organic,Nestle,Product-47,7,147.43,Card,Returned,New,27,4.8,1032.01,25.3,216.99
+275,2023-10-02,2023,October,10,2,Chennai,Delhi,South,S140,Express,Dairy,Regular,Britannia,Product-5,3,169.79,Wallet,Cancelled,Returning,19,4.4,509.37,6.49,108.02
+276,2023-10-03,2023,October,10,3,Pune,Karnataka,North,S139,Super,Fruits,Fresh,Local,Product-16,8,108.67,Wallet,Returned,Returning,49,4.4,869.36,16.34,160.2
+277,2023-10-04,2023,October,10,4,Chennai,Tamil Nadu,West,S109,Super,Snacks,Frozen,Britannia,Product-29,5,364.33,UPI,Returned,New,30,3.0,1821.65,55.29,416.64
+278,2023-10-05,2023,October,10,5,Kolkata,Karnataka,South,S106,Express,Snacks,Regular,ITC,Product-5,5,73.18,UPI,Cancelled,New,27,3.5,365.9,24.84,57.68
+279,2023-10-06,2023,October,10,6,Delhi,Telangana,East,S104,Express,Vegetables,Organic,Britannia,Product-45,6,426.32,Card,Delivered,New,59,4.8,2557.92,271.41,581.18
+280,2023-10-07,2023,October,10,7,Hyderabad,Delhi,North,S150,Express,Vegetables,Frozen,ITC,Product-25,8,285.86,Card,Returned,Returning,26,4.6,2286.88,230.12,588.0
+281,2023-10-08,2023,October,10,8,Mumbai,West Bengal,West,S147,Super,Vegetables,Regular,Nestle,Product-34,2,92.87,Cash,Cancelled,Returning,34,3.0,185.74,25.12,43.43
+282,2023-10-09,2023,October,10,9,Hyderabad,Delhi,West,S145,Express,Fruits,Fresh,Amul,Product-45,8,372.06,Wallet,Returned,Returning,19,4.9,2976.48,277.59,408.5
+283,2023-10-10,2023,October,10,10,Delhi,Tamil Nadu,West,S140,Express,Snacks,Fresh,Local,Product-24,6,103.38,UPI,Returned,New,51,3.2,620.28,14.75,79.56
+284,2023-10-11,2023,October,10,11,Delhi,Telangana,West,S105,Express,Dairy,Regular,Amul,Product-9,9,120.19,Card,Returned,Returning,20,4.5,1081.71,34.0,256.24
+285,2023-10-12,2023,October,10,12,Mumbai,Telangana,North,S105,Express,Beverages,Fresh,Nestle,Product-3,3,284.34,Card,Delivered,Returning,56,3.3,853.02,90.47,203.46
+286,2023-10-13,2023,October,10,13,Kolkata,West Bengal,East,S124,Super,Fruits,Organic,Nestle,Product-15,2,451.52,Cash,Returned,New,13,5.0,903.04,55.1,151.83
+287,2023-10-14,2023,October,10,14,Kolkata,Delhi,North,S117,Super,Snacks,Organic,Local,Product-27,9,420.44,UPI,Returned,Returning,59,4.2,3783.96,215.79,1051.74
+288,2023-10-15,2023,October,10,15,Kolkata,Delhi,South,S101,Super,Fruits,Regular,Britannia,Product-16,6,354.22,Cash,Cancelled,New,22,4.1,2125.32,220.78,512.79
+289,2023-10-16,2023,October,10,16,Chennai,West Bengal,East,S101,Express,Fruits,Regular,Nestle,Product-46,1,39.04,Cash,Delivered,New,29,3.5,39.04,5.16,9.58
+290,2023-10-17,2023,October,10,17,Bengaluru,Delhi,North,S122,Super,Vegetables,Frozen,ITC,Product-50,3,259.89,Card,Cancelled,Returning,13,3.9,779.67,84.04,97.56
+291,2023-10-18,2023,October,10,18,Pune,Maharashtra,North,S125,Express,Snacks,Organic,ITC,Product-16,4,311.98,Card,Delivered,New,13,3.9,1247.92,124.98,135.02
+292,2023-10-19,2023,October,10,19,Chennai,Maharashtra,South,S128,Super,Beverages,Frozen,Amul,Product-33,2,481.52,Cash,Returned,New,37,3.1,963.04,123.47,178.44
+293,2023-10-20,2023,October,10,20,Mumbai,Tamil Nadu,West,S121,Express,Dairy,Organic,Amul,Product-47,1,82.01,Wallet,Returned,New,28,4.0,82.01,8.59,21.99
+294,2023-10-21,2023,October,10,21,Bengaluru,Tamil Nadu,North,S127,Express,Snacks,Organic,Local,Product-39,5,300.43,UPI,Delivered,New,12,3.2,1502.15,17.02,173.53
+295,2023-10-22,2023,October,10,22,Pune,Maharashtra,North,S119,Super,Snacks,Fresh,Britannia,Product-29,4,486.0,Card,Delivered,New,27,3.4,1944.0,157.89,394.28
+296,2023-10-23,2023,October,10,23,Delhi,Maharashtra,South,S107,Super,Vegetables,Organic,Nestle,Product-25,3,274.3,Cash,Returned,New,50,3.9,822.9000000000001,62.31,96.79
+297,2023-10-24,2023,October,10,24,Mumbai,Maharashtra,South,S136,Super,Beverages,Frozen,Nestle,Product-14,7,257.25,Cash,Returned,New,13,3.7,1800.75,146.25,358.23
+298,2023-10-25,2023,October,10,25,Pune,Delhi,South,S104,Super,Snacks,Regular,Amul,Product-7,1,141.45,UPI,Cancelled,Returning,49,3.5,141.45,20.13,25.38
+299,2023-10-26,2023,October,10,26,Bengaluru,Telangana,South,S108,Express,Dairy,Fresh,Local,Product-17,8,283.03,Cash,Cancelled,New,43,4.0,2264.24,246.47,361.56
+300,2023-10-27,2023,October,10,27,Bengaluru,West Bengal,South,S122,Express,Fruits,Fresh,Amul,Product-18,4,328.06,Wallet,Delivered,New,50,3.9,1312.24,99.55,300.14
+301,2023-10-28,2023,October,10,28,Hyderabad,West Bengal,East,S109,Super,Beverages,Organic,Amul,Product-5,5,413.94,Wallet,Delivered,New,30,3.4,2069.7,254.21,458.1
+302,2023-10-29,2023,October,10,29,Kolkata,Delhi,East,S122,Express,Beverages,Organic,Britannia,Product-24,5,276.85,Wallet,Cancelled,Returning,10,3.9,1384.25,8.98,408.49
+303,2023-10-30,2023,October,10,30,Chennai,Maharashtra,North,S119,Super,Vegetables,Fresh,Britannia,Product-42,9,72.82,Card,Delivered,Returning,37,3.3,655.3799999999999,73.88,159.7
+304,2023-10-31,2023,October,10,31,Bengaluru,West Bengal,North,S106,Express,Snacks,Frozen,Nestle,Product-29,7,327.38,Wallet,Cancelled,New,23,3.1,2291.66,131.8,545.63
+305,2023-11-01,2023,November,11,1,Pune,West Bengal,East,S146,Super,Vegetables,Regular,Britannia,Product-35,5,155.17,Card,Returned,New,54,4.2,775.8499999999999,94.77,102.26
+306,2023-11-02,2023,November,11,2,Chennai,Maharashtra,North,S120,Express,Snacks,Fresh,Britannia,Product-3,4,469.13,Card,Returned,Returning,30,3.1,1876.52,18.33,484.2
+307,2023-11-03,2023,November,11,3,Kolkata,Maharashtra,East,S125,Express,Beverages,Frozen,Local,Product-15,4,120.23,Card,Delivered,New,47,3.3,480.92,67.42,80.48
+308,2023-11-04,2023,November,11,4,Kolkata,Telangana,North,S150,Express,Beverages,Regular,ITC,Product-27,1,439.3,Card,Cancelled,New,54,4.4,439.3,53.26,62.06
+309,2023-11-05,2023,November,11,5,Hyderabad,Maharashtra,South,S141,Super,Beverages,Regular,Amul,Product-46,2,273.31,Wallet,Returned,Returning,17,3.6,546.62,71.97,135.02
+310,2023-11-06,2023,November,11,6,Bengaluru,West Bengal,West,S113,Super,Fruits,Frozen,Local,Product-24,5,123.86,Wallet,Cancelled,New,44,3.8,619.3,62.42,168.73
+311,2023-11-07,2023,November,11,7,Hyderabad,Delhi,North,S117,Express,Beverages,Regular,Local,Product-40,4,333.77,Cash,Returned,New,21,4.3,1335.08,180.05,160.55
+312,2023-11-08,2023,November,11,8,Mumbai,Tamil Nadu,West,S116,Super,Vegetables,Regular,Britannia,Product-20,1,417.5,UPI,Returned,Returning,57,3.4,417.5,11.58,95.23
+313,2023-11-09,2023,November,11,9,Pune,Delhi,South,S113,Super,Vegetables,Regular,Local,Product-45,2,94.0,UPI,Delivered,Returning,16,3.1,188.0,11.95,28.39
+314,2023-11-10,2023,November,11,10,Delhi,Maharashtra,East,S135,Super,Beverages,Frozen,ITC,Product-17,8,80.58,Card,Cancelled,Returning,45,4.4,644.64,47.19,145.29
+315,2023-11-11,2023,November,11,11,Delhi,Maharashtra,East,S108,Super,Vegetables,Frozen,Britannia,Product-47,8,430.01,Card,Cancelled,Returning,15,3.3,3440.08,60.85,798.16
+316,2023-11-12,2023,November,11,12,Mumbai,Telangana,West,S110,Super,Vegetables,Fresh,Local,Product-38,8,70.32,Card,Returned,Returning,12,4.5,562.56,58.19,59.85
+317,2023-11-13,2023,November,11,13,Hyderabad,Delhi,North,S131,Super,Snacks,Organic,Britannia,Product-28,4,409.5,Wallet,Delivered,New,55,4.9,1638.0,82.98,185.17
+318,2023-11-14,2023,November,11,14,Bengaluru,West Bengal,North,S115,Express,Beverages,Organic,Britannia,Product-40,3,463.64,Wallet,Cancelled,New,56,3.8,1390.92,156.18,161.59
+319,2023-11-15,2023,November,11,15,Pune,Telangana,East,S144,Super,Beverages,Organic,Local,Product-23,5,241.96,Card,Delivered,New,35,4.1,1209.8,46.38,233.25
+320,2023-11-16,2023,November,11,16,Mumbai,Delhi,North,S106,Express,Beverages,Organic,ITC,Product-25,7,339.6,UPI,Cancelled,New,19,4.1,2377.2,325.08,521.45
+321,2023-11-17,2023,November,11,17,Hyderabad,Tamil Nadu,West,S107,Super,Fruits,Fresh,Britannia,Product-46,1,96.17,Wallet,Cancelled,Returning,43,3.7,96.17,9.28,21.78
+322,2023-11-18,2023,November,11,18,Kolkata,Delhi,East,S128,Super,Snacks,Fresh,Nestle,Product-19,8,224.14,Cash,Cancelled,Returning,33,3.8,1793.12,206.66,194.87
+323,2023-11-19,2023,November,11,19,Pune,Delhi,South,S150,Express,Beverages,Fresh,Britannia,Product-41,8,74.7,Card,Cancelled,Returning,56,3.7,597.6,56.14,176.95
+324,2023-11-20,2023,November,11,20,Kolkata,Tamil Nadu,West,S123,Super,Fruits,Fresh,ITC,Product-12,2,191.08,UPI,Delivered,New,25,5.0,382.16,3.23,90.88
+325,2023-11-21,2023,November,11,21,Mumbai,Delhi,North,S110,Super,Fruits,Organic,ITC,Product-45,8,493.99,Card,Cancelled,Returning,30,5.0,3951.92,495.18,1015.53
+326,2023-11-22,2023,November,11,22,Chennai,Telangana,North,S114,Super,Beverages,Fresh,Local,Product-27,1,245.85,Wallet,Cancelled,New,51,4.2,245.85,17.65,53.61
+327,2023-11-23,2023,November,11,23,Delhi,Telangana,West,S148,Express,Vegetables,Frozen,Amul,Product-50,2,268.0,Card,Returned,New,35,3.3,536.0,74.68,87.44
+328,2023-11-24,2023,November,11,24,Hyderabad,Karnataka,East,S141,Super,Snacks,Fresh,Amul,Product-41,6,347.41,Wallet,Returned,Returning,54,4.5,2084.46,164.56,371.71
+329,2023-11-25,2023,November,11,25,Hyderabad,West Bengal,West,S116,Super,Dairy,Organic,Britannia,Product-17,9,225.81,Wallet,Returned,New,28,3.8,2032.29,282.17,239.15
+330,2023-11-26,2023,November,11,26,Hyderabad,Delhi,North,S126,Express,Fruits,Regular,Nestle,Product-1,7,354.77,Cash,Cancelled,Returning,54,4.4,2483.39,148.34,691.06
+331,2023-11-27,2023,November,11,27,Hyderabad,West Bengal,North,S106,Super,Dairy,Fresh,Nestle,Product-18,9,194.33,UPI,Returned,Returning,13,4.5,1748.97,160.15,394.98
+332,2023-11-28,2023,November,11,28,Bengaluru,Telangana,North,S137,Express,Fruits,Regular,ITC,Product-31,6,119.18,Cash,Returned,New,27,5.0,715.08,100.81,184.19
+333,2023-11-29,2023,November,11,29,Pune,Delhi,West,S126,Super,Fruits,Fresh,Local,Product-1,8,200.23,Card,Delivered,New,20,3.1,1601.84,226.63,460.77
+334,2023-11-30,2023,November,11,30,Delhi,Maharashtra,East,S124,Super,Vegetables,Regular,Amul,Product-4,3,69.03,Cash,Cancelled,New,36,4.0,207.09,17.1,57.67
+335,2023-12-01,2023,December,12,1,Mumbai,West Bengal,South,S115,Express,Snacks,Regular,Britannia,Product-23,4,163.05,UPI,Cancelled,Returning,41,4.4,652.2,24.63,98.08
+336,2023-12-02,2023,December,12,2,Chennai,Telangana,South,S106,Express,Fruits,Regular,Nestle,Product-43,5,98.73,Wallet,Cancelled,Returning,21,3.7,493.65,54.87,86.61
+337,2023-12-03,2023,December,12,3,Delhi,Maharashtra,South,S111,Super,Vegetables,Regular,Local,Product-25,8,41.95,Card,Delivered,Returning,11,3.2,335.6,19.79,81.29
+338,2023-12-04,2023,December,12,4,Pune,Tamil Nadu,West,S114,Express,Beverages,Frozen,ITC,Product-45,5,429.71,UPI,Cancelled,Returning,37,3.8,2148.55,114.22,248.1
+339,2023-12-05,2023,December,12,5,Kolkata,Delhi,West,S124,Express,Fruits,Organic,Amul,Product-6,2,199.76,Cash,Cancelled,New,32,4.1,399.52,25.71,60.4
+340,2023-12-06,2023,December,12,6,Delhi,Tamil Nadu,South,S134,Express,Beverages,Regular,Local,Product-43,6,452.5,UPI,Delivered,Returning,59,4.8,2715.0,6.55,291.41
+341,2023-12-07,2023,December,12,7,Chennai,Maharashtra,East,S144,Express,Vegetables,Regular,Nestle,Product-11,8,293.34,Wallet,Cancelled,Returning,26,4.3,2346.72,126.93,442.02
+342,2023-12-08,2023,December,12,8,Chennai,Maharashtra,North,S134,Express,Fruits,Regular,ITC,Product-44,2,303.21,UPI,Delivered,New,48,3.7,606.42,76.72,118.34
+343,2023-12-09,2023,December,12,9,Chennai,West Bengal,South,S108,Super,Beverages,Organic,Amul,Product-5,9,276.31,Cash,Returned,New,13,4.2,2486.79,148.95,570.35
+344,2023-12-10,2023,December,12,10,Kolkata,Delhi,West,S123,Express,Fruits,Frozen,Local,Product-3,2,415.71,Wallet,Cancelled,New,34,4.2,831.42,54.38,212.62
+345,2023-12-11,2023,December,12,11,Chennai,Delhi,South,S105,Express,Fruits,Organic,ITC,Product-30,5,180.64,UPI,Returned,New,11,3.9,903.1999999999999,45.55,269.67
+346,2023-12-12,2023,December,12,12,Mumbai,Karnataka,West,S105,Super,Snacks,Frozen,Local,Product-37,8,422.05,Cash,Delivered,Returning,49,4.7,3376.4,458.96,664.86
+347,2023-12-13,2023,December,12,13,Delhi,Delhi,North,S121,Express,Dairy,Frozen,Local,Product-18,3,333.23,Wallet,Cancelled,New,36,4.3,999.69,33.92,150.35
+348,2023-12-14,2023,December,12,14,Kolkata,Telangana,North,S150,Super,Snacks,Regular,ITC,Product-2,7,320.97,Card,Returned,New,49,4.8,2246.79,179.58,459.66
+349,2023-12-15,2023,December,12,15,Kolkata,Telangana,West,S134,Super,Beverages,Organic,Local,Product-16,5,192.53,Wallet,Returned,New,14,3.3,962.65,126.2,283.14
+350,2023-12-16,2023,December,12,16,Hyderabad,Maharashtra,East,S139,Express,Vegetables,Frozen,Local,Product-42,4,382.78,UPI,Cancelled,Returning,32,3.2,1531.12,148.69,375.4
+351,2023-12-17,2023,December,12,17,Kolkata,Telangana,North,S101,Express,Fruits,Organic,Britannia,Product-15,3,386.04,Card,Delivered,Returning,58,4.4,1158.12,142.42,254.8
+352,2023-12-18,2023,December,12,18,Kolkata,Karnataka,North,S148,Express,Vegetables,Frozen,Britannia,Product-43,9,132.25,Cash,Cancelled,Returning,31,3.2,1190.25,19.98,139.96
+353,2023-12-19,2023,December,12,19,Chennai,Tamil Nadu,West,S122,Express,Fruits,Frozen,Amul,Product-37,2,487.63,Cash,Cancelled,New,40,3.4,975.26,20.89,266.31
+354,2023-12-20,2023,December,12,20,Delhi,West Bengal,North,S125,Express,Beverages,Regular,Local,Product-5,6,83.05,UPI,Returned,Returning,19,3.0,498.3,37.73,88.12
+355,2023-12-21,2023,December,12,21,Hyderabad,Tamil Nadu,West,S130,Super,Fruits,Fresh,Local,Product-47,5,205.1,Card,Cancelled,Returning,42,4.4,1025.5,145.02,118.6
+356,2023-12-22,2023,December,12,22,Kolkata,Telangana,West,S102,Super,Beverages,Organic,Nestle,Product-7,9,92.79,UPI,Cancelled,New,43,4.1,835.11,4.2,115.66
+357,2023-12-23,2023,December,12,23,Mumbai,Maharashtra,East,S135,Express,Beverages,Fresh,ITC,Product-33,2,263.6,UPI,Delivered,New,18,3.3,527.2,34.46,63.35
+358,2023-12-24,2023,December,12,24,Chennai,Delhi,West,S148,Express,Dairy,Frozen,Nestle,Product-5,9,70.64,Cash,Returned,New,42,4.1,635.76,42.48,141.31
+359,2023-12-25,2023,December,12,25,Bengaluru,Karnataka,South,S138,Express,Fruits,Fresh,Amul,Product-20,7,62.97,UPI,Returned,New,53,3.4,440.79,64.47,127.81
+360,2023-12-26,2023,December,12,26,Bengaluru,West Bengal,North,S108,Super,Fruits,Frozen,Local,Product-2,9,358.26,Cash,Delivered,Returning,35,4.2,3224.34,155.0,442.37
+361,2023-12-27,2023,December,12,27,Mumbai,West Bengal,West,S127,Express,Beverages,Regular,ITC,Product-30,1,358.43,UPI,Cancelled,New,40,4.6,358.43,48.0,45.78
+362,2023-12-28,2023,December,12,28,Kolkata,Delhi,West,S118,Express,Beverages,Organic,Amul,Product-10,7,462.11,Card,Returned,New,57,3.5,3234.77,405.2,577.54
+363,2023-12-29,2023,December,12,29,Hyderabad,Delhi,South,S133,Super,Dairy,Frozen,Britannia,Product-32,4,86.1,Card,Returned,New,12,3.9,344.4,20.52,68.56
+364,2023-12-30,2023,December,12,30,Chennai,Delhi,South,S127,Super,Dairy,Frozen,Amul,Product-34,9,172.75,Cash,Returned,Returning,58,4.3,1554.75,231.04,179.11
+365,2023-12-31,2023,December,12,31,Mumbai,Delhi,West,S138,Super,Snacks,Organic,ITC,Product-35,8,30.29,Card,Delivered,Returning,14,3.4,242.32,17.32,58.81
+366,2024-01-01,2024,January,1,1,Chennai,Karnataka,North,S124,Express,Fruits,Frozen,ITC,Product-28,8,219.85,Card,Returned,Returning,34,4.7,1758.8,110.59,378.74
+367,2024-01-02,2024,January,1,2,Pune,Delhi,North,S111,Express,Snacks,Fresh,Local,Product-21,9,254.74,UPI,Cancelled,Returning,13,4.0,2292.66,239.97,262.76
+368,2024-01-03,2024,January,1,3,Hyderabad,Maharashtra,South,S149,Super,Dairy,Regular,Britannia,Product-15,7,236.94,Card,Returned,New,50,4.3,1658.58,144.29,442.41
+369,2024-01-04,2024,January,1,4,Kolkata,Tamil Nadu,South,S136,Express,Fruits,Organic,ITC,Product-24,4,260.13,UPI,Returned,Returning,23,4.9,1040.52,148.94,118.12
+370,2024-01-05,2024,January,1,5,Kolkata,Maharashtra,East,S138,Super,Beverages,Regular,Local,Product-26,2,162.22,Wallet,Returned,Returning,59,3.7,324.44,43.98,63.21
+371,2024-01-06,2024,January,1,6,Kolkata,Maharashtra,West,S124,Super,Dairy,Frozen,ITC,Product-44,2,88.84,Card,Cancelled,Returning,58,3.3,177.68,15.2,33.21
+372,2024-01-07,2024,January,1,7,Delhi,West Bengal,East,S129,Super,Fruits,Organic,Local,Product-12,1,74.99,Card,Returned,Returning,31,4.5,74.99,0.01,15.09
+373,2024-01-08,2024,January,1,8,Chennai,Tamil Nadu,West,S101,Super,Snacks,Regular,Local,Product-10,6,155.27,UPI,Returned,Returning,33,3.4,931.6200000000001,37.94,214.02
+374,2024-01-09,2024,January,1,9,Kolkata,Maharashtra,West,S103,Super,Fruits,Regular,Amul,Product-24,4,289.99,Cash,Returned,Returning,15,3.5,1159.96,73.87,313.71
+375,2024-01-10,2024,January,1,10,Pune,Tamil Nadu,North,S122,Super,Snacks,Frozen,Amul,Product-4,8,403.67,Card,Cancelled,New,42,5.0,3229.36,182.43,961.44
+376,2024-01-11,2024,January,1,11,Kolkata,Maharashtra,North,S132,Super,Dairy,Regular,Amul,Product-20,7,331.28,Card,Returned,Returning,44,4.6,2318.96,320.85,601.48
+377,2024-01-12,2024,January,1,12,Pune,Delhi,South,S118,Express,Dairy,Frozen,Amul,Product-28,3,72.53,UPI,Delivered,New,58,3.1,217.59,1.4,37.73
+378,2024-01-13,2024,January,1,13,Bengaluru,West Bengal,South,S137,Express,Beverages,Frozen,Local,Product-24,8,297.45,Card,Delivered,New,10,4.4,2379.6,319.16,631.77
+379,2024-01-14,2024,January,1,14,Hyderabad,Delhi,West,S125,Express,Dairy,Frozen,Amul,Product-42,9,101.26,Cash,Returned,Returning,53,4.8,911.34,43.39,178.26
+380,2024-01-15,2024,January,1,15,Mumbai,Tamil Nadu,North,S102,Express,Beverages,Frozen,ITC,Product-1,6,103.4,Wallet,Cancelled,Returning,42,3.9,620.4000000000001,42.88,95.02
+381,2024-01-16,2024,January,1,16,Bengaluru,West Bengal,South,S111,Super,Beverages,Frozen,Britannia,Product-14,3,374.4,Wallet,Delivered,Returning,50,4.6,1123.2,95.56,192.22
+382,2024-01-17,2024,January,1,17,Chennai,Tamil Nadu,East,S150,Super,Fruits,Organic,Local,Product-22,3,130.97,Card,Returned,New,59,4.2,392.91,58.56,78.81
+383,2024-01-18,2024,January,1,18,Kolkata,West Bengal,South,S111,Express,Dairy,Frozen,Amul,Product-7,8,48.29,Card,Cancelled,New,51,4.5,386.32,30.66,47.82
+384,2024-01-19,2024,January,1,19,Hyderabad,Delhi,East,S124,Express,Fruits,Organic,Nestle,Product-47,2,223.73,UPI,Returned,Returning,29,4.3,447.46,52.57,65.34
+385,2024-01-20,2024,January,1,20,Mumbai,West Bengal,West,S108,Express,Snacks,Frozen,Local,Product-22,2,189.19,UPI,Returned,Returning,24,4.8,378.38,49.49,80.56
+386,2024-01-21,2024,January,1,21,Hyderabad,Tamil Nadu,North,S113,Super,Vegetables,Organic,Amul,Product-23,8,319.51,UPI,Delivered,Returning,27,3.7,2556.08,370.69,571.24
+387,2024-01-22,2024,January,1,22,Pune,Delhi,West,S111,Express,Dairy,Organic,Britannia,Product-18,7,170.52,Wallet,Delivered,Returning,34,3.4,1193.64,42.21,178.04
+388,2024-01-23,2024,January,1,23,Chennai,West Bengal,South,S137,Express,Beverages,Fresh,Nestle,Product-49,2,401.7,Cash,Returned,Returning,51,4.7,803.4,98.98,170.65
+389,2024-01-24,2024,January,1,24,Delhi,Maharashtra,North,S150,Super,Fruits,Organic,Nestle,Product-6,7,420.98,Cash,Delivered,New,14,3.1,2946.86,323.63,376.81
+390,2024-01-25,2024,January,1,25,Bengaluru,West Bengal,East,S136,Express,Beverages,Organic,Amul,Product-4,9,218.09,Card,Cancelled,New,14,3.5,1962.81,218.89,209.87
+391,2024-01-26,2024,January,1,26,Bengaluru,Maharashtra,East,S147,Super,Snacks,Frozen,Nestle,Product-3,7,328.69,Wallet,Returned,New,38,3.8,2300.83,284.08,339.76
+392,2024-01-27,2024,January,1,27,Hyderabad,Maharashtra,East,S109,Express,Dairy,Fresh,Nestle,Product-10,7,319.48,UPI,Cancelled,Returning,16,4.7,2236.36,123.3,447.11
+393,2024-01-28,2024,January,1,28,Mumbai,Maharashtra,South,S138,Express,Dairy,Frozen,Britannia,Product-30,2,478.72,UPI,Delivered,New,24,4.3,957.44,72.61,153.17
+394,2024-01-29,2024,January,1,29,Chennai,Maharashtra,West,S119,Super,Dairy,Regular,ITC,Product-12,2,364.49,Cash,Returned,New,59,4.7,728.98,89.67,158.83
+395,2024-01-30,2024,January,1,30,Bengaluru,Tamil Nadu,North,S108,Express,Vegetables,Fresh,Nestle,Product-1,5,70.29,Cash,Delivered,New,26,4.7,351.45,0.16,100.21
+396,2024-01-31,2024,January,1,31,Chennai,Telangana,East,S117,Super,Beverages,Fresh,Local,Product-2,4,227.79,Cash,Cancelled,Returning,35,4.9,911.16,62.7,224.59
+397,2024-02-01,2024,February,2,1,Chennai,Tamil Nadu,West,S142,Express,Snacks,Fresh,ITC,Product-17,6,301.11,UPI,Delivered,Returning,34,4.0,1806.66,18.41,419.45
+398,2024-02-02,2024,February,2,2,Chennai,Tamil Nadu,East,S144,Express,Beverages,Regular,ITC,Product-9,7,373.11,Cash,Returned,Returning,26,4.2,2611.77,199.41,400.01
+399,2024-02-03,2024,February,2,3,Kolkata,West Bengal,East,S134,Express,Snacks,Frozen,Amul,Product-24,7,396.59,Card,Returned,Returning,56,4.2,2776.13,245.18,349.73
+400,2024-02-04,2024,February,2,4,Bengaluru,Tamil Nadu,East,S136,Express,Dairy,Fresh,Nestle,Product-25,8,281.76,Card,Delivered,Returning,24,5.0,2254.08,178.53,232.25
+401,2024-02-05,2024,February,2,5,Kolkata,West Bengal,East,S140,Express,Beverages,Regular,Amul,Product-1,5,152.92,Wallet,Cancelled,New,55,4.2,764.5999999999999,84.68,227.78
+402,2024-02-06,2024,February,2,6,Chennai,Tamil Nadu,South,S138,Super,Dairy,Organic,ITC,Product-44,2,371.99,Cash,Delivered,New,39,4.2,743.98,47.64,134.24
+403,2024-02-07,2024,February,2,7,Delhi,Delhi,South,S135,Express,Snacks,Regular,Amul,Product-45,5,174.89,UPI,Cancelled,Returning,33,3.4,874.4499999999999,19.21,113.36
+404,2024-02-08,2024,February,2,8,Bengaluru,Telangana,North,S119,Express,Snacks,Organic,Amul,Product-5,3,220.26,Wallet,Delivered,New,21,3.3,660.78,55.62,95.19
+405,2024-02-09,2024,February,2,9,Kolkata,Maharashtra,North,S113,Super,Snacks,Organic,ITC,Product-2,2,120.66,Card,Cancelled,Returning,45,4.7,241.32,32.81,51.42
+406,2024-02-10,2024,February,2,10,Pune,Maharashtra,East,S135,Super,Dairy,Fresh,Britannia,Product-26,8,441.53,Wallet,Cancelled,New,30,3.8,3532.24,377.13,900.2
+407,2024-02-11,2024,February,2,11,Pune,Karnataka,South,S123,Super,Beverages,Frozen,Amul,Product-36,3,86.53,UPI,Cancelled,New,38,4.4,259.59,18.24,42.82
+408,2024-02-12,2024,February,2,12,Mumbai,Karnataka,South,S109,Express,Beverages,Organic,Britannia,Product-10,8,143.44,Wallet,Delivered,New,42,4.3,1147.52,123.3,328.11
+409,2024-02-13,2024,February,2,13,Hyderabad,West Bengal,East,S102,Express,Beverages,Regular,Amul,Product-49,5,355.64,Card,Cancelled,Returning,55,5.0,1778.2,14.45,353.1
+410,2024-02-14,2024,February,2,14,Delhi,West Bengal,West,S131,Super,Dairy,Organic,Britannia,Product-42,8,302.38,UPI,Returned,Returning,11,3.8,2419.04,144.47,724.16
+411,2024-02-15,2024,February,2,15,Delhi,Telangana,South,S147,Super,Snacks,Fresh,ITC,Product-48,3,208.02,Cash,Cancelled,New,36,3.5,624.0600000000001,32.98,172.9
+412,2024-02-16,2024,February,2,16,Bengaluru,West Bengal,East,S131,Express,Dairy,Organic,Local,Product-5,7,307.78,Wallet,Delivered,Returning,58,4.9,2154.46,1.61,346.65
+413,2024-02-17,2024,February,2,17,Bengaluru,Delhi,South,S106,Super,Dairy,Fresh,Local,Product-7,3,371.03,Cash,Cancelled,Returning,57,4.7,1113.09,88.45,142.04
+414,2024-02-18,2024,February,2,18,Pune,Delhi,South,S130,Express,Fruits,Frozen,Amul,Product-47,5,299.57,Cash,Cancelled,Returning,28,5.0,1497.85,116.18,385.16
+415,2024-02-19,2024,February,2,19,Delhi,Delhi,South,S146,Super,Fruits,Fresh,Britannia,Product-43,5,23.39,Cash,Cancelled,Returning,51,3.1,116.95,4.58,28.52
+416,2024-02-20,2024,February,2,20,Mumbai,West Bengal,East,S148,Super,Vegetables,Fresh,Nestle,Product-9,6,264.27,Card,Delivered,New,20,4.1,1585.62,18.65,231.38
+417,2024-02-21,2024,February,2,21,Mumbai,Karnataka,North,S106,Express,Vegetables,Organic,Amul,Product-5,7,68.65,Wallet,Cancelled,Returning,57,3.2,480.5500000000001,69.4,140.14
+418,2024-02-22,2024,February,2,22,Chennai,Telangana,South,S130,Express,Fruits,Fresh,ITC,Product-24,8,370.01,UPI,Returned,Returning,16,3.8,2960.08,267.62,495.78
+419,2024-02-23,2024,February,2,23,Mumbai,Tamil Nadu,South,S114,Super,Dairy,Organic,Nestle,Product-18,5,21.84,Wallet,Returned,New,56,3.9,109.2,8.02,20.14
+420,2024-02-24,2024,February,2,24,Hyderabad,Telangana,West,S128,Super,Snacks,Frozen,Amul,Product-4,9,123.82,Wallet,Returned,New,12,4.9,1114.38,85.76,166.06
+421,2024-02-25,2024,February,2,25,Pune,Telangana,West,S137,Express,Vegetables,Fresh,ITC,Product-48,1,324.52,Card,Delivered,New,57,3.2,324.52,26.64,42.52
+422,2024-02-26,2024,February,2,26,Delhi,Maharashtra,North,S104,Super,Snacks,Frozen,Britannia,Product-12,1,426.66,UPI,Delivered,Returning,46,4.1,426.66,38.94,81.83
+423,2024-02-27,2024,February,2,27,Bengaluru,Telangana,North,S136,Express,Beverages,Organic,Nestle,Product-42,1,34.66,Card,Cancelled,Returning,10,3.1,34.66,2.23,8.67
+424,2024-02-28,2024,February,2,28,Hyderabad,Maharashtra,West,S121,Express,Beverages,Frozen,Amul,Product-7,3,150.07,Card,Returned,Returning,34,4.5,450.21,18.57,130.93
+425,2024-02-29,2024,February,2,29,Mumbai,Tamil Nadu,East,S111,Express,Dairy,Organic,Local,Product-19,6,295.84,Wallet,Returned,New,34,4.9,1775.04,209.31,384.58
+426,2024-03-01,2024,March,3,1,Delhi,Maharashtra,East,S103,Super,Fruits,Frozen,ITC,Product-4,5,287.45,Wallet,Returned,New,35,4.7,1437.25,184.74,199.16
+427,2024-03-02,2024,March,3,2,Pune,West Bengal,West,S125,Super,Vegetables,Organic,Local,Product-27,6,403.86,Wallet,Cancelled,Returning,48,3.8,2423.16,263.14,309.68
+428,2024-03-03,2024,March,3,3,Bengaluru,Maharashtra,East,S115,Super,Dairy,Fresh,Nestle,Product-42,2,219.48,Cash,Cancelled,New,54,4.3,438.96,4.59,80.44
+429,2024-03-04,2024,March,3,4,Pune,West Bengal,West,S113,Super,Snacks,Fresh,Local,Product-6,9,433.02,Card,Returned,New,15,4.0,3897.18,583.55,887.7
+430,2024-03-05,2024,March,3,5,Chennai,Maharashtra,North,S143,Express,Fruits,Regular,Local,Product-32,8,204.89,Cash,Delivered,New,25,3.2,1639.12,86.78,353.94
+431,2024-03-06,2024,March,3,6,Chennai,Maharashtra,East,S105,Super,Fruits,Regular,ITC,Product-34,1,280.98,Wallet,Delivered,New,39,3.7,280.98,34.79,29.41
+432,2024-03-07,2024,March,3,7,Kolkata,West Bengal,West,S110,Super,Beverages,Frozen,Britannia,Product-27,5,235.13,Wallet,Cancelled,Returning,38,3.2,1175.65,129.6,213.79
+433,2024-03-08,2024,March,3,8,Mumbai,Telangana,East,S126,Express,Beverages,Regular,Nestle,Product-2,2,275.96,UPI,Delivered,Returning,36,3.0,551.92,57.48,65.6
+434,2024-03-09,2024,March,3,9,Pune,Karnataka,East,S103,Super,Snacks,Frozen,ITC,Product-19,3,86.8,Card,Cancelled,New,38,4.6,260.4,17.09,71.22
+435,2024-03-10,2024,March,3,10,Bengaluru,Karnataka,East,S134,Super,Fruits,Organic,Local,Product-28,8,387.01,Card,Cancelled,Returning,40,4.6,3096.08,255.58,315.03
+436,2024-03-11,2024,March,3,11,Bengaluru,Delhi,East,S142,Super,Snacks,Organic,Local,Product-34,9,87.77,UPI,Returned,New,25,4.9,789.93,67.43,212.2
+437,2024-03-12,2024,March,3,12,Bengaluru,Tamil Nadu,South,S114,Express,Dairy,Fresh,Amul,Product-40,1,235.27,Card,Cancelled,Returning,10,3.7,235.27,16.84,67.22
+438,2024-03-13,2024,March,3,13,Delhi,Delhi,West,S139,Super,Beverages,Regular,Amul,Product-18,9,325.71,UPI,Returned,New,10,3.2,2931.39,307.0,299.89
+439,2024-03-14,2024,March,3,14,Hyderabad,Karnataka,East,S146,Express,Snacks,Frozen,ITC,Product-43,1,125.99,Card,Cancelled,Returning,10,3.6,125.99,9.01,34.82
+440,2024-03-15,2024,March,3,15,Delhi,Delhi,East,S114,Express,Vegetables,Regular,ITC,Product-36,1,493.46,Cash,Delivered,New,58,3.5,493.46,25.27,108.94
+441,2024-03-16,2024,March,3,16,Mumbai,Tamil Nadu,West,S115,Super,Snacks,Organic,Amul,Product-43,1,348.48,Cash,Cancelled,Returning,45,3.2,348.48,34.19,102.85
+442,2024-03-17,2024,March,3,17,Delhi,Karnataka,South,S126,Express,Vegetables,Fresh,Amul,Product-23,4,81.45,Cash,Cancelled,New,41,3.3,325.8,32.96,68.76
+443,2024-03-18,2024,March,3,18,Kolkata,Maharashtra,West,S137,Express,Snacks,Organic,ITC,Product-32,6,494.45,Card,Cancelled,New,50,4.1,2966.7,75.6,399.76
+444,2024-03-19,2024,March,3,19,Hyderabad,West Bengal,East,S110,Express,Vegetables,Regular,Britannia,Product-26,3,184.63,Wallet,Delivered,New,59,4.0,553.89,17.05,130.28
+445,2024-03-20,2024,March,3,20,Pune,Karnataka,South,S142,Super,Snacks,Organic,Amul,Product-18,6,427.82,Wallet,Cancelled,New,51,3.6,2566.92,102.2,313.55
+446,2024-03-21,2024,March,3,21,Mumbai,Delhi,East,S110,Super,Fruits,Fresh,Amul,Product-24,6,181.81,Wallet,Cancelled,Returning,37,4.6,1090.86,118.11,318.26
+447,2024-03-22,2024,March,3,22,Delhi,Maharashtra,South,S110,Express,Fruits,Frozen,Nestle,Product-5,1,306.95,Card,Delivered,New,51,4.6,306.95,38.34,69.4
+448,2024-03-23,2024,March,3,23,Mumbai,Karnataka,West,S106,Super,Fruits,Fresh,Britannia,Product-8,3,369.73,Wallet,Delivered,New,20,3.7,1109.19,70.01,191.79
+449,2024-03-24,2024,March,3,24,Kolkata,Maharashtra,West,S124,Express,Fruits,Organic,ITC,Product-40,8,211.5,Cash,Delivered,New,27,3.6,1692.0,21.49,179.23
+450,2024-03-25,2024,March,3,25,Delhi,West Bengal,East,S123,Super,Beverages,Fresh,ITC,Product-22,3,492.25,Wallet,Delivered,New,15,4.2,1476.75,180.67,261.5
+451,2024-03-26,2024,March,3,26,Chennai,Maharashtra,East,S103,Express,Beverages,Fresh,Local,Product-7,4,446.49,Wallet,Returned,New,40,4.9,1785.96,180.22,255.25
+452,2024-03-27,2024,March,3,27,Delhi,Delhi,West,S120,Super,Vegetables,Regular,Nestle,Product-50,2,134.87,Wallet,Returned,Returning,24,4.7,269.74,30.03,35.63
+453,2024-03-28,2024,March,3,28,Kolkata,Tamil Nadu,East,S106,Super,Vegetables,Fresh,ITC,Product-19,1,345.23,Card,Delivered,New,44,3.6,345.23,51.52,48.69
+454,2024-03-29,2024,March,3,29,Hyderabad,Karnataka,West,S140,Super,Fruits,Fresh,Local,Product-23,2,228.16,Card,Delivered,New,49,3.1,456.32,54.08,72.94
+455,2024-03-30,2024,March,3,30,Bengaluru,Karnataka,South,S110,Super,Dairy,Regular,Britannia,Product-26,9,448.51,UPI,Cancelled,Returning,48,3.3,4036.59,350.9,980.45
+456,2024-03-31,2024,March,3,31,Pune,Delhi,North,S108,Super,Fruits,Organic,Britannia,Product-21,9,94.24,UPI,Delivered,Returning,38,4.0,848.16,82.74,89.84
+457,2024-04-01,2024,April,4,1,Hyderabad,Telangana,South,S139,Express,Dairy,Regular,Amul,Product-50,8,380.03,Wallet,Cancelled,New,56,4.4,3040.24,52.64,428.24
+458,2024-04-02,2024,April,4,2,Chennai,Karnataka,North,S140,Express,Vegetables,Regular,Nestle,Product-34,3,206.33,Card,Delivered,New,57,3.2,618.99,12.15,112.78
+459,2024-04-03,2024,April,4,3,Hyderabad,Delhi,North,S145,Express,Snacks,Frozen,Local,Product-9,6,265.38,Card,Delivered,New,56,3.9,1592.28,160.31,370.05
+460,2024-04-04,2024,April,4,4,Chennai,West Bengal,East,S122,Express,Fruits,Organic,ITC,Product-50,5,351.91,Card,Returned,New,43,3.3,1759.55,109.51,236.66
+461,2024-04-05,2024,April,4,5,Kolkata,Telangana,North,S136,Express,Snacks,Fresh,Britannia,Product-2,4,120.06,Cash,Returned,Returning,58,4.4,480.24,49.99,95.27
+462,2024-04-06,2024,April,4,6,Pune,West Bengal,East,S127,Express,Beverages,Fresh,Local,Product-37,7,68.6,UPI,Delivered,Returning,40,3.2,480.1999999999999,67.99,80.19
+463,2024-04-07,2024,April,4,7,Pune,West Bengal,South,S114,Express,Vegetables,Fresh,Nestle,Product-26,7,146.59,Wallet,Returned,Returning,21,3.9,1026.13,9.34,290.6
+464,2024-04-08,2024,April,4,8,Pune,Maharashtra,East,S104,Super,Vegetables,Regular,ITC,Product-18,2,216.71,Cash,Returned,New,57,4.2,433.42,9.47,108.23
+465,2024-04-09,2024,April,4,9,Hyderabad,West Bengal,East,S110,Super,Fruits,Fresh,ITC,Product-1,9,163.01,UPI,Cancelled,New,40,4.5,1467.09,201.96,375.54
+466,2024-04-10,2024,April,4,10,Mumbai,Telangana,South,S104,Express,Vegetables,Fresh,Nestle,Product-49,2,124.3,Card,Cancelled,New,25,3.3,248.6,30.11,36.17
+467,2024-04-11,2024,April,4,11,Hyderabad,Karnataka,North,S143,Express,Vegetables,Frozen,Amul,Product-14,4,359.7,UPI,Cancelled,New,41,3.6,1438.8,107.78,299.96
+468,2024-04-12,2024,April,4,12,Delhi,West Bengal,West,S137,Express,Beverages,Frozen,Nestle,Product-8,8,384.35,Card,Delivered,Returning,42,3.6,3074.8,238.1,693.26
+469,2024-04-13,2024,April,4,13,Hyderabad,Maharashtra,East,S146,Super,Fruits,Frozen,Local,Product-31,8,451.31,UPI,Cancelled,New,16,3.8,3610.48,148.94,530.82
+470,2024-04-14,2024,April,4,14,Kolkata,Telangana,West,S136,Express,Dairy,Regular,Local,Product-48,9,160.54,UPI,Delivered,New,57,3.7,1444.86,0.54,322.69
+471,2024-04-15,2024,April,4,15,Chennai,West Bengal,South,S137,Super,Vegetables,Organic,Britannia,Product-4,7,367.25,Card,Delivered,Returning,11,5.0,2570.75,276.99,590.88
+472,2024-04-16,2024,April,4,16,Bengaluru,Delhi,North,S130,Super,Snacks,Organic,ITC,Product-5,9,58.62,Cash,Returned,New,47,4.0,527.5799999999999,11.37,105.95
+473,2024-04-17,2024,April,4,17,Bengaluru,Telangana,North,S123,Super,Snacks,Regular,Local,Product-32,9,119.45,Cash,Returned,Returning,40,3.7,1075.05,143.6,276.05
+474,2024-04-18,2024,April,4,18,Chennai,Delhi,West,S113,Super,Beverages,Frozen,Nestle,Product-1,2,86.24,Card,Returned,New,19,4.4,172.48,5.97,24.99
+475,2024-04-19,2024,April,4,19,Delhi,Maharashtra,West,S143,Express,Fruits,Organic,ITC,Product-13,4,132.37,Wallet,Cancelled,New,18,4.3,529.48,41.74,116.96
+476,2024-04-20,2024,April,4,20,Kolkata,West Bengal,West,S134,Express,Vegetables,Frozen,ITC,Product-30,8,358.25,UPI,Cancelled,New,24,4.0,2866.0,370.31,556.71
+477,2024-04-21,2024,April,4,21,Kolkata,West Bengal,North,S116,Express,Vegetables,Organic,Nestle,Product-9,3,105.19,Card,Returned,Returning,41,4.3,315.57,8.11,62.71
+478,2024-04-22,2024,April,4,22,Kolkata,Maharashtra,West,S123,Super,Fruits,Fresh,ITC,Product-18,8,377.28,Wallet,Delivered,Returning,39,5.0,3018.24,245.88,666.51
+479,2024-04-23,2024,April,4,23,Hyderabad,Telangana,East,S124,Express,Dairy,Organic,ITC,Product-49,3,249.76,Cash,Cancelled,Returning,26,3.5,749.28,28.09,157.71
+480,2024-04-24,2024,April,4,24,Bengaluru,West Bengal,North,S131,Express,Vegetables,Frozen,Nestle,Product-50,2,371.02,Cash,Returned,New,13,4.9,742.04,83.07,120.93
+481,2024-04-25,2024,April,4,25,Delhi,Tamil Nadu,South,S122,Super,Beverages,Organic,Nestle,Product-28,7,266.66,UPI,Returned,New,21,3.1,1866.62,24.31,311.59
+482,2024-04-26,2024,April,4,26,Hyderabad,Karnataka,South,S123,Super,Vegetables,Organic,Local,Product-11,8,213.64,Cash,Cancelled,New,38,4.5,1709.12,249.22,375.67
+483,2024-04-27,2024,April,4,27,Chennai,Tamil Nadu,South,S121,Express,Dairy,Frozen,Britannia,Product-17,3,476.47,UPI,Returned,New,46,4.2,1429.41,88.22,247.86
+484,2024-04-28,2024,April,4,28,Pune,Karnataka,East,S137,Super,Vegetables,Frozen,ITC,Product-30,4,374.28,UPI,Returned,Returning,15,4.8,1497.12,150.26,447.21
+485,2024-04-29,2024,April,4,29,Kolkata,Maharashtra,East,S136,Super,Beverages,Regular,Britannia,Product-20,4,410.84,Cash,Cancelled,Returning,44,3.4,1643.36,96.51,225.37
+486,2024-04-30,2024,April,4,30,Chennai,Karnataka,West,S143,Super,Vegetables,Regular,Amul,Product-23,3,259.5,Card,Returned,New,59,4.7,778.5,115.3,196.31
+487,2024-05-01,2024,May,5,1,Mumbai,West Bengal,East,S144,Express,Beverages,Frozen,Amul,Product-22,2,45.72,Card,Delivered,New,44,3.7,91.44,10.05,24.64
+488,2024-05-02,2024,May,5,2,Bengaluru,West Bengal,West,S134,Express,Vegetables,Fresh,Local,Product-41,7,292.7,Card,Returned,New,18,3.7,2048.9,267.21,423.91
+489,2024-05-03,2024,May,5,3,Delhi,Maharashtra,South,S119,Express,Vegetables,Organic,Britannia,Product-28,7,289.66,UPI,Returned,New,43,4.0,2027.62,230.71,533.21
+490,2024-05-04,2024,May,5,4,Chennai,Tamil Nadu,North,S144,Express,Dairy,Fresh,ITC,Product-23,6,437.86,Wallet,Returned,New,39,3.5,2627.16,340.91,400.88
+491,2024-05-05,2024,May,5,5,Delhi,Tamil Nadu,East,S137,Super,Vegetables,Fresh,Nestle,Product-3,2,341.13,Cash,Cancelled,Returning,51,4.5,682.26,32.53,173.6
+492,2024-05-06,2024,May,5,6,Mumbai,Maharashtra,South,S122,Super,Dairy,Regular,Nestle,Product-15,2,28.51,UPI,Delivered,New,39,3.6,57.02,0.73,14.8
+493,2024-05-07,2024,May,5,7,Pune,Karnataka,West,S114,Express,Snacks,Fresh,Amul,Product-11,8,147.86,UPI,Cancelled,New,40,4.0,1182.88,6.1,201.32
+494,2024-05-08,2024,May,5,8,Bengaluru,Delhi,West,S115,Express,Dairy,Frozen,ITC,Product-9,7,383.57,UPI,Delivered,New,20,4.9,2684.99,282.9,743.38
+495,2024-05-09,2024,May,5,9,Delhi,Karnataka,East,S144,Super,Beverages,Organic,Britannia,Product-43,9,263.37,UPI,Returned,Returning,54,3.3,2370.33,37.68,457.82
+496,2024-05-10,2024,May,5,10,Delhi,West Bengal,West,S144,Super,Snacks,Fresh,Britannia,Product-40,8,360.75,Card,Delivered,New,21,3.3,2886.0,236.78,530.39
+497,2024-05-11,2024,May,5,11,Delhi,Telangana,East,S136,Express,Beverages,Fresh,Nestle,Product-42,7,278.3,UPI,Delivered,Returning,51,4.5,1948.1,135.91,576.78
+498,2024-05-12,2024,May,5,12,Hyderabad,Maharashtra,West,S103,Super,Snacks,Regular,Britannia,Product-43,4,206.88,UPI,Cancelled,New,35,4.1,827.52,0.34,231.48
+499,2024-05-13,2024,May,5,13,Bengaluru,West Bengal,North,S101,Express,Snacks,Organic,Nestle,Product-25,9,430.69,UPI,Cancelled,New,38,3.8,3876.21,357.74,1056.87
+500,2024-05-14,2024,May,5,14,Hyderabad,Delhi,West,S148,Super,Beverages,Frozen,Local,Product-20,8,131.92,Cash,Cancelled,Returning,20,4.6,1055.36,93.27,202.15
+501,2024-05-15,2024,May,5,15,Mumbai,Maharashtra,West,S111,Express,Snacks,Frozen,Nestle,Product-29,6,25.92,Card,Returned,Returning,47,4.2,155.52,10.28,25.07
+502,2024-05-16,2024,May,5,16,Delhi,Tamil Nadu,East,S150,Super,Snacks,Fresh,Britannia,Product-44,5,52.87,Wallet,Delivered,New,16,3.5,264.35,26.64,56.85
+503,2024-05-17,2024,May,5,17,Delhi,Tamil Nadu,North,S145,Express,Dairy,Organic,ITC,Product-20,2,69.11,Wallet,Returned,Returning,13,4.4,138.22,2.32,18.75
+504,2024-05-18,2024,May,5,18,Mumbai,Maharashtra,East,S123,Super,Vegetables,Organic,Nestle,Product-6,7,287.2,Wallet,Delivered,New,13,4.2,2010.4,233.64,290.31
+505,2024-05-19,2024,May,5,19,Delhi,Tamil Nadu,South,S133,Express,Beverages,Regular,Local,Product-46,5,242.21,Wallet,Delivered,Returning,34,3.1,1211.05,132.04,123.84
+506,2024-05-20,2024,May,5,20,Mumbai,Maharashtra,South,S148,Super,Dairy,Regular,Nestle,Product-7,6,138.82,Wallet,Cancelled,New,39,3.5,832.92,112.04,191.43
+507,2024-05-21,2024,May,5,21,Delhi,West Bengal,East,S104,Express,Dairy,Fresh,Amul,Product-26,8,50.51,Card,Returned,Returning,59,4.8,404.08,23.8,54.05
+508,2024-05-22,2024,May,5,22,Mumbai,Karnataka,East,S117,Express,Vegetables,Fresh,ITC,Product-8,1,353.83,Card,Returned,New,44,4.8,353.83,39.33,89.22
+509,2024-05-23,2024,May,5,23,Chennai,Telangana,West,S131,Express,Dairy,Organic,Amul,Product-22,4,406.25,UPI,Returned,Returning,46,4.6,1625.0,102.11,245.19
+510,2024-05-24,2024,May,5,24,Hyderabad,Delhi,South,S130,Super,Vegetables,Fresh,Britannia,Product-22,3,369.3,Wallet,Cancelled,Returning,43,3.4,1107.9,2.4,314.17
+511,2024-05-25,2024,May,5,25,Mumbai,Karnataka,East,S116,Express,Snacks,Organic,Amul,Product-43,8,313.08,Card,Cancelled,Returning,26,4.8,2504.64,195.74,638.94
+512,2024-05-26,2024,May,5,26,Hyderabad,Tamil Nadu,South,S125,Super,Fruits,Fresh,Britannia,Product-39,4,421.7,Wallet,Cancelled,Returning,36,4.6,1686.8,171.4,377.18
+513,2024-05-27,2024,May,5,27,Pune,Telangana,South,S123,Super,Dairy,Regular,Amul,Product-47,9,185.66,Card,Returned,New,48,4.0,1670.94,107.89,258.91
+514,2024-05-28,2024,May,5,28,Hyderabad,Karnataka,East,S125,Super,Beverages,Fresh,Britannia,Product-29,4,102.37,Card,Delivered,Returning,34,4.9,409.48,20.61,54.25
+515,2024-05-29,2024,May,5,29,Hyderabad,Maharashtra,North,S143,Express,Fruits,Frozen,Nestle,Product-35,8,410.74,Wallet,Returned,New,58,3.2,3285.92,94.69,396.52
+516,2024-05-30,2024,May,5,30,Chennai,Delhi,East,S104,Super,Snacks,Frozen,Amul,Product-15,4,291.14,UPI,Returned,Returning,21,4.9,1164.56,160.28,270.66
+517,2024-05-31,2024,May,5,31,Pune,Maharashtra,North,S145,Super,Dairy,Frozen,Nestle,Product-10,7,151.54,Wallet,Returned,Returning,24,3.9,1060.78,48.22,234.42
+518,2024-06-01,2024,June,6,1,Mumbai,West Bengal,West,S109,Super,Beverages,Organic,Amul,Product-40,8,457.42,UPI,Delivered,Returning,27,4.8,3659.36,183.45,475.91
+519,2024-06-02,2024,June,6,2,Pune,Maharashtra,South,S145,Express,Dairy,Organic,Nestle,Product-2,3,187.02,Wallet,Returned,New,47,3.1,561.0600000000001,0.19,131.97
+520,2024-06-03,2024,June,6,3,Mumbai,Karnataka,South,S146,Super,Snacks,Fresh,Nestle,Product-26,2,484.09,Cash,Cancelled,Returning,57,4.5,968.18,24.3,260.47
+521,2024-06-04,2024,June,6,4,Delhi,Telangana,North,S115,Super,Snacks,Organic,Local,Product-10,6,379.23,Wallet,Cancelled,New,20,3.4,2275.38,34.78,650.31
+522,2024-06-05,2024,June,6,5,Kolkata,Delhi,South,S149,Express,Fruits,Organic,Amul,Product-3,3,174.77,UPI,Returned,New,37,3.4,524.3100000000001,49.72,147.24
+523,2024-06-06,2024,June,6,6,Kolkata,Karnataka,West,S146,Express,Fruits,Regular,Amul,Product-3,9,479.69,UPI,Cancelled,Returning,38,3.5,4317.21,448.34,1294.0
+524,2024-06-07,2024,June,6,7,Delhi,Maharashtra,East,S133,Super,Snacks,Fresh,Nestle,Product-32,1,23.27,UPI,Delivered,Returning,43,3.1,23.27,1.62,2.61
+525,2024-06-08,2024,June,6,8,Mumbai,Delhi,East,S145,Express,Vegetables,Organic,Amul,Product-42,7,168.79,Card,Delivered,New,50,4.7,1181.53,175.88,334.84
+526,2024-06-09,2024,June,6,9,Delhi,West Bengal,North,S143,Super,Fruits,Regular,Britannia,Product-8,8,432.79,UPI,Returned,Returning,44,5.0,3462.32,353.89,779.03
+527,2024-06-10,2024,June,6,10,Hyderabad,Tamil Nadu,North,S145,Super,Beverages,Organic,Amul,Product-7,5,136.9,Wallet,Cancelled,Returning,22,3.6,684.5,41.79,94.54
+528,2024-06-11,2024,June,6,11,Hyderabad,West Bengal,South,S114,Super,Dairy,Regular,Nestle,Product-22,6,358.01,Card,Delivered,Returning,22,4.7,2148.06,303.35,229.97
+529,2024-06-12,2024,June,6,12,Pune,Delhi,West,S117,Super,Fruits,Frozen,Britannia,Product-8,5,382.33,Cash,Returned,Returning,46,4.7,1911.65,199.44,319.7
+530,2024-06-13,2024,June,6,13,Delhi,West Bengal,North,S118,Express,Fruits,Organic,Local,Product-44,8,200.36,Card,Cancelled,Returning,21,4.3,1602.88,53.06,197.57
+531,2024-06-14,2024,June,6,14,Mumbai,Telangana,North,S116,Express,Dairy,Fresh,ITC,Product-50,5,122.05,Wallet,Returned,New,22,3.4,610.25,86.28,183.05
+532,2024-06-15,2024,June,6,15,Mumbai,Maharashtra,North,S108,Express,Beverages,Fresh,Amul,Product-37,5,210.98,Card,Delivered,New,56,3.6,1054.9,141.2,246.02
+533,2024-06-16,2024,June,6,16,Delhi,Karnataka,West,S121,Super,Beverages,Fresh,Amul,Product-17,3,78.73,Cash,Delivered,New,43,4.1,236.19,2.68,68.27
+534,2024-06-17,2024,June,6,17,Bengaluru,Karnataka,East,S137,Super,Beverages,Frozen,Local,Product-15,9,268.63,Card,Returned,New,16,3.5,2417.67,283.4,402.31
+535,2024-06-18,2024,June,6,18,Kolkata,West Bengal,South,S140,Express,Snacks,Regular,ITC,Product-4,5,477.72,Cash,Returned,New,12,5.0,2388.6,344.06,342.03
+536,2024-06-19,2024,June,6,19,Hyderabad,West Bengal,West,S138,Super,Dairy,Fresh,Britannia,Product-47,7,444.5,UPI,Delivered,Returning,44,4.9,3111.5,75.42,464.83
+537,2024-06-20,2024,June,6,20,Pune,Telangana,South,S127,Express,Dairy,Frozen,Nestle,Product-43,3,306.64,Card,Returned,Returning,24,4.7,919.92,112.09,192.1
+538,2024-06-21,2024,June,6,21,Bengaluru,West Bengal,West,S120,Express,Beverages,Frozen,Local,Product-35,7,328.73,UPI,Cancelled,Returning,47,4.8,2301.11,138.56,372.17
+539,2024-06-22,2024,June,6,22,Chennai,Delhi,North,S112,Super,Fruits,Regular,Amul,Product-25,8,301.31,Cash,Returned,Returning,49,4.4,2410.48,276.34,320.0
+540,2024-06-23,2024,June,6,23,Kolkata,Tamil Nadu,North,S130,Express,Snacks,Fresh,Local,Product-47,3,364.88,Cash,Cancelled,Returning,37,3.3,1094.64,9.71,215.55
+541,2024-06-24,2024,June,6,24,Chennai,Telangana,West,S141,Express,Vegetables,Regular,ITC,Product-44,9,124.97,UPI,Delivered,New,36,4.9,1124.73,154.24,219.26
+542,2024-06-25,2024,June,6,25,Mumbai,Maharashtra,West,S120,Express,Vegetables,Frozen,Britannia,Product-31,1,156.21,Cash,Cancelled,Returning,24,4.7,156.21,21.96,41.22
+543,2024-06-26,2024,June,6,26,Hyderabad,Tamil Nadu,West,S127,Super,Beverages,Regular,Amul,Product-19,5,78.21,UPI,Cancelled,New,48,4.0,391.05,18.33,84.62
+544,2024-06-27,2024,June,6,27,Kolkata,West Bengal,North,S122,Super,Fruits,Fresh,Local,Product-44,2,245.89,Cash,Returned,New,37,4.6,491.78,20.56,60.03
+545,2024-06-28,2024,June,6,28,Hyderabad,Maharashtra,East,S147,Express,Fruits,Fresh,Local,Product-25,6,88.91,Card,Cancelled,New,52,4.6,533.46,11.49,107.59
+546,2024-06-29,2024,June,6,29,Bengaluru,West Bengal,North,S146,Express,Snacks,Fresh,Amul,Product-49,8,227.79,Wallet,Delivered,Returning,32,3.5,1822.32,129.16,507.1
+547,2024-06-30,2024,June,6,30,Bengaluru,Tamil Nadu,South,S125,Express,Snacks,Fresh,Nestle,Product-40,4,338.67,Wallet,Cancelled,Returning,52,5.0,1354.68,78.4,301.29
+548,2024-07-01,2024,July,7,1,Mumbai,West Bengal,East,S132,Super,Snacks,Organic,Local,Product-41,8,240.71,Wallet,Cancelled,New,41,4.9,1925.68,206.1,255.82
+549,2024-07-02,2024,July,7,2,Bengaluru,Telangana,North,S111,Super,Beverages,Frozen,Amul,Product-5,3,448.93,Cash,Delivered,New,26,3.9,1346.79,52.01,347.55
+550,2024-07-03,2024,July,7,3,Chennai,Tamil Nadu,West,S122,Super,Vegetables,Fresh,ITC,Product-42,6,84.67,Wallet,Delivered,New,59,4.8,508.02,48.3,78.32
+551,2024-07-04,2024,July,7,4,Kolkata,Telangana,East,S121,Super,Dairy,Regular,Britannia,Product-34,9,212.1,Cash,Cancelled,Returning,42,4.4,1908.9,247.56,312.17
+552,2024-07-05,2024,July,7,5,Hyderabad,West Bengal,North,S138,Express,Beverages,Frozen,Local,Product-15,8,487.57,Wallet,Cancelled,Returning,31,3.7,3900.56,188.94,572.18
+553,2024-07-06,2024,July,7,6,Hyderabad,Maharashtra,North,S116,Super,Fruits,Frozen,Nestle,Product-31,4,85.41,UPI,Returned,Returning,33,3.7,341.64,29.28,90.22
+554,2024-07-07,2024,July,7,7,Delhi,Maharashtra,West,S119,Super,Beverages,Frozen,Nestle,Product-9,5,290.73,UPI,Cancelled,New,22,3.1,1453.65,144.55,365.86
+555,2024-07-08,2024,July,7,8,Chennai,West Bengal,North,S118,Super,Vegetables,Regular,Britannia,Product-17,7,281.97,UPI,Cancelled,Returning,49,3.7,1973.79,120.59,432.53
+556,2024-07-09,2024,July,7,9,Pune,Karnataka,East,S116,Super,Snacks,Regular,Local,Product-12,1,462.57,UPI,Delivered,New,18,3.2,462.57,44.71,62.23
+557,2024-07-10,2024,July,7,10,Kolkata,West Bengal,West,S130,Express,Fruits,Regular,Britannia,Product-18,5,436.2,Cash,Returned,Returning,31,3.7,2181.0,222.79,439.03
+558,2024-07-11,2024,July,7,11,Delhi,West Bengal,North,S109,Express,Snacks,Frozen,Local,Product-13,9,315.52,Cash,Cancelled,New,16,3.5,2839.68,413.27,734.09
+559,2024-07-12,2024,July,7,12,Delhi,Telangana,South,S125,Express,Dairy,Frozen,ITC,Product-6,3,494.92,Card,Returned,Returning,31,3.5,1484.76,157.02,439.97
+560,2024-07-13,2024,July,7,13,Mumbai,Karnataka,North,S128,Super,Snacks,Frozen,Local,Product-17,4,77.57,UPI,Returned,Returning,12,4.3,310.28,36.55,85.56
+561,2024-07-14,2024,July,7,14,Kolkata,Karnataka,East,S103,Super,Snacks,Frozen,Local,Product-9,2,356.49,UPI,Cancelled,New,25,3.8,712.98,34.82,144.13
+562,2024-07-15,2024,July,7,15,Delhi,Tamil Nadu,North,S106,Super,Vegetables,Frozen,Nestle,Product-47,4,372.48,Card,Returned,New,38,4.7,1489.92,127.91,363.21
+563,2024-07-16,2024,July,7,16,Pune,Delhi,South,S109,Express,Snacks,Fresh,Britannia,Product-17,2,219.07,Card,Cancelled,Returning,54,4.9,438.14,15.7,60.04
+564,2024-07-17,2024,July,7,17,Mumbai,Tamil Nadu,West,S116,Super,Dairy,Frozen,Amul,Product-49,7,452.25,Wallet,Cancelled,Returning,24,3.5,3165.75,331.47,811.08
+565,2024-07-18,2024,July,7,18,Kolkata,Delhi,West,S114,Express,Vegetables,Fresh,ITC,Product-33,4,113.09,Cash,Cancelled,Returning,11,3.4,452.36,38.73,93.14
+566,2024-07-19,2024,July,7,19,Mumbai,Maharashtra,East,S139,Super,Dairy,Fresh,Amul,Product-12,7,26.41,Card,Returned,New,50,4.0,184.87,5.09,55.31
+567,2024-07-20,2024,July,7,20,Chennai,Karnataka,West,S123,Express,Fruits,Organic,ITC,Product-10,3,28.6,UPI,Returned,New,34,3.3,85.80000000000001,10.88,18.11
+568,2024-07-21,2024,July,7,21,Hyderabad,Maharashtra,West,S140,Super,Dairy,Organic,Local,Product-1,7,166.94,Cash,Delivered,Returning,13,4.9,1168.58,138.76,340.86
+569,2024-07-22,2024,July,7,22,Kolkata,Maharashtra,North,S147,Super,Fruits,Organic,Nestle,Product-3,2,410.47,Cash,Delivered,New,27,3.1,820.94,20.84,177.44
+570,2024-07-23,2024,July,7,23,Kolkata,Karnataka,East,S149,Super,Beverages,Organic,Amul,Product-40,8,402.5,UPI,Cancelled,New,17,4.6,3220.0,14.11,494.93
+571,2024-07-24,2024,July,7,24,Bengaluru,Maharashtra,South,S106,Super,Vegetables,Regular,Britannia,Product-41,4,274.69,Cash,Returned,Returning,35,3.9,1098.76,13.08,234.39
+572,2024-07-25,2024,July,7,25,Mumbai,Tamil Nadu,North,S108,Express,Beverages,Frozen,Nestle,Product-25,2,204.51,Cash,Returned,Returning,29,3.8,409.02,35.9,98.95
+573,2024-07-26,2024,July,7,26,Kolkata,Telangana,West,S131,Express,Beverages,Fresh,Nestle,Product-5,8,444.4,Wallet,Delivered,Returning,46,3.1,3555.2,250.63,375.24
+574,2024-07-27,2024,July,7,27,Hyderabad,Karnataka,East,S125,Super,Dairy,Fresh,Britannia,Product-21,1,465.46,Cash,Cancelled,New,53,4.5,465.46,9.15,124.82
+575,2024-07-28,2024,July,7,28,Hyderabad,Karnataka,North,S119,Super,Fruits,Organic,ITC,Product-17,6,320.55,Cash,Delivered,Returning,23,4.8,1923.3,42.46,460.93
+576,2024-07-29,2024,July,7,29,Hyderabad,Tamil Nadu,East,S113,Express,Snacks,Regular,ITC,Product-17,2,466.24,Cash,Cancelled,New,23,3.5,932.48,83.29,146.06
+577,2024-07-30,2024,July,7,30,Mumbai,West Bengal,East,S140,Super,Beverages,Regular,Nestle,Product-29,3,234.33,Cash,Returned,Returning,39,3.1,702.99,20.36,123.27
+578,2024-07-31,2024,July,7,31,Mumbai,Tamil Nadu,North,S115,Express,Vegetables,Regular,Local,Product-24,9,321.67,UPI,Returned,New,18,4.5,2895.03,37.67,759.08
+579,2024-08-01,2024,August,8,1,Delhi,West Bengal,West,S120,Express,Fruits,Organic,Britannia,Product-22,4,194.06,Wallet,Returned,New,33,4.4,776.24,53.26,168.56
+580,2024-08-02,2024,August,8,2,Chennai,Delhi,East,S102,Express,Beverages,Regular,ITC,Product-28,4,337.7,Wallet,Delivered,New,15,3.3,1350.8,186.87,147.14
+581,2024-08-03,2024,August,8,3,Bengaluru,Telangana,East,S108,Express,Snacks,Organic,Local,Product-12,7,452.26,Wallet,Delivered,Returning,55,3.4,3165.82,331.73,480.39
+582,2024-08-04,2024,August,8,4,Mumbai,Maharashtra,East,S135,Express,Vegetables,Organic,Britannia,Product-11,2,278.63,UPI,Delivered,New,25,4.5,557.26,5.82,131.32
+583,2024-08-05,2024,August,8,5,Hyderabad,Delhi,North,S108,Super,Vegetables,Organic,Nestle,Product-34,8,235.14,Cash,Returned,New,55,3.7,1881.12,175.27,475.81
+584,2024-08-06,2024,August,8,6,Bengaluru,Delhi,South,S119,Super,Snacks,Fresh,ITC,Product-23,7,364.79,Cash,Delivered,Returning,14,3.6,2553.53,307.81,261.98
+585,2024-08-07,2024,August,8,7,Delhi,Tamil Nadu,East,S102,Super,Fruits,Fresh,ITC,Product-15,7,155.12,UPI,Cancelled,New,26,3.1,1085.84,115.85,230.76
+586,2024-08-08,2024,August,8,8,Chennai,Tamil Nadu,South,S135,Super,Beverages,Fresh,Nestle,Product-49,2,298.44,UPI,Delivered,Returning,14,4.4,596.88,83.74,106.11
+587,2024-08-09,2024,August,8,9,Hyderabad,Tamil Nadu,North,S139,Express,Snacks,Fresh,Local,Product-39,3,293.65,Cash,Returned,Returning,47,4.6,880.9499999999999,9.37,99.29
+588,2024-08-10,2024,August,8,10,Pune,Telangana,West,S143,Express,Vegetables,Organic,Nestle,Product-38,6,143.7,Cash,Cancelled,New,36,4.3,862.1999999999999,41.42,247.48
+589,2024-08-11,2024,August,8,11,Chennai,Maharashtra,North,S149,Express,Dairy,Frozen,Amul,Product-26,9,59.89,Card,Cancelled,New,14,3.9,539.01,31.66,77.45
+590,2024-08-12,2024,August,8,12,Pune,Maharashtra,South,S117,Super,Snacks,Organic,Amul,Product-22,6,136.71,Wallet,Cancelled,Returning,42,4.2,820.26,80.57,108.19
+591,2024-08-13,2024,August,8,13,Hyderabad,Telangana,West,S120,Express,Snacks,Organic,Nestle,Product-44,7,42.9,Wallet,Cancelled,New,12,3.4,300.3,34.3,32.37
+592,2024-08-14,2024,August,8,14,Pune,Tamil Nadu,South,S107,Express,Fruits,Fresh,ITC,Product-38,5,83.37,UPI,Delivered,Returning,20,3.5,416.85,9.2,112.69
+593,2024-08-15,2024,August,8,15,Pune,Delhi,West,S147,Super,Dairy,Frozen,Local,Product-44,2,309.97,Card,Returned,Returning,31,3.5,619.94,72.86,96.02
+594,2024-08-16,2024,August,8,16,Kolkata,Delhi,North,S122,Express,Snacks,Organic,Local,Product-7,6,50.74,Wallet,Delivered,New,24,4.4,304.44,42.71,56.94
+595,2024-08-17,2024,August,8,17,Delhi,Karnataka,North,S128,Super,Snacks,Organic,Britannia,Product-30,6,413.88,UPI,Returned,New,10,3.6,2483.28,80.18,352.36
+596,2024-08-18,2024,August,8,18,Chennai,Delhi,West,S145,Super,Beverages,Organic,Amul,Product-40,2,81.13,Wallet,Delivered,Returning,27,4.7,162.26,20.95,31.77
+597,2024-08-19,2024,August,8,19,Kolkata,Karnataka,North,S141,Super,Beverages,Regular,ITC,Product-26,3,59.24,Wallet,Cancelled,Returning,12,3.2,177.72,13.32,46.3
+598,2024-08-20,2024,August,8,20,Bengaluru,West Bengal,East,S112,Express,Vegetables,Frozen,Local,Product-39,7,34.65,Cash,Delivered,New,33,3.0,242.55,27.57,57.75
+599,2024-08-21,2024,August,8,21,Mumbai,Karnataka,South,S108,Express,Dairy,Organic,Britannia,Product-3,2,165.79,Card,Returned,New,50,3.9,331.58,30.09,94.39
+600,2024-08-22,2024,August,8,22,Chennai,Karnataka,South,S131,Express,Fruits,Frozen,Nestle,Product-8,6,295.31,Wallet,Cancelled,New,32,4.8,1771.86,224.94,400.12
+601,2024-08-23,2024,August,8,23,Pune,Tamil Nadu,South,S107,Express,Dairy,Frozen,ITC,Product-8,8,241.6,UPI,Returned,Returning,12,3.2,1932.8,86.63,430.1
+602,2024-08-24,2024,August,8,24,Kolkata,Telangana,East,S102,Super,Beverages,Frozen,Britannia,Product-37,1,365.67,Card,Cancelled,Returning,42,3.2,365.67,16.37,38.08
+603,2024-08-25,2024,August,8,25,Hyderabad,Tamil Nadu,East,S133,Express,Snacks,Frozen,Amul,Product-50,5,461.01,Cash,Delivered,Returning,37,4.4,2305.05,203.61,624.45
+604,2024-08-26,2024,August,8,26,Chennai,West Bengal,North,S119,Express,Dairy,Frozen,Nestle,Product-44,3,369.31,Card,Cancelled,Returning,39,4.6,1107.93,39.9,200.82
+605,2024-08-27,2024,August,8,27,Kolkata,Tamil Nadu,South,S150,Express,Vegetables,Organic,Britannia,Product-20,3,148.27,Wallet,Delivered,Returning,58,3.6,444.8100000000001,54.7,133.14
+606,2024-08-28,2024,August,8,28,Mumbai,Delhi,North,S125,Super,Fruits,Fresh,Nestle,Product-21,5,37.73,Wallet,Returned,New,58,3.8,188.65,21.52,48.9
+607,2024-08-29,2024,August,8,29,Kolkata,Tamil Nadu,South,S144,Express,Snacks,Frozen,ITC,Product-44,9,340.21,Card,Returned,New,17,4.8,3061.89,249.73,875.87
+608,2024-08-30,2024,August,8,30,Delhi,Maharashtra,East,S111,Super,Beverages,Fresh,Amul,Product-50,2,54.53,Card,Cancelled,New,35,3.1,109.06,16.0,14.45
+609,2024-08-31,2024,August,8,31,Delhi,West Bengal,South,S142,Express,Dairy,Regular,ITC,Product-5,4,275.47,Wallet,Cancelled,New,48,4.9,1101.88,115.22,299.98
+610,2024-09-01,2024,September,9,1,Chennai,Delhi,West,S136,Super,Fruits,Fresh,Amul,Product-31,1,193.77,Cash,Cancelled,Returning,44,3.6,193.77,5.63,22.79
+611,2024-09-02,2024,September,9,2,Bengaluru,Delhi,North,S108,Super,Dairy,Regular,ITC,Product-38,6,320.93,Card,Delivered,New,21,4.3,1925.58,182.59,214.87
+612,2024-09-03,2024,September,9,3,Pune,Karnataka,North,S111,Express,Vegetables,Organic,Local,Product-21,4,415.64,Wallet,Delivered,New,54,4.4,1662.56,5.89,184.64
+613,2024-09-04,2024,September,9,4,Kolkata,Telangana,South,S120,Express,Beverages,Regular,Britannia,Product-46,8,274.24,UPI,Returned,New,26,3.0,2193.92,23.79,228.99
+614,2024-09-05,2024,September,9,5,Mumbai,Delhi,West,S116,Express,Dairy,Fresh,Amul,Product-25,5,312.45,Wallet,Delivered,Returning,33,4.1,1562.25,129.77,299.73
+615,2024-09-06,2024,September,9,6,Mumbai,Maharashtra,North,S116,Express,Vegetables,Fresh,ITC,Product-48,6,398.38,Cash,Delivered,New,55,4.4,2390.28,216.99,567.05
+616,2024-09-07,2024,September,9,7,Hyderabad,Delhi,West,S110,Express,Fruits,Frozen,Local,Product-29,9,177.14,UPI,Cancelled,New,47,3.0,1594.26,73.44,439.31
+617,2024-09-08,2024,September,9,8,Mumbai,Karnataka,North,S137,Express,Beverages,Fresh,Local,Product-9,4,323.77,Card,Delivered,New,21,4.2,1295.08,17.09,159.0
+618,2024-09-09,2024,September,9,9,Delhi,Telangana,East,S150,Express,Fruits,Frozen,ITC,Product-5,9,53.85,UPI,Delivered,Returning,50,3.3,484.65,0.31,102.86
+619,2024-09-10,2024,September,9,10,Pune,Maharashtra,South,S108,Express,Vegetables,Organic,Britannia,Product-8,4,170.77,Wallet,Cancelled,New,19,3.2,683.08,89.65,109.89
+620,2024-09-11,2024,September,9,11,Kolkata,Maharashtra,East,S134,Super,Beverages,Frozen,Nestle,Product-29,4,249.31,Card,Cancelled,Returning,33,4.9,997.24,125.95,184.34
+621,2024-09-12,2024,September,9,12,Pune,West Bengal,North,S141,Super,Dairy,Organic,Local,Product-25,8,480.36,Card,Cancelled,New,46,3.9,3842.88,435.51,1142.29
+622,2024-09-13,2024,September,9,13,Delhi,Telangana,North,S127,Super,Beverages,Fresh,Amul,Product-28,3,100.61,Cash,Returned,Returning,50,3.6,301.83,6.28,57.9
+623,2024-09-14,2024,September,9,14,Kolkata,Delhi,East,S148,Express,Fruits,Fresh,ITC,Product-13,6,378.49,UPI,Returned,New,23,3.5,2270.94,63.89,538.17
+624,2024-09-15,2024,September,9,15,Kolkata,Maharashtra,North,S143,Express,Fruits,Organic,Britannia,Product-11,8,389.67,Card,Cancelled,New,49,3.4,3117.36,69.05,857.18
+625,2024-09-16,2024,September,9,16,Delhi,Delhi,North,S120,Express,Vegetables,Fresh,ITC,Product-33,4,247.39,UPI,Delivered,New,49,3.1,989.56,7.82,214.95
+626,2024-09-17,2024,September,9,17,Mumbai,Maharashtra,West,S137,Express,Dairy,Regular,Local,Product-7,4,91.35,Wallet,Returned,New,50,4.4,365.4,40.69,75.06
+627,2024-09-18,2024,September,9,18,Chennai,Maharashtra,East,S148,Super,Fruits,Fresh,Britannia,Product-46,2,111.23,UPI,Cancelled,Returning,38,3.1,222.46,31.98,37.16
+628,2024-09-19,2024,September,9,19,Hyderabad,Karnataka,North,S138,Super,Beverages,Frozen,Nestle,Product-28,6,165.66,Wallet,Delivered,New,28,3.5,993.96,33.18,255.02
+629,2024-09-20,2024,September,9,20,Pune,Karnataka,South,S145,Express,Beverages,Fresh,Amul,Product-3,5,316.88,UPI,Delivered,Returning,57,4.0,1584.4,62.24,285.23
+630,2024-09-21,2024,September,9,21,Delhi,Karnataka,West,S122,Express,Beverages,Fresh,Nestle,Product-31,2,20.37,Wallet,Delivered,New,55,3.6,40.74,3.05,11.61
+631,2024-09-22,2024,September,9,22,Delhi,Tamil Nadu,East,S103,Express,Snacks,Fresh,Local,Product-32,8,396.71,Cash,Cancelled,Returning,32,3.5,3173.68,440.21,383.38
+632,2024-09-23,2024,September,9,23,Hyderabad,Tamil Nadu,South,S127,Super,Dairy,Frozen,Britannia,Product-22,4,134.67,UPI,Delivered,New,50,3.2,538.68,0.08,89.42
+633,2024-09-24,2024,September,9,24,Hyderabad,Telangana,West,S147,Super,Vegetables,Regular,Amul,Product-42,7,328.85,UPI,Returned,Returning,36,4.9,2301.95,18.48,373.21
+634,2024-09-25,2024,September,9,25,Hyderabad,Tamil Nadu,North,S107,Super,Vegetables,Fresh,Britannia,Product-43,1,390.54,Cash,Returned,Returning,46,3.6,390.54,27.76,98.03
+635,2024-09-26,2024,September,9,26,Bengaluru,West Bengal,West,S139,Express,Beverages,Organic,Britannia,Product-4,5,97.24,Wallet,Returned,Returning,10,3.2,486.2,59.85,132.64
+636,2024-09-27,2024,September,9,27,Pune,Karnataka,South,S138,Express,Vegetables,Organic,Nestle,Product-46,6,438.12,Cash,Cancelled,Returning,28,3.8,2628.72,17.72,397.72
+637,2024-09-28,2024,September,9,28,Chennai,Maharashtra,West,S112,Super,Beverages,Fresh,Local,Product-19,6,285.68,Wallet,Delivered,Returning,16,3.9,1714.08,39.14,219.25
+638,2024-09-29,2024,September,9,29,Pune,Telangana,North,S133,Express,Snacks,Organic,Amul,Product-46,3,484.51,Cash,Returned,Returning,22,4.5,1453.53,146.47,171.84
+639,2024-09-30,2024,September,9,30,Mumbai,Delhi,West,S112,Super,Beverages,Frozen,Nestle,Product-17,3,492.71,Cash,Cancelled,Returning,23,4.1,1478.13,86.24,417.08
+640,2024-10-01,2024,October,10,1,Pune,Maharashtra,West,S127,Express,Dairy,Frozen,ITC,Product-24,7,323.27,Wallet,Returned,Returning,23,4.4,2262.89,41.12,328.99
+641,2024-10-02,2024,October,10,2,Mumbai,Delhi,South,S137,Express,Fruits,Organic,Amul,Product-12,6,128.5,UPI,Cancelled,New,45,3.5,771.0,114.13,87.73
+642,2024-10-03,2024,October,10,3,Delhi,West Bengal,West,S124,Express,Dairy,Fresh,Britannia,Product-30,7,499.07,Wallet,Returned,Returning,14,4.8,3493.49,145.93,728.47
+643,2024-10-04,2024,October,10,4,Hyderabad,Delhi,East,S112,Express,Snacks,Regular,Nestle,Product-47,7,408.9,Wallet,Delivered,New,37,4.3,2862.3,163.78,854.36
+644,2024-10-05,2024,October,10,5,Delhi,West Bengal,East,S147,Super,Dairy,Frozen,Amul,Product-13,9,489.69,Card,Cancelled,New,48,4.7,4407.21,22.61,518.62
+645,2024-10-06,2024,October,10,6,Kolkata,Delhi,East,S140,Express,Dairy,Organic,ITC,Product-23,5,322.59,Card,Returned,Returning,29,4.2,1612.95,64.43,333.75
+646,2024-10-07,2024,October,10,7,Bengaluru,Tamil Nadu,North,S118,Express,Beverages,Regular,Local,Product-17,4,266.85,Cash,Returned,Returning,31,3.3,1067.4,5.27,219.1
+647,2024-10-08,2024,October,10,8,Pune,Maharashtra,West,S117,Express,Beverages,Fresh,Nestle,Product-46,9,472.53,UPI,Returned,Returning,54,4.3,4252.77,200.62,495.83
+648,2024-10-09,2024,October,10,9,Hyderabad,Tamil Nadu,West,S149,Express,Snacks,Frozen,Amul,Product-33,6,371.09,UPI,Delivered,New,55,3.8,2226.54,18.45,236.76
+649,2024-10-10,2024,October,10,10,Mumbai,Telangana,North,S123,Super,Fruits,Fresh,Local,Product-27,6,121.74,Wallet,Returned,Returning,11,3.3,730.4399999999999,84.18,109.45
+650,2024-10-11,2024,October,10,11,Kolkata,Telangana,North,S129,Express,Vegetables,Regular,Local,Product-30,9,322.48,Wallet,Returned,Returning,17,4.4,2902.32,302.79,450.56
+651,2024-10-12,2024,October,10,12,Bengaluru,Delhi,West,S132,Super,Dairy,Fresh,Nestle,Product-15,3,301.78,Card,Delivered,Returning,52,3.6,905.3399999999999,132.52,184.14
+652,2024-10-13,2024,October,10,13,Chennai,Karnataka,West,S107,Express,Fruits,Fresh,Britannia,Product-11,7,414.79,Cash,Delivered,Returning,39,4.4,2903.53,106.85,822.39
+653,2024-10-14,2024,October,10,14,Bengaluru,Telangana,East,S122,Express,Snacks,Frozen,Britannia,Product-36,4,97.95,Wallet,Cancelled,New,22,3.7,391.8,43.87,63.03
+654,2024-10-15,2024,October,10,15,Bengaluru,Delhi,West,S104,Super,Dairy,Frozen,Britannia,Product-50,8,431.84,Wallet,Cancelled,New,49,3.8,3454.72,485.12,938.14
+655,2024-10-16,2024,October,10,16,Kolkata,Telangana,North,S103,Express,Vegetables,Regular,Britannia,Product-34,9,430.03,Wallet,Delivered,Returning,20,4.8,3870.27,310.74,418.22
+656,2024-10-17,2024,October,10,17,Kolkata,West Bengal,East,S105,Express,Fruits,Organic,Britannia,Product-22,6,75.86,Cash,Cancelled,Returning,56,4.8,455.16,35.37,67.48
+657,2024-10-18,2024,October,10,18,Hyderabad,Maharashtra,East,S125,Super,Snacks,Frozen,Local,Product-22,8,76.5,UPI,Cancelled,New,45,4.8,612.0,58.5,75.86
+658,2024-10-19,2024,October,10,19,Pune,Karnataka,East,S122,Express,Snacks,Frozen,Nestle,Product-42,5,217.93,UPI,Cancelled,New,32,4.1,1089.65,155.47,174.07
+659,2024-10-20,2024,October,10,20,Chennai,Telangana,South,S148,Express,Snacks,Organic,Britannia,Product-21,3,177.85,Cash,Returned,Returning,59,4.2,533.55,49.87,94.57
+660,2024-10-21,2024,October,10,21,Chennai,Karnataka,North,S121,Express,Vegetables,Frozen,Local,Product-47,7,381.28,Wallet,Delivered,New,21,4.2,2668.96,139.49,357.65
+661,2024-10-22,2024,October,10,22,Pune,Telangana,North,S113,Express,Fruits,Fresh,Local,Product-9,5,51.54,Card,Delivered,New,58,4.6,257.7,37.09,68.08
+662,2024-10-23,2024,October,10,23,Kolkata,Karnataka,East,S120,Super,Fruits,Frozen,Local,Product-14,2,276.69,Cash,Returned,Returning,45,4.5,553.38,6.78,132.69
+663,2024-10-24,2024,October,10,24,Kolkata,Maharashtra,East,S136,Express,Dairy,Fresh,ITC,Product-49,9,140.69,Card,Delivered,New,58,4.6,1266.21,69.45,196.81
+664,2024-10-25,2024,October,10,25,Delhi,Tamil Nadu,West,S111,Express,Dairy,Organic,ITC,Product-13,4,422.71,Wallet,Returned,New,35,3.6,1690.84,98.92,438.91
+665,2024-10-26,2024,October,10,26,Hyderabad,Telangana,North,S117,Super,Fruits,Organic,Britannia,Product-34,6,257.15,UPI,Delivered,Returning,34,4.1,1542.9,44.57,230.89
+666,2024-10-27,2024,October,10,27,Pune,Tamil Nadu,South,S142,Express,Snacks,Frozen,ITC,Product-15,3,306.0,Cash,Returned,Returning,28,4.3,918.0,54.24,108.87
+667,2024-10-28,2024,October,10,28,Kolkata,Maharashtra,West,S103,Express,Snacks,Organic,Local,Product-13,8,43.82,Cash,Cancelled,Returning,52,4.9,350.56,5.28,90.01
+668,2024-10-29,2024,October,10,29,Chennai,Karnataka,West,S104,Super,Dairy,Fresh,Amul,Product-22,6,456.23,Cash,Returned,Returning,10,3.6,2737.38,57.85,366.67
+669,2024-10-30,2024,October,10,30,Kolkata,Maharashtra,North,S148,Super,Beverages,Frozen,Nestle,Product-40,9,214.83,Wallet,Cancelled,Returning,50,4.1,1933.47,198.87,274.73
+670,2024-10-31,2024,October,10,31,Pune,West Bengal,South,S101,Super,Beverages,Frozen,Britannia,Product-12,4,363.93,Cash,Delivered,New,52,3.0,1455.72,175.13,380.35
+671,2024-11-01,2024,November,11,1,Mumbai,West Bengal,West,S142,Express,Vegetables,Frozen,Britannia,Product-26,1,123.37,Wallet,Cancelled,New,11,3.9,123.37,6.47,29.27
+672,2024-11-02,2024,November,11,2,Bengaluru,Karnataka,North,S119,Express,Vegetables,Fresh,Amul,Product-32,6,261.57,Wallet,Delivered,Returning,15,4.8,1569.42,132.29,406.33
+673,2024-11-03,2024,November,11,3,Mumbai,Telangana,South,S139,Express,Fruits,Frozen,Nestle,Product-36,1,404.14,UPI,Returned,New,10,3.3,404.14,34.51,56.29
+674,2024-11-04,2024,November,11,4,Kolkata,West Bengal,East,S141,Express,Fruits,Regular,Local,Product-20,8,177.94,Cash,Returned,New,11,3.8,1423.52,117.19,370.07
+675,2024-11-05,2024,November,11,5,Bengaluru,Maharashtra,East,S119,Express,Dairy,Organic,Amul,Product-49,6,173.64,Card,Delivered,Returning,42,4.5,1041.84,68.3,187.19
+676,2024-11-06,2024,November,11,6,Delhi,Telangana,East,S104,Express,Beverages,Regular,ITC,Product-4,1,333.56,Wallet,Cancelled,New,12,4.2,333.56,22.98,72.31
+677,2024-11-07,2024,November,11,7,Delhi,Maharashtra,South,S134,Super,Vegetables,Organic,Local,Product-46,5,114.01,UPI,Delivered,New,28,3.1,570.0500000000001,44.14,74.82
+678,2024-11-08,2024,November,11,8,Delhi,Delhi,North,S128,Super,Fruits,Regular,Amul,Product-2,1,306.37,Wallet,Delivered,Returning,15,3.4,306.37,22.49,59.92
+679,2024-11-09,2024,November,11,9,Bengaluru,West Bengal,West,S108,Super,Fruits,Organic,Amul,Product-12,5,289.89,Card,Returned,Returning,45,4.1,1449.45,146.22,258.03
+680,2024-11-10,2024,November,11,10,Chennai,West Bengal,North,S126,Super,Dairy,Frozen,Nestle,Product-22,2,446.52,Wallet,Returned,Returning,53,4.1,893.04,41.66,167.79
+681,2024-11-11,2024,November,11,11,Pune,West Bengal,North,S144,Super,Snacks,Fresh,Amul,Product-27,3,162.82,UPI,Cancelled,Returning,52,3.8,488.46,64.15,94.35
+682,2024-11-12,2024,November,11,12,Hyderabad,Telangana,East,S145,Super,Beverages,Regular,Local,Product-27,6,103.98,UPI,Returned,Returning,51,4.1,623.88,23.46,101.01
+683,2024-11-13,2024,November,11,13,Pune,Karnataka,South,S122,Super,Snacks,Fresh,Nestle,Product-2,9,229.04,UPI,Delivered,New,17,3.9,2061.36,130.83,370.58
+684,2024-11-14,2024,November,11,14,Hyderabad,West Bengal,West,S105,Super,Fruits,Frozen,Amul,Product-26,4,291.86,UPI,Cancelled,Returning,20,4.1,1167.44,76.95,318.66
+685,2024-11-15,2024,November,11,15,Pune,Delhi,South,S113,Super,Fruits,Organic,Britannia,Product-23,7,82.26,Card,Cancelled,New,34,4.8,575.82,48.54,157.73
+686,2024-11-16,2024,November,11,16,Chennai,Maharashtra,West,S135,Super,Snacks,Fresh,Britannia,Product-15,4,210.16,UPI,Delivered,Returning,10,3.5,840.64,106.84,251.59
+687,2024-11-17,2024,November,11,17,Bengaluru,Karnataka,East,S126,Express,Fruits,Organic,Local,Product-39,2,160.96,Card,Delivered,New,48,4.7,321.92,45.43,94.26
+688,2024-11-18,2024,November,11,18,Chennai,West Bengal,East,S144,Express,Vegetables,Fresh,Local,Product-12,9,194.83,Cash,Cancelled,Returning,23,5.0,1753.47,73.08,409.54
+689,2024-11-19,2024,November,11,19,Kolkata,Delhi,North,S142,Super,Dairy,Fresh,ITC,Product-19,8,198.86,Cash,Cancelled,New,23,3.9,1590.88,198.91,384.62
+690,2024-11-20,2024,November,11,20,Delhi,Telangana,East,S136,Super,Dairy,Frozen,Nestle,Product-25,7,147.21,Card,Delivered,Returning,56,3.8,1030.47,150.08,178.58
+691,2024-11-21,2024,November,11,21,Bengaluru,West Bengal,East,S111,Express,Dairy,Fresh,Amul,Product-17,6,189.22,Card,Cancelled,Returning,30,4.7,1135.32,155.8,212.86
+692,2024-11-22,2024,November,11,22,Kolkata,Tamil Nadu,South,S125,Super,Fruits,Frozen,Nestle,Product-25,6,415.98,Card,Delivered,New,50,3.2,2495.88,77.7,281.64
+693,2024-11-23,2024,November,11,23,Chennai,Telangana,South,S114,Super,Fruits,Regular,Britannia,Product-33,3,341.81,Card,Delivered,Returning,19,4.8,1025.43,49.68,188.09
+694,2024-11-24,2024,November,11,24,Chennai,Karnataka,East,S113,Super,Vegetables,Fresh,Amul,Product-41,1,292.06,Wallet,Cancelled,Returning,55,4.5,292.06,10.16,67.73
+695,2024-11-25,2024,November,11,25,Mumbai,Maharashtra,West,S106,Express,Dairy,Fresh,Local,Product-21,1,288.9,Cash,Returned,New,23,4.4,288.9,13.87,81.88
+696,2024-11-26,2024,November,11,26,Kolkata,Karnataka,South,S130,Express,Beverages,Fresh,Local,Product-43,7,279.75,Card,Returned,Returning,18,4.8,1958.25,41.17,444.88
+697,2024-11-27,2024,November,11,27,Mumbai,Delhi,West,S125,Super,Snacks,Regular,Britannia,Product-47,2,317.36,Cash,Returned,Returning,38,4.3,634.72,21.27,144.66
+698,2024-11-28,2024,November,11,28,Delhi,Tamil Nadu,East,S118,Super,Snacks,Fresh,Amul,Product-2,4,231.34,UPI,Delivered,Returning,53,3.9,925.36,90.01,251.97
+699,2024-11-29,2024,November,11,29,Hyderabad,Telangana,East,S144,Express,Dairy,Frozen,Local,Product-26,7,152.58,UPI,Cancelled,Returning,15,4.4,1068.06,41.75,206.44
+700,2024-11-30,2024,November,11,30,Mumbai,West Bengal,South,S118,Express,Snacks,Organic,Britannia,Product-32,2,212.2,Cash,Returned,New,23,4.4,424.4,42.19,104.64
+701,2024-12-01,2024,December,12,1,Hyderabad,Maharashtra,West,S131,Express,Dairy,Organic,ITC,Product-28,6,455.73,Card,Delivered,Returning,52,4.2,2734.38,318.61,640.28
+702,2024-12-02,2024,December,12,2,Chennai,Delhi,East,S123,Super,Dairy,Organic,Local,Product-44,5,197.3,Wallet,Cancelled,New,41,4.9,986.5,135.1,151.68
+703,2024-12-03,2024,December,12,3,Hyderabad,Karnataka,East,S139,Express,Beverages,Frozen,Amul,Product-9,9,73.0,Wallet,Cancelled,Returning,22,3.1,657.0,26.05,94.72
+704,2024-12-04,2024,December,12,4,Hyderabad,Delhi,South,S127,Super,Dairy,Regular,Local,Product-46,4,362.81,UPI,Cancelled,Returning,52,4.0,1451.24,65.19,158.54
+705,2024-12-05,2024,December,12,5,Chennai,Maharashtra,West,S113,Super,Snacks,Frozen,Nestle,Product-50,5,460.3,Card,Delivered,Returning,30,3.7,2301.5,242.52,519.95
+706,2024-12-06,2024,December,12,6,Mumbai,Telangana,North,S102,Express,Snacks,Frozen,Nestle,Product-10,7,80.85,Wallet,Cancelled,Returning,32,3.7,565.9499999999999,21.92,135.81
+707,2024-12-07,2024,December,12,7,Hyderabad,Delhi,South,S108,Express,Snacks,Organic,Britannia,Product-18,6,301.65,Cash,Delivered,Returning,30,3.1,1809.9,204.35,328.9
+708,2024-12-08,2024,December,12,8,Delhi,Tamil Nadu,South,S138,Super,Fruits,Regular,ITC,Product-29,4,63.99,Wallet,Returned,Returning,15,3.3,255.96,22.19,26.36
+709,2024-12-09,2024,December,12,9,Mumbai,Karnataka,East,S124,Super,Beverages,Organic,Nestle,Product-50,9,93.5,Card,Cancelled,Returning,48,4.5,841.5,113.18,212.62
+710,2024-12-10,2024,December,12,10,Kolkata,West Bengal,South,S140,Express,Dairy,Organic,Local,Product-9,3,254.99,Card,Delivered,New,25,3.7,764.97,31.87,115.31
+711,2024-12-11,2024,December,12,11,Bengaluru,West Bengal,North,S130,Express,Beverages,Organic,Nestle,Product-25,7,181.62,UPI,Cancelled,New,32,3.4,1271.34,160.18,163.59
+712,2024-12-12,2024,December,12,12,Bengaluru,Karnataka,West,S130,Express,Vegetables,Organic,Amul,Product-8,4,171.95,Wallet,Delivered,New,10,4.3,687.8,24.19,105.37
+713,2024-12-13,2024,December,12,13,Pune,Telangana,East,S108,Super,Beverages,Organic,Nestle,Product-13,1,180.31,Wallet,Delivered,Returning,12,3.1,180.31,22.41,45.97
+714,2024-12-14,2024,December,12,14,Mumbai,Karnataka,North,S108,Express,Dairy,Fresh,ITC,Product-40,7,104.38,UPI,Returned,New,27,4.4,730.66,18.38,207.51
+715,2024-12-15,2024,December,12,15,Kolkata,Telangana,West,S118,Express,Fruits,Frozen,Britannia,Product-35,5,134.91,Cash,Returned,New,20,4.7,674.55,33.28,87.27
+716,2024-12-16,2024,December,12,16,Mumbai,Karnataka,North,S137,Super,Vegetables,Frozen,Britannia,Product-45,6,97.07,Wallet,Cancelled,Returning,24,4.3,582.42,78.75,60.55
+717,2024-12-17,2024,December,12,17,Bengaluru,Delhi,South,S112,Express,Dairy,Regular,Local,Product-49,4,183.81,Card,Delivered,Returning,42,3.5,735.24,46.24,181.05
+718,2024-12-18,2024,December,12,18,Kolkata,Karnataka,South,S108,Express,Fruits,Organic,Nestle,Product-34,9,22.35,Wallet,Cancelled,Returning,38,4.8,201.15,14.35,53.11
+719,2024-12-19,2024,December,12,19,Kolkata,Karnataka,South,S138,Super,Beverages,Frozen,Local,Product-15,6,310.18,Wallet,Cancelled,Returning,33,4.1,1861.08,209.7,397.13
+720,2024-12-20,2024,December,12,20,Hyderabad,Maharashtra,East,S113,Express,Beverages,Fresh,Britannia,Product-17,4,449.14,Cash,Returned,Returning,27,4.3,1796.56,262.08,505.88
+721,2024-12-21,2024,December,12,21,Bengaluru,Tamil Nadu,North,S128,Super,Dairy,Frozen,Nestle,Product-31,6,372.0,Card,Cancelled,Returning,26,4.4,2232.0,55.35,418.99
+722,2024-12-22,2024,December,12,22,Mumbai,Delhi,South,S143,Super,Snacks,Fresh,Amul,Product-16,9,316.41,Wallet,Returned,New,58,3.2,2847.69,189.83,360.17
+723,2024-12-23,2024,December,12,23,Kolkata,Karnataka,South,S143,Super,Dairy,Fresh,Nestle,Product-41,5,392.65,UPI,Delivered,Returning,39,3.2,1963.25,217.98,367.03
+724,2024-12-24,2024,December,12,24,Delhi,Tamil Nadu,West,S146,Super,Fruits,Fresh,Amul,Product-35,2,167.72,UPI,Delivered,Returning,24,3.6,335.44,9.94,70.92
+725,2024-12-25,2024,December,12,25,Kolkata,Delhi,East,S117,Express,Fruits,Organic,Britannia,Product-43,8,109.84,Cash,Cancelled,Returning,18,4.1,878.72,24.09,229.32
+726,2024-12-26,2024,December,12,26,Pune,Delhi,South,S148,Express,Snacks,Organic,Nestle,Product-4,3,47.55,UPI,Delivered,Returning,14,3.4,142.65,13.23,42.57
+727,2024-12-27,2024,December,12,27,Kolkata,Maharashtra,North,S114,Express,Dairy,Fresh,Britannia,Product-23,5,181.18,Wallet,Cancelled,Returning,36,4.4,905.9000000000001,108.53,208.85
+728,2024-12-28,2024,December,12,28,Bengaluru,Telangana,West,S106,Express,Dairy,Regular,Amul,Product-26,8,245.13,Card,Cancelled,New,21,4.4,1961.04,152.68,517.95
+729,2024-12-29,2024,December,12,29,Delhi,Delhi,North,S127,Express,Beverages,Fresh,Amul,Product-20,1,256.41,UPI,Returned,Returning,27,3.3,256.41,28.7,53.54
+730,2024-12-30,2024,December,12,30,Bengaluru,Tamil Nadu,West,S121,Super,Dairy,Fresh,Nestle,Product-32,5,41.99,Wallet,Returned,Returning,17,4.6,209.95,8.82,21.04
+731,2024-12-31,2024,December,12,31,Pune,Maharashtra,South,S133,Super,Dairy,Fresh,Britannia,Product-35,5,259.76,Wallet,Cancelled,Returning,47,3.5,1298.8,145.6,148.4
+732,2025-01-01,2025,January,1,1,Delhi,Maharashtra,South,S136,Express,Fruits,Regular,Local,Product-21,8,182.81,Wallet,Returned,Returning,38,3.2,1462.48,18.43,181.38
+733,2025-01-02,2025,January,1,2,Chennai,Delhi,South,S139,Express,Snacks,Organic,Amul,Product-9,2,36.94,Wallet,Delivered,Returning,14,3.7,73.88,5.45,21.01
+734,2025-01-03,2025,January,1,3,Hyderabad,Tamil Nadu,South,S134,Super,Fruits,Regular,Britannia,Product-36,4,104.41,Cash,Cancelled,New,44,3.1,417.64,36.77,42.94
+735,2025-01-04,2025,January,1,4,Hyderabad,Tamil Nadu,East,S118,Super,Snacks,Organic,Amul,Product-22,2,95.17,Wallet,Returned,Returning,19,3.5,190.34,28.09,37.9
+736,2025-01-05,2025,January,1,5,Delhi,West Bengal,South,S146,Express,Vegetables,Organic,Britannia,Product-32,6,40.41,UPI,Delivered,Returning,36,3.5,242.46,10.31,44.77
+737,2025-01-06,2025,January,1,6,Pune,West Bengal,South,S144,Super,Dairy,Frozen,Local,Product-37,3,102.75,UPI,Delivered,Returning,39,3.5,308.25,2.13,80.11
+738,2025-01-07,2025,January,1,7,Pune,West Bengal,West,S138,Express,Vegetables,Fresh,Britannia,Product-22,9,353.6,Wallet,Delivered,New,37,3.6,3182.4,31.16,764.33
+739,2025-01-08,2025,January,1,8,Chennai,Delhi,East,S139,Super,Fruits,Fresh,Nestle,Product-38,7,415.2,Wallet,Returned,New,57,3.8,2906.4,379.29,309.82
+740,2025-01-09,2025,January,1,9,Hyderabad,Karnataka,North,S141,Express,Vegetables,Regular,Local,Product-6,6,481.26,Cash,Delivered,Returning,33,3.4,2887.56,286.08,548.27
+741,2025-01-10,2025,January,1,10,Pune,West Bengal,East,S144,Express,Fruits,Fresh,Britannia,Product-3,8,429.12,UPI,Delivered,New,23,4.6,3432.96,305.97,836.93
+742,2025-01-11,2025,January,1,11,Delhi,West Bengal,North,S115,Super,Snacks,Fresh,Britannia,Product-34,1,432.14,Card,Delivered,New,56,4.9,432.14,26.39,82.09
+743,2025-01-12,2025,January,1,12,Chennai,Tamil Nadu,North,S137,Express,Dairy,Organic,ITC,Product-11,9,111.05,Wallet,Cancelled,Returning,15,3.0,999.4499999999999,97.51,151.83
+744,2025-01-13,2025,January,1,13,Pune,West Bengal,West,S101,Express,Vegetables,Organic,Nestle,Product-9,7,430.84,Cash,Delivered,Returning,30,3.1,3015.88,208.06,546.24
+745,2025-01-14,2025,January,1,14,Kolkata,Maharashtra,West,S144,Express,Fruits,Organic,Britannia,Product-29,1,144.1,Card,Cancelled,New,21,3.8,144.1,1.79,25.85
+746,2025-01-15,2025,January,1,15,Pune,Telangana,South,S132,Super,Vegetables,Regular,Nestle,Product-26,8,336.15,Wallet,Delivered,Returning,59,3.7,2689.2,27.13,585.56
+747,2025-01-16,2025,January,1,16,Delhi,Delhi,North,S142,Express,Snacks,Fresh,ITC,Product-45,9,174.04,Wallet,Returned,Returning,50,4.5,1566.36,50.06,366.45
+748,2025-01-17,2025,January,1,17,Mumbai,Delhi,West,S122,Express,Dairy,Regular,ITC,Product-12,5,402.78,Wallet,Delivered,Returning,33,3.7,2013.9,207.97,328.49
+749,2025-01-18,2025,January,1,18,Kolkata,West Bengal,East,S141,Express,Vegetables,Regular,Nestle,Product-20,1,411.79,UPI,Delivered,New,47,5.0,411.79,25.38,44.08
+750,2025-01-19,2025,January,1,19,Chennai,Maharashtra,West,S111,Express,Vegetables,Organic,Amul,Product-9,6,441.54,Card,Delivered,Returning,54,3.8,2649.24,54.43,647.11
+751,2025-01-20,2025,January,1,20,Kolkata,Delhi,South,S124,Express,Dairy,Organic,ITC,Product-32,1,359.09,Card,Cancelled,Returning,14,3.6,359.09,52.59,41.05
+752,2025-01-21,2025,January,1,21,Chennai,Karnataka,West,S146,Super,Fruits,Regular,ITC,Product-38,2,400.82,Cash,Returned,New,50,4.2,801.64,93.51,187.11
+753,2025-01-22,2025,January,1,22,Kolkata,Telangana,South,S149,Express,Snacks,Frozen,Nestle,Product-41,8,463.25,UPI,Returned,New,10,3.9,3706.0,120.93,1077.76
+754,2025-01-23,2025,January,1,23,Mumbai,Delhi,South,S126,Express,Vegetables,Fresh,Nestle,Product-22,5,257.31,Card,Cancelled,New,32,3.6,1286.55,57.75,235.55
+755,2025-01-24,2025,January,1,24,Bengaluru,Karnataka,North,S125,Express,Fruits,Frozen,ITC,Product-47,9,374.22,Card,Cancelled,Returning,55,3.4,3367.98,457.86,986.09
+756,2025-01-25,2025,January,1,25,Delhi,Maharashtra,West,S125,Super,Snacks,Frozen,Local,Product-22,4,237.27,UPI,Delivered,Returning,42,4.8,949.08,105.38,272.53
+757,2025-01-26,2025,January,1,26,Pune,Maharashtra,West,S123,Super,Vegetables,Frozen,Local,Product-30,1,307.49,Card,Cancelled,New,49,4.9,307.49,39.03,86.09
+758,2025-01-27,2025,January,1,27,Chennai,West Bengal,West,S122,Express,Fruits,Regular,Britannia,Product-32,4,218.43,Cash,Delivered,Returning,54,3.9,873.72,112.45,220.04
+759,2025-01-28,2025,January,1,28,Chennai,Karnataka,East,S114,Super,Snacks,Frozen,Nestle,Product-27,5,273.55,Cash,Delivered,Returning,46,4.5,1367.75,78.17,316.26
+760,2025-01-29,2025,January,1,29,Mumbai,Tamil Nadu,West,S106,Super,Beverages,Frozen,Local,Product-26,1,361.0,UPI,Delivered,New,21,4.6,361.0,29.96,77.77
+761,2025-01-30,2025,January,1,30,Hyderabad,Maharashtra,North,S121,Express,Snacks,Organic,Amul,Product-18,5,386.04,UPI,Delivered,Returning,54,4.3,1930.2,32.88,426.95
+762,2025-01-31,2025,January,1,31,Bengaluru,Karnataka,East,S144,Express,Beverages,Frozen,ITC,Product-15,3,349.62,Card,Returned,New,26,3.6,1048.86,46.93,306.33
+763,2025-02-01,2025,February,2,1,Hyderabad,Karnataka,East,S110,Express,Dairy,Fresh,ITC,Product-31,4,371.68,Card,Cancelled,New,15,4.4,1486.72,78.8,199.65
+764,2025-02-02,2025,February,2,2,Chennai,Maharashtra,South,S120,Super,Vegetables,Organic,Amul,Product-26,6,492.02,Card,Cancelled,Returning,40,4.9,2952.12,399.94,563.33
+765,2025-02-03,2025,February,2,3,Hyderabad,Delhi,East,S111,Super,Snacks,Frozen,ITC,Product-18,4,353.58,Cash,Delivered,New,13,4.3,1414.32,176.12,289.09
+766,2025-02-04,2025,February,2,4,Hyderabad,Telangana,West,S114,Super,Dairy,Fresh,Local,Product-32,9,430.18,Card,Delivered,Returning,33,4.0,3871.62,345.18,1055.88
+767,2025-02-05,2025,February,2,5,Mumbai,Delhi,West,S104,Super,Dairy,Fresh,Nestle,Product-13,3,183.14,UPI,Delivered,Returning,48,3.6,549.42,37.87,57.44
+768,2025-02-06,2025,February,2,6,Chennai,Maharashtra,East,S111,Super,Snacks,Frozen,Amul,Product-7,9,372.3,Card,Delivered,Returning,23,3.8,3350.7,410.12,972.6
+769,2025-02-07,2025,February,2,7,Delhi,Maharashtra,West,S108,Express,Beverages,Frozen,Local,Product-14,7,314.07,Cash,Returned,Returning,56,4.2,2198.49,98.81,425.88
+770,2025-02-08,2025,February,2,8,Chennai,West Bengal,West,S133,Express,Beverages,Fresh,Nestle,Product-41,9,476.23,Cash,Returned,New,28,3.1,4286.07,108.62,643.03
+771,2025-02-09,2025,February,2,9,Kolkata,Delhi,South,S110,Super,Snacks,Fresh,Amul,Product-18,3,50.13,Wallet,Returned,New,25,3.7,150.39,17.2,31.99
+772,2025-02-10,2025,February,2,10,Pune,Delhi,East,S149,Express,Snacks,Regular,Local,Product-42,4,402.33,Wallet,Returned,New,42,3.5,1609.32,171.04,282.04
+773,2025-02-11,2025,February,2,11,Kolkata,Maharashtra,North,S104,Super,Beverages,Organic,Nestle,Product-38,3,249.14,Cash,Delivered,New,45,4.4,747.42,100.91,189.67
+774,2025-02-12,2025,February,2,12,Kolkata,West Bengal,North,S112,Super,Dairy,Regular,Britannia,Product-48,1,438.06,UPI,Cancelled,New,59,3.1,438.06,57.71,72.99
+775,2025-02-13,2025,February,2,13,Chennai,Karnataka,East,S114,Super,Beverages,Fresh,Nestle,Product-47,8,462.29,Card,Returned,New,48,4.1,3698.32,169.95,966.17
+776,2025-02-14,2025,February,2,14,Bengaluru,Tamil Nadu,East,S133,Express,Beverages,Frozen,Local,Product-14,5,440.42,Wallet,Delivered,Returning,38,4.0,2202.1,15.88,310.64
+777,2025-02-15,2025,February,2,15,Hyderabad,Telangana,South,S148,Express,Beverages,Organic,Britannia,Product-20,1,51.3,Card,Returned,Returning,12,4.6,51.3,0.59,9.35
+778,2025-02-16,2025,February,2,16,Delhi,West Bengal,East,S112,Express,Fruits,Organic,Nestle,Product-13,6,496.15,Cash,Delivered,New,37,3.0,2976.9,9.07,811.89
+779,2025-02-17,2025,February,2,17,Mumbai,West Bengal,West,S135,Express,Beverages,Frozen,Nestle,Product-32,1,348.71,UPI,Cancelled,Returning,56,4.6,348.71,12.47,78.03
+780,2025-02-18,2025,February,2,18,Bengaluru,Karnataka,North,S147,Super,Fruits,Frozen,Britannia,Product-35,5,178.38,Wallet,Delivered,New,41,4.7,891.9,98.37,195.83
+781,2025-02-19,2025,February,2,19,Mumbai,Delhi,South,S118,Super,Fruits,Regular,Britannia,Product-21,1,387.93,UPI,Returned,Returning,41,3.9,387.93,52.9,76.21
+782,2025-02-20,2025,February,2,20,Bengaluru,Telangana,North,S130,Super,Dairy,Fresh,ITC,Product-10,7,49.67,UPI,Cancelled,Returning,15,3.9,347.69,4.76,91.86
+783,2025-02-21,2025,February,2,21,Bengaluru,Tamil Nadu,West,S128,Express,Snacks,Frozen,Britannia,Product-38,8,75.16,Card,Delivered,Returning,11,4.2,601.28,28.48,120.05
+784,2025-02-22,2025,February,2,22,Mumbai,West Bengal,North,S112,Express,Snacks,Organic,Amul,Product-11,5,382.83,Card,Delivered,New,49,4.8,1914.15,268.37,507.15
+785,2025-02-23,2025,February,2,23,Mumbai,Maharashtra,South,S136,Express,Fruits,Organic,ITC,Product-14,5,143.47,Cash,Returned,Returning,49,3.6,717.35,94.75,159.49
+786,2025-02-24,2025,February,2,24,Kolkata,Telangana,South,S143,Super,Beverages,Regular,Britannia,Product-1,1,365.51,Cash,Delivered,New,58,3.9,365.51,0.05,105.01
+787,2025-02-25,2025,February,2,25,Chennai,West Bengal,North,S125,Super,Beverages,Fresh,Amul,Product-26,8,332.0,UPI,Returned,Returning,57,3.1,2656.0,387.8,550.45
+788,2025-02-26,2025,February,2,26,Mumbai,Telangana,East,S150,Super,Fruits,Fresh,Amul,Product-4,9,460.06,Wallet,Returned,Returning,58,4.4,4140.54,298.49,502.13
+789,2025-02-27,2025,February,2,27,Hyderabad,West Bengal,North,S135,Super,Vegetables,Frozen,Amul,Product-7,4,301.96,Cash,Cancelled,New,49,3.3,1207.84,100.94,306.58
+790,2025-02-28,2025,February,2,28,Delhi,Telangana,North,S120,Super,Beverages,Regular,ITC,Product-15,3,260.05,UPI,Cancelled,Returning,23,4.7,780.1500000000001,102.45,201.46
+791,2025-03-01,2025,March,3,1,Hyderabad,West Bengal,South,S127,Express,Dairy,Frozen,Britannia,Product-24,9,305.03,Wallet,Cancelled,New,26,4.8,2745.27,187.88,798.68
+792,2025-03-02,2025,March,3,2,Delhi,West Bengal,North,S138,Super,Dairy,Regular,Amul,Product-25,5,453.2,Card,Cancelled,Returning,47,4.3,2266.0,104.78,593.86
+793,2025-03-03,2025,March,3,3,Chennai,Telangana,West,S115,Super,Fruits,Frozen,Local,Product-32,3,475.49,Cash,Cancelled,New,22,3.1,1426.47,94.43,255.39
+794,2025-03-04,2025,March,3,4,Chennai,Telangana,North,S144,Super,Snacks,Frozen,Local,Product-14,4,132.46,Wallet,Returned,Returning,50,3.5,529.84,42.91,100.08
+795,2025-03-05,2025,March,3,5,Chennai,Tamil Nadu,North,S124,Express,Vegetables,Frozen,Nestle,Product-17,5,424.78,UPI,Delivered,Returning,30,4.4,2123.9,148.87,598.08
+796,2025-03-06,2025,March,3,6,Mumbai,Delhi,North,S139,Super,Fruits,Fresh,ITC,Product-12,6,306.24,Wallet,Cancelled,Returning,17,3.5,1837.44,147.37,399.89
+797,2025-03-07,2025,March,3,7,Mumbai,Karnataka,North,S138,Super,Fruits,Frozen,Nestle,Product-24,4,389.45,Wallet,Returned,New,57,4.1,1557.8,151.19,332.94
+798,2025-03-08,2025,March,3,8,Chennai,Telangana,West,S120,Express,Dairy,Frozen,Britannia,Product-25,9,237.83,UPI,Delivered,Returning,47,3.6,2140.47,5.75,309.21
+799,2025-03-09,2025,March,3,9,Bengaluru,Delhi,North,S145,Super,Fruits,Regular,Britannia,Product-4,4,24.74,UPI,Cancelled,New,34,3.2,98.96,3.01,11.44
+800,2025-03-10,2025,March,3,10,Bengaluru,Tamil Nadu,South,S108,Super,Fruits,Frozen,Nestle,Product-5,8,96.06,Cash,Delivered,Returning,18,3.7,768.48,19.74,92.51
+801,2025-03-11,2025,March,3,11,Delhi,Tamil Nadu,North,S108,Super,Dairy,Regular,Local,Product-43,3,97.03,Wallet,Returned,New,44,4.6,291.09,31.95,84.14
+802,2025-03-12,2025,March,3,12,Chennai,Tamil Nadu,North,S107,Super,Dairy,Organic,ITC,Product-23,4,435.71,Card,Delivered,New,35,4.9,1742.84,62.25,284.97
+803,2025-03-13,2025,March,3,13,Hyderabad,Karnataka,North,S148,Express,Fruits,Frozen,Amul,Product-2,6,141.89,UPI,Returned,New,52,3.6,851.3399999999999,52.67,179.14
+804,2025-03-14,2025,March,3,14,Chennai,Tamil Nadu,West,S149,Express,Snacks,Regular,Local,Product-11,7,381.1,Wallet,Cancelled,New,10,5.0,2667.7,116.63,561.62
+805,2025-03-15,2025,March,3,15,Kolkata,Maharashtra,West,S143,Super,Dairy,Frozen,Local,Product-37,9,174.33,Wallet,Delivered,New,38,4.3,1568.97,150.1,400.3
+806,2025-03-16,2025,March,3,16,Bengaluru,Telangana,North,S128,Super,Beverages,Regular,Local,Product-8,9,408.87,Card,Delivered,Returning,37,3.5,3679.83,452.12,998.8
+807,2025-03-17,2025,March,3,17,Hyderabad,Tamil Nadu,North,S126,Super,Beverages,Organic,Local,Product-43,6,443.22,Wallet,Cancelled,Returning,35,4.7,2659.32,120.31,493.17
+808,2025-03-18,2025,March,3,18,Mumbai,Maharashtra,West,S103,Super,Vegetables,Organic,Britannia,Product-9,5,62.57,Card,Delivered,Returning,30,4.0,312.85,20.86,80.52
+809,2025-03-19,2025,March,3,19,Delhi,Karnataka,South,S132,Express,Dairy,Fresh,Nestle,Product-20,3,82.12,Card,Cancelled,Returning,40,3.2,246.36,9.14,25.52
+810,2025-03-20,2025,March,3,20,Bengaluru,Karnataka,East,S141,Super,Beverages,Fresh,Local,Product-10,6,469.83,Card,Delivered,Returning,53,3.0,2818.98,254.93,372.0
+811,2025-03-21,2025,March,3,21,Mumbai,Maharashtra,North,S120,Express,Vegetables,Regular,Nestle,Product-41,8,350.08,Card,Delivered,New,47,3.1,2800.64,341.97,830.8
+812,2025-03-22,2025,March,3,22,Chennai,Karnataka,North,S131,Express,Beverages,Regular,Nestle,Product-3,6,294.94,Wallet,Returned,Returning,35,3.4,1769.64,126.16,348.31
+813,2025-03-23,2025,March,3,23,Pune,Karnataka,South,S118,Express,Snacks,Regular,Amul,Product-4,8,104.87,UPI,Delivered,New,27,4.5,838.96,76.98,130.02
+814,2025-03-24,2025,March,3,24,Chennai,Maharashtra,North,S113,Express,Dairy,Frozen,Amul,Product-38,5,118.93,Card,Delivered,New,46,3.5,594.6500000000001,59.48,172.01
+815,2025-03-25,2025,March,3,25,Bengaluru,Telangana,East,S112,Super,Snacks,Organic,ITC,Product-49,7,23.15,Wallet,Returned,Returning,57,3.7,162.05,22.79,24.87
+816,2025-03-26,2025,March,3,26,Chennai,West Bengal,South,S137,Express,Beverages,Organic,Amul,Product-10,2,491.89,Card,Cancelled,New,32,4.5,983.78,125.42,245.37
+817,2025-03-27,2025,March,3,27,Mumbai,Karnataka,South,S113,Super,Fruits,Frozen,Amul,Product-38,2,144.62,UPI,Delivered,Returning,52,3.1,289.24,37.17,73.47
+818,2025-03-28,2025,March,3,28,Chennai,Delhi,North,S119,Super,Beverages,Fresh,Nestle,Product-37,1,402.28,UPI,Returned,Returning,10,3.9,402.28,54.15,66.21
+819,2025-03-29,2025,March,3,29,Pune,Tamil Nadu,East,S129,Express,Dairy,Fresh,Britannia,Product-8,8,42.54,UPI,Returned,New,11,3.2,340.32,45.67,45.43
+820,2025-03-30,2025,March,3,30,Delhi,Karnataka,North,S115,Express,Fruits,Frozen,Amul,Product-35,6,312.22,Cash,Delivered,Returning,17,3.9,1873.32,107.72,222.75
+821,2025-03-31,2025,March,3,31,Delhi,Delhi,East,S102,Express,Fruits,Organic,ITC,Product-46,3,251.71,UPI,Delivered,Returning,35,3.6,755.13,34.58,174.44
+822,2025-04-01,2025,April,4,1,Bengaluru,Delhi,East,S147,Express,Beverages,Frozen,Local,Product-21,2,320.99,Card,Returned,New,19,3.1,641.98,74.03,126.2
+823,2025-04-02,2025,April,4,2,Kolkata,Tamil Nadu,West,S144,Express,Beverages,Regular,Local,Product-37,1,444.35,Card,Cancelled,Returning,45,4.6,444.35,42.77,124.72
+824,2025-04-03,2025,April,4,3,Hyderabad,West Bengal,West,S117,Super,Beverages,Organic,Local,Product-21,3,314.56,Cash,Cancelled,New,15,4.5,943.6800000000001,66.57,155.04
+825,2025-04-04,2025,April,4,4,Hyderabad,Delhi,South,S127,Super,Snacks,Frozen,Local,Product-32,4,263.04,Card,Delivered,New,15,3.8,1052.16,95.91,303.37
+826,2025-04-05,2025,April,4,5,Mumbai,Delhi,North,S116,Express,Snacks,Frozen,Nestle,Product-45,5,273.23,Cash,Cancelled,New,24,4.7,1366.15,86.99,150.1
+827,2025-04-06,2025,April,4,6,Delhi,West Bengal,North,S143,Super,Vegetables,Fresh,Nestle,Product-13,6,178.9,Wallet,Cancelled,Returning,32,3.9,1073.4,15.69,207.02
+828,2025-04-07,2025,April,4,7,Hyderabad,West Bengal,West,S125,Super,Snacks,Fresh,Amul,Product-6,3,114.15,Card,Returned,Returning,33,3.3,342.45,46.45,100.53
+829,2025-04-08,2025,April,4,8,Chennai,Telangana,West,S144,Express,Dairy,Organic,Amul,Product-21,8,277.54,Cash,Delivered,Returning,18,4.7,2220.32,128.14,241.13
+830,2025-04-09,2025,April,4,9,Bengaluru,Telangana,North,S149,Express,Vegetables,Frozen,Local,Product-18,1,286.67,Wallet,Cancelled,New,48,3.0,286.67,6.11,33.27
+831,2025-04-10,2025,April,4,10,Delhi,Maharashtra,North,S149,Super,Vegetables,Regular,ITC,Product-19,6,429.04,Wallet,Returned,Returning,51,3.9,2574.24,55.12,569.05
+832,2025-04-11,2025,April,4,11,Hyderabad,Karnataka,South,S119,Express,Beverages,Fresh,ITC,Product-27,1,258.97,Cash,Cancelled,Returning,42,3.2,258.97,1.9,40.66
+833,2025-04-12,2025,April,4,12,Pune,Karnataka,East,S118,Super,Dairy,Fresh,Local,Product-1,3,274.63,Wallet,Cancelled,New,24,3.4,823.89,98.89,175.75
+834,2025-04-13,2025,April,4,13,Bengaluru,Karnataka,West,S104,Express,Vegetables,Organic,ITC,Product-41,3,214.42,UPI,Cancelled,Returning,52,4.7,643.26,76.67,192.34
+835,2025-04-14,2025,April,4,14,Mumbai,West Bengal,South,S133,Super,Dairy,Regular,Local,Product-1,7,361.09,Card,Returned,Returning,13,3.2,2527.63,81.84,620.09
+836,2025-04-15,2025,April,4,15,Delhi,Telangana,North,S103,Super,Dairy,Regular,Amul,Product-50,5,332.2,Wallet,Cancelled,New,51,4.4,1661.0,228.05,451.19
+837,2025-04-16,2025,April,4,16,Pune,Tamil Nadu,North,S135,Express,Beverages,Regular,ITC,Product-5,8,302.28,Wallet,Returned,Returning,17,4.7,2418.24,327.14,490.51
+838,2025-04-17,2025,April,4,17,Pune,Karnataka,West,S146,Super,Snacks,Fresh,Local,Product-44,4,113.26,Card,Delivered,New,32,4.4,453.04,45.77,68.39
+839,2025-04-18,2025,April,4,18,Hyderabad,Tamil Nadu,North,S107,Super,Snacks,Regular,Local,Product-15,3,390.66,Wallet,Cancelled,New,14,3.2,1171.98,166.67,267.78
+840,2025-04-19,2025,April,4,19,Delhi,Delhi,West,S147,Express,Beverages,Organic,Britannia,Product-4,7,301.01,UPI,Cancelled,New,27,4.6,2107.07,186.59,323.43
+841,2025-04-20,2025,April,4,20,Bengaluru,Maharashtra,South,S132,Express,Fruits,Frozen,Amul,Product-7,6,421.81,UPI,Cancelled,Returning,50,4.6,2530.86,24.02,725.78
+842,2025-04-21,2025,April,4,21,Chennai,West Bengal,East,S101,Super,Dairy,Regular,Britannia,Product-13,8,283.55,UPI,Cancelled,New,43,4.8,2268.4,248.89,661.48
+843,2025-04-22,2025,April,4,22,Kolkata,Maharashtra,East,S117,Super,Snacks,Frozen,Amul,Product-21,1,270.08,Cash,Cancelled,New,38,3.9,270.08,15.3,78.6
+844,2025-04-23,2025,April,4,23,Hyderabad,Delhi,North,S149,Super,Beverages,Fresh,Local,Product-22,8,28.97,UPI,Cancelled,Returning,30,4.0,231.76,18.77,55.59
+845,2025-04-24,2025,April,4,24,Bengaluru,Karnataka,East,S114,Super,Beverages,Frozen,Britannia,Product-32,3,336.76,Wallet,Returned,Returning,53,4.4,1010.28,57.66,136.12
+846,2025-04-25,2025,April,4,25,Mumbai,Delhi,West,S136,Super,Snacks,Fresh,Britannia,Product-31,6,440.83,Wallet,Cancelled,New,59,3.5,2644.98,389.55,764.63
+847,2025-04-26,2025,April,4,26,Hyderabad,Tamil Nadu,West,S139,Express,Vegetables,Frozen,Local,Product-34,3,491.06,Wallet,Cancelled,New,37,3.2,1473.18,145.39,176.4
+848,2025-04-27,2025,April,4,27,Bengaluru,Tamil Nadu,East,S130,Super,Vegetables,Organic,Britannia,Product-43,8,355.98,Wallet,Returned,Returning,17,3.4,2847.84,33.63,518.7
+849,2025-04-28,2025,April,4,28,Mumbai,Delhi,West,S122,Super,Fruits,Regular,Amul,Product-41,1,156.91,Card,Cancelled,Returning,34,4.1,156.91,23.17,26.57
+850,2025-04-29,2025,April,4,29,Pune,Karnataka,West,S121,Super,Fruits,Frozen,Nestle,Product-32,9,355.02,Wallet,Delivered,Returning,51,3.2,3195.18,364.55,491.44
+851,2025-04-30,2025,April,4,30,Hyderabad,Delhi,East,S125,Super,Vegetables,Frozen,Britannia,Product-2,6,431.94,Card,Returned,Returning,57,3.4,2591.64,172.93,282.15
+852,2025-05-01,2025,May,5,1,Delhi,Karnataka,South,S128,Super,Dairy,Fresh,ITC,Product-44,4,176.65,UPI,Returned,New,15,3.9,706.6,2.37,122.76
+853,2025-05-02,2025,May,5,2,Kolkata,Karnataka,East,S109,Super,Snacks,Frozen,ITC,Product-20,2,297.44,Cash,Cancelled,New,17,4.7,594.88,77.56,73.78
+854,2025-05-03,2025,May,5,3,Bengaluru,Karnataka,East,S120,Super,Fruits,Organic,ITC,Product-12,7,239.47,Card,Delivered,Returning,45,4.4,1676.29,56.79,184.07
+855,2025-05-04,2025,May,5,4,Chennai,Telangana,South,S107,Express,Vegetables,Frozen,ITC,Product-30,3,63.4,Cash,Delivered,New,31,3.9,190.2,19.25,52.67
+856,2025-05-05,2025,May,5,5,Mumbai,Maharashtra,East,S116,Express,Dairy,Fresh,ITC,Product-31,3,238.82,Wallet,Cancelled,New,48,3.2,716.46,23.96,157.74
+857,2025-05-06,2025,May,5,6,Chennai,Karnataka,East,S143,Super,Fruits,Organic,ITC,Product-3,1,349.81,UPI,Returned,New,12,3.4,349.81,7.51,67.97
+858,2025-05-07,2025,May,5,7,Bengaluru,Karnataka,North,S127,Super,Beverages,Organic,Nestle,Product-7,6,421.71,Wallet,Delivered,New,41,4.8,2530.26,347.41,451.82
+859,2025-05-08,2025,May,5,8,Mumbai,Tamil Nadu,North,S142,Super,Vegetables,Frozen,Local,Product-14,7,88.85,Card,Returned,New,19,4.8,621.9499999999999,35.11,102.51
+860,2025-05-09,2025,May,5,9,Delhi,Maharashtra,North,S116,Super,Fruits,Frozen,Local,Product-35,3,464.44,UPI,Returned,New,40,3.5,1393.32,207.62,251.0
+861,2025-05-10,2025,May,5,10,Pune,Telangana,West,S146,Express,Snacks,Fresh,Britannia,Product-32,9,386.06,Card,Delivered,New,52,3.3,3474.54,319.29,903.22
+862,2025-05-11,2025,May,5,11,Mumbai,West Bengal,West,S134,Express,Beverages,Regular,ITC,Product-39,4,235.04,UPI,Delivered,New,26,4.7,940.16,112.11,268.33
+863,2025-05-12,2025,May,5,12,Pune,Maharashtra,East,S123,Express,Vegetables,Frozen,Nestle,Product-28,7,103.32,UPI,Cancelled,New,40,4.4,723.24,4.53,189.86
+864,2025-05-13,2025,May,5,13,Pune,Maharashtra,North,S142,Super,Dairy,Organic,Nestle,Product-12,7,186.33,Cash,Cancelled,New,29,3.1,1304.31,23.32,131.02
+865,2025-05-14,2025,May,5,14,Bengaluru,Karnataka,East,S121,Super,Beverages,Frozen,Nestle,Product-8,5,236.38,UPI,Returned,New,37,4.4,1181.9,30.66,257.3
+866,2025-05-15,2025,May,5,15,Bengaluru,Maharashtra,West,S104,Express,Fruits,Regular,Local,Product-27,3,255.98,UPI,Returned,New,59,4.2,767.9399999999999,69.38,172.22
+867,2025-05-16,2025,May,5,16,Hyderabad,Tamil Nadu,West,S122,Express,Beverages,Frozen,Amul,Product-5,7,202.43,UPI,Returned,Returning,24,4.9,1417.01,144.19,154.64
+868,2025-05-17,2025,May,5,17,Pune,Maharashtra,South,S143,Express,Snacks,Organic,Local,Product-21,5,494.43,Wallet,Cancelled,New,29,3.1,2472.15,291.53,603.63
+869,2025-05-18,2025,May,5,18,Pune,Delhi,West,S150,Express,Beverages,Frozen,ITC,Product-29,9,131.42,Wallet,Delivered,New,59,3.3,1182.78,11.15,167.08
+870,2025-05-19,2025,May,5,19,Chennai,Maharashtra,East,S149,Express,Snacks,Regular,Local,Product-4,5,109.33,Wallet,Returned,Returning,56,3.6,546.65,41.31,65.55
+871,2025-05-20,2025,May,5,20,Kolkata,Telangana,West,S112,Super,Beverages,Organic,Britannia,Product-6,4,439.89,Wallet,Returned,New,51,3.9,1759.56,118.32,435.89
+872,2025-05-21,2025,May,5,21,Delhi,West Bengal,North,S106,Express,Vegetables,Fresh,ITC,Product-10,4,363.66,UPI,Cancelled,New,21,4.9,1454.64,148.42,228.85
+873,2025-05-22,2025,May,5,22,Pune,Karnataka,South,S111,Super,Vegetables,Organic,Britannia,Product-4,3,131.84,UPI,Returned,New,48,3.5,395.52,43.8,58.37
+874,2025-05-23,2025,May,5,23,Bengaluru,Tamil Nadu,South,S101,Super,Dairy,Organic,ITC,Product-17,6,261.73,Cash,Delivered,Returning,49,3.1,1570.38,3.63,369.51
+875,2025-05-24,2025,May,5,24,Kolkata,Tamil Nadu,East,S130,Express,Dairy,Frozen,Nestle,Product-37,4,136.69,Cash,Returned,Returning,43,4.3,546.76,4.83,142.98
+876,2025-05-25,2025,May,5,25,Pune,Telangana,West,S148,Express,Beverages,Organic,Nestle,Product-9,6,73.41,Card,Cancelled,Returning,25,4.1,440.46,32.32,51.76
+877,2025-05-26,2025,May,5,26,Pune,Telangana,East,S120,Express,Snacks,Frozen,ITC,Product-5,9,153.62,Wallet,Returned,Returning,24,3.1,1382.58,115.05,219.76
+878,2025-05-27,2025,May,5,27,Pune,Telangana,North,S101,Express,Beverages,Frozen,Amul,Product-50,5,339.59,Wallet,Cancelled,Returning,26,4.3,1697.95,234.49,376.01
+879,2025-05-28,2025,May,5,28,Delhi,Delhi,North,S140,Express,Beverages,Organic,Nestle,Product-6,8,294.15,UPI,Returned,New,38,3.8,2353.2,197.61,390.43
+880,2025-05-29,2025,May,5,29,Pune,Telangana,East,S111,Express,Snacks,Regular,Local,Product-24,9,155.63,Cash,Cancelled,New,57,4.7,1400.67,92.15,159.37
+881,2025-05-30,2025,May,5,30,Chennai,Delhi,West,S122,Super,Beverages,Organic,Nestle,Product-38,3,174.17,UPI,Delivered,Returning,30,3.5,522.51,67.02,143.25
+882,2025-05-31,2025,May,5,31,Bengaluru,Telangana,West,S110,Express,Vegetables,Frozen,Nestle,Product-32,7,394.15,Wallet,Returned,Returning,24,3.8,2759.05,171.89,394.97
+883,2025-06-01,2025,June,6,1,Kolkata,Delhi,East,S103,Super,Dairy,Regular,Britannia,Product-23,2,249.2,Card,Returned,Returning,37,4.7,498.4,28.86,107.94
+884,2025-06-02,2025,June,6,2,Delhi,Tamil Nadu,North,S106,Express,Beverages,Frozen,Britannia,Product-3,9,386.84,Card,Cancelled,Returning,27,3.1,3481.56,306.83,1005.0
+885,2025-06-03,2025,June,6,3,Kolkata,Tamil Nadu,West,S149,Express,Dairy,Regular,Local,Product-20,2,227.36,Card,Cancelled,New,54,3.5,454.72,49.4,91.93
+886,2025-06-04,2025,June,6,4,Kolkata,Maharashtra,East,S112,Super,Vegetables,Organic,Local,Product-9,9,404.31,Card,Cancelled,New,33,4.4,3638.79,128.94,545.47
+887,2025-06-05,2025,June,6,5,Mumbai,West Bengal,East,S117,Super,Dairy,Organic,Local,Product-16,3,82.37,UPI,Delivered,Returning,38,3.4,247.11,21.09,39.47
+888,2025-06-06,2025,June,6,6,Pune,Maharashtra,South,S115,Super,Fruits,Frozen,Amul,Product-9,7,155.5,Cash,Cancelled,New,26,4.6,1088.5,58.29,306.13
+889,2025-06-07,2025,June,6,7,Kolkata,West Bengal,West,S116,Super,Vegetables,Regular,Nestle,Product-7,1,43.83,Wallet,Delivered,New,44,4.3,43.83,0.71,5.4
+890,2025-06-08,2025,June,6,8,Mumbai,West Bengal,North,S111,Express,Fruits,Frozen,Britannia,Product-41,6,418.98,Wallet,Cancelled,Returning,13,4.0,2513.88,221.47,660.64
+891,2025-06-09,2025,June,6,9,Mumbai,Karnataka,West,S143,Express,Beverages,Regular,Amul,Product-13,8,257.32,Card,Returned,Returning,55,4.9,2058.56,27.31,319.47
+892,2025-06-10,2025,June,6,10,Chennai,Karnataka,North,S144,Super,Dairy,Frozen,ITC,Product-2,5,352.85,Wallet,Delivered,New,50,3.0,1764.25,52.65,176.68
+893,2025-06-11,2025,June,6,11,Pune,Telangana,West,S146,Super,Snacks,Fresh,Britannia,Product-35,2,470.63,Wallet,Returned,New,55,4.0,941.26,109.97,168.03
+894,2025-06-12,2025,June,6,12,Hyderabad,Delhi,South,S130,Super,Snacks,Frozen,Amul,Product-37,6,141.0,UPI,Cancelled,Returning,18,4.9,846.0,104.93,102.26
+895,2025-06-13,2025,June,6,13,Hyderabad,Tamil Nadu,East,S116,Super,Dairy,Regular,Britannia,Product-6,9,180.53,Cash,Delivered,New,55,3.9,1624.77,103.03,175.98
+896,2025-06-14,2025,June,6,14,Hyderabad,West Bengal,South,S121,Express,Snacks,Regular,Nestle,Product-46,3,407.13,Card,Returned,New,58,3.9,1221.39,79.77,306.12
+897,2025-06-15,2025,June,6,15,Delhi,Delhi,West,S124,Express,Snacks,Regular,Britannia,Product-42,9,253.12,Cash,Returned,Returning,16,3.4,2278.08,102.01,658.07
+898,2025-06-16,2025,June,6,16,Kolkata,West Bengal,South,S138,Express,Fruits,Frozen,ITC,Product-31,5,374.09,UPI,Delivered,Returning,22,4.3,1870.45,59.38,396.92
+899,2025-06-17,2025,June,6,17,Hyderabad,Tamil Nadu,West,S150,Super,Fruits,Frozen,Amul,Product-22,1,153.2,UPI,Delivered,New,31,3.3,153.2,7.18,28.51
+900,2025-06-18,2025,June,6,18,Kolkata,Karnataka,West,S107,Super,Snacks,Regular,Amul,Product-26,4,41.17,UPI,Returned,Returning,53,3.6,164.68,10.22,28.6
+901,2025-06-19,2025,June,6,19,Pune,Maharashtra,East,S150,Super,Fruits,Organic,Local,Product-23,2,226.82,Cash,Returned,Returning,25,4.6,453.64,34.18,64.8
+902,2025-06-20,2025,June,6,20,Bengaluru,Karnataka,North,S113,Express,Snacks,Fresh,Local,Product-21,5,362.54,UPI,Cancelled,Returning,47,3.4,1812.7,6.4,219.43
+903,2025-06-21,2025,June,6,21,Mumbai,Delhi,South,S117,Super,Fruits,Frozen,Nestle,Product-17,5,250.24,Cash,Delivered,New,44,3.4,1251.2,128.99,312.87
+904,2025-06-22,2025,June,6,22,Mumbai,West Bengal,North,S138,Super,Snacks,Fresh,Local,Product-9,3,222.36,Card,Returned,Returning,33,3.1,667.08,58.62,161.46
+905,2025-06-23,2025,June,6,23,Pune,Delhi,South,S140,Super,Beverages,Frozen,Britannia,Product-48,9,377.25,Card,Returned,New,38,4.9,3395.25,2.13,760.75
+906,2025-06-24,2025,June,6,24,Kolkata,Maharashtra,West,S140,Super,Beverages,Frozen,ITC,Product-14,8,36.23,Card,Delivered,New,31,4.0,289.84,29.12,65.81
+907,2025-06-25,2025,June,6,25,Delhi,Delhi,East,S102,Express,Fruits,Frozen,ITC,Product-39,6,489.65,Wallet,Cancelled,Returning,13,3.7,2937.9,72.34,301.39
+908,2025-06-26,2025,June,6,26,Mumbai,Telangana,North,S121,Express,Fruits,Frozen,Nestle,Product-2,8,395.77,Cash,Returned,Returning,44,3.0,3166.16,258.37,912.47
+909,2025-06-27,2025,June,6,27,Pune,West Bengal,East,S149,Super,Dairy,Regular,Amul,Product-12,3,85.64,UPI,Cancelled,Returning,23,3.5,256.92,24.57,40.89
+910,2025-06-28,2025,June,6,28,Mumbai,Delhi,West,S116,Express,Beverages,Frozen,Amul,Product-42,1,207.33,Cash,Delivered,New,24,4.4,207.33,16.33,37.49
+911,2025-06-29,2025,June,6,29,Bengaluru,Delhi,North,S125,Super,Beverages,Regular,Nestle,Product-44,6,404.98,UPI,Returned,New,36,4.5,2429.88,119.29,297.74
+912,2025-06-30,2025,June,6,30,Bengaluru,Karnataka,East,S131,Express,Beverages,Organic,Amul,Product-44,1,340.39,Card,Delivered,Returning,29,3.6,340.39,37.11,75.47
+913,2025-07-01,2025,July,7,1,Delhi,West Bengal,West,S101,Super,Fruits,Fresh,ITC,Product-9,9,110.46,Wallet,Cancelled,New,25,3.8,994.14,72.64,104.36
+914,2025-07-02,2025,July,7,2,Bengaluru,Delhi,South,S120,Express,Dairy,Regular,Britannia,Product-2,2,345.79,Cash,Cancelled,Returning,10,4.9,691.58,68.36,127.54
+915,2025-07-03,2025,July,7,3,Delhi,Maharashtra,South,S142,Express,Vegetables,Frozen,Amul,Product-44,6,170.36,Card,Cancelled,New,25,4.7,1022.16,127.68,106.08
+916,2025-07-04,2025,July,7,4,Hyderabad,Maharashtra,South,S133,Super,Snacks,Organic,Local,Product-50,6,136.15,Card,Returned,New,39,3.6,816.9000000000001,63.36,145.02
+917,2025-07-05,2025,July,7,5,Delhi,Telangana,South,S114,Express,Snacks,Frozen,Amul,Product-18,4,118.56,Card,Cancelled,New,18,3.3,474.24,62.6,54.19
+918,2025-07-06,2025,July,7,6,Pune,Delhi,West,S133,Super,Snacks,Frozen,Local,Product-3,7,270.96,Card,Returned,New,15,4.4,1896.72,27.47,319.05
+919,2025-07-07,2025,July,7,7,Mumbai,Karnataka,West,S104,Express,Fruits,Frozen,Britannia,Product-33,5,219.04,Card,Returned,New,47,4.5,1095.2,154.34,322.77
+920,2025-07-08,2025,July,7,8,Pune,Karnataka,North,S136,Express,Snacks,Regular,Nestle,Product-6,9,217.72,Card,Returned,New,11,4.1,1959.48,229.67,387.66
+921,2025-07-09,2025,July,7,9,Hyderabad,Delhi,North,S111,Super,Dairy,Organic,Nestle,Product-37,1,420.3,Wallet,Cancelled,New,32,3.0,420.3,55.47,72.49
+922,2025-07-10,2025,July,7,10,Chennai,Karnataka,South,S118,Express,Snacks,Regular,ITC,Product-36,8,54.22,Wallet,Returned,Returning,50,4.4,433.76,12.38,121.52
+923,2025-07-11,2025,July,7,11,Chennai,Maharashtra,East,S123,Express,Beverages,Organic,Amul,Product-37,7,30.56,Card,Delivered,Returning,32,3.5,213.92,0.43,28.01
+924,2025-07-12,2025,July,7,12,Mumbai,West Bengal,South,S128,Super,Dairy,Regular,Amul,Product-36,8,498.27,UPI,Returned,Returning,26,3.9,3986.16,72.41,835.55
+925,2025-07-13,2025,July,7,13,Kolkata,Karnataka,East,S113,Super,Snacks,Frozen,ITC,Product-2,8,347.49,UPI,Delivered,New,51,4.0,2779.92,143.02,641.88
+926,2025-07-14,2025,July,7,14,Bengaluru,Karnataka,West,S141,Express,Fruits,Regular,ITC,Product-41,1,254.18,UPI,Cancelled,New,18,4.0,254.18,21.83,48.57
+927,2025-07-15,2025,July,7,15,Hyderabad,Telangana,East,S102,Super,Snacks,Fresh,Local,Product-2,7,74.02,Card,Cancelled,Returning,15,4.8,518.14,59.85,129.4
+928,2025-07-16,2025,July,7,16,Delhi,Telangana,North,S148,Express,Dairy,Regular,Local,Product-44,7,93.97,Card,Returned,Returning,41,4.9,657.79,87.33,75.91
+929,2025-07-17,2025,July,7,17,Delhi,Tamil Nadu,North,S145,Super,Snacks,Regular,ITC,Product-39,6,101.53,Cash,Delivered,New,36,4.8,609.1800000000001,75.2,63.2
+930,2025-07-18,2025,July,7,18,Delhi,Maharashtra,West,S125,Super,Fruits,Organic,Britannia,Product-49,4,71.99,Card,Returned,Returning,33,4.9,287.96,29.58,83.4
+931,2025-07-19,2025,July,7,19,Hyderabad,Maharashtra,South,S106,Express,Vegetables,Regular,Nestle,Product-47,4,144.17,Card,Cancelled,Returning,41,3.4,576.68,46.93,64.65
+932,2025-07-20,2025,July,7,20,Bengaluru,West Bengal,East,S136,Super,Dairy,Fresh,ITC,Product-45,4,136.62,Card,Cancelled,New,51,4.1,546.48,1.25,123.65
+933,2025-07-21,2025,July,7,21,Delhi,Karnataka,East,S146,Super,Dairy,Regular,Nestle,Product-26,7,492.39,UPI,Cancelled,Returning,55,4.8,3446.73,90.62,803.3
+934,2025-07-22,2025,July,7,22,Chennai,West Bengal,South,S146,Super,Fruits,Fresh,Britannia,Product-47,3,233.36,Cash,Cancelled,Returning,15,4.3,700.08,99.13,111.37
+935,2025-07-23,2025,July,7,23,Hyderabad,Maharashtra,North,S110,Super,Fruits,Fresh,Local,Product-24,5,163.79,Wallet,Returned,New,44,4.7,818.9499999999999,31.74,156.53
+936,2025-07-24,2025,July,7,24,Bengaluru,Maharashtra,North,S142,Super,Snacks,Organic,Nestle,Product-6,7,246.81,UPI,Cancelled,Returning,11,4.0,1727.67,99.82,495.0
+937,2025-07-25,2025,July,7,25,Pune,West Bengal,East,S104,Super,Dairy,Frozen,Amul,Product-37,1,271.21,Wallet,Returned,New,55,3.3,271.21,1.94,74.01
+938,2025-07-26,2025,July,7,26,Mumbai,West Bengal,West,S134,Express,Fruits,Frozen,Nestle,Product-42,8,413.65,Card,Returned,New,41,4.1,3309.2,113.12,395.44
+939,2025-07-27,2025,July,7,27,Mumbai,Karnataka,West,S136,Super,Dairy,Regular,Nestle,Product-21,2,169.72,UPI,Returned,Returning,45,3.3,339.44,27.39,86.87
+940,2025-07-28,2025,July,7,28,Mumbai,West Bengal,North,S112,Express,Snacks,Regular,Local,Product-47,4,294.43,Wallet,Delivered,Returning,37,5.0,1177.72,103.54,251.64
+941,2025-07-29,2025,July,7,29,Mumbai,Tamil Nadu,North,S124,Express,Dairy,Organic,Nestle,Product-19,5,45.72,Cash,Cancelled,Returning,18,4.2,228.6,32.17,39.14
+942,2025-07-30,2025,July,7,30,Kolkata,West Bengal,West,S143,Super,Fruits,Organic,Local,Product-35,9,408.77,Cash,Delivered,New,24,4.4,3678.93,181.27,497.14
+943,2025-07-31,2025,July,7,31,Chennai,Karnataka,West,S105,Express,Fruits,Organic,Nestle,Product-36,9,221.58,UPI,Delivered,Returning,29,4.3,1994.22,62.5,387.19
+944,2025-08-01,2025,August,8,1,Delhi,Telangana,West,S144,Express,Vegetables,Regular,Local,Product-16,9,398.88,Cash,Delivered,New,41,3.7,3589.92,337.23,653.84
+945,2025-08-02,2025,August,8,2,Kolkata,West Bengal,South,S104,Super,Fruits,Frozen,Britannia,Product-27,3,92.86,Wallet,Cancelled,Returning,56,4.0,278.58,21.18,52.32
+946,2025-08-03,2025,August,8,3,Bengaluru,Telangana,South,S149,Super,Snacks,Regular,Britannia,Product-31,7,106.8,UPI,Delivered,Returning,10,4.2,747.6,27.68,103.13
+947,2025-08-04,2025,August,8,4,Bengaluru,West Bengal,West,S119,Super,Fruits,Fresh,Nestle,Product-22,4,216.21,UPI,Returned,New,40,4.7,864.84,66.89,213.99
+948,2025-08-05,2025,August,8,5,Pune,Karnataka,North,S104,Express,Dairy,Fresh,Amul,Product-15,9,185.53,UPI,Returned,Returning,24,3.0,1669.77,122.13,300.57
+949,2025-08-06,2025,August,8,6,Mumbai,West Bengal,West,S121,Super,Vegetables,Regular,Amul,Product-35,4,176.53,UPI,Cancelled,New,22,4.3,706.12,101.1,122.59
+950,2025-08-07,2025,August,8,7,Delhi,Delhi,South,S142,Express,Vegetables,Organic,Local,Product-2,4,194.64,Card,Delivered,New,24,4.8,778.56,39.06,81.43
+951,2025-08-08,2025,August,8,8,Kolkata,Delhi,North,S124,Express,Beverages,Regular,Nestle,Product-4,7,427.5,UPI,Cancelled,Returning,45,4.4,2992.5,101.65,318.32
+952,2025-08-09,2025,August,8,9,Pune,Telangana,West,S138,Express,Beverages,Fresh,ITC,Product-21,5,201.5,Wallet,Cancelled,Returning,50,4.3,1007.5,143.55,193.6
+953,2025-08-10,2025,August,8,10,Mumbai,Tamil Nadu,West,S118,Super,Snacks,Organic,Local,Product-41,9,293.87,Card,Delivered,New,19,3.3,2644.83,147.63,508.79
+954,2025-08-11,2025,August,8,11,Pune,Tamil Nadu,East,S108,Super,Dairy,Fresh,ITC,Product-1,7,374.49,Wallet,Delivered,New,41,5.0,2621.43,84.92,621.24
+955,2025-08-12,2025,August,8,12,Kolkata,West Bengal,North,S147,Super,Fruits,Regular,Nestle,Product-50,7,324.17,Cash,Delivered,New,55,3.6,2269.19,175.58,287.79
+956,2025-08-13,2025,August,8,13,Delhi,Maharashtra,East,S117,Super,Vegetables,Organic,Local,Product-13,2,400.95,Cash,Cancelled,Returning,22,3.7,801.9,16.86,229.89
+957,2025-08-14,2025,August,8,14,Delhi,Delhi,East,S129,Super,Dairy,Frozen,ITC,Product-47,3,134.13,Wallet,Returned,Returning,37,4.2,402.39,30.44,52.4
+958,2025-08-15,2025,August,8,15,Kolkata,Delhi,South,S131,Express,Vegetables,Organic,Nestle,Product-21,5,235.94,Wallet,Cancelled,Returning,51,4.6,1179.7,17.68,319.81
+959,2025-08-16,2025,August,8,16,Pune,Karnataka,East,S108,Express,Vegetables,Regular,Amul,Product-13,2,417.06,Wallet,Cancelled,Returning,12,4.2,834.12,61.28,102.42
+960,2025-08-17,2025,August,8,17,Mumbai,Delhi,North,S143,Super,Beverages,Regular,ITC,Product-40,8,414.87,Cash,Returned,New,44,3.3,3318.96,423.53,528.48
+961,2025-08-18,2025,August,8,18,Hyderabad,Maharashtra,East,S140,Super,Snacks,Organic,Nestle,Product-18,5,188.62,Card,Returned,Returning,12,4.0,943.1,83.48,94.75
+962,2025-08-19,2025,August,8,19,Chennai,Delhi,North,S118,Super,Beverages,Organic,ITC,Product-47,6,208.28,Wallet,Delivered,Returning,10,3.9,1249.68,27.98,358.71
+963,2025-08-20,2025,August,8,20,Hyderabad,Telangana,North,S113,Express,Snacks,Regular,Nestle,Product-41,1,149.22,Cash,Cancelled,Returning,49,3.1,149.22,8.13,15.21
+964,2025-08-21,2025,August,8,21,Hyderabad,West Bengal,East,S116,Super,Fruits,Organic,Britannia,Product-26,2,36.99,UPI,Returned,Returning,35,4.5,73.98,3.8,11.79
+965,2025-08-22,2025,August,8,22,Kolkata,Tamil Nadu,South,S105,Express,Vegetables,Organic,Local,Product-42,7,210.18,UPI,Delivered,New,28,3.4,1471.26,186.19,390.36
+966,2025-08-23,2025,August,8,23,Mumbai,Tamil Nadu,East,S143,Super,Beverages,Regular,Britannia,Product-8,1,283.6,Cash,Delivered,Returning,21,4.3,283.6,0.9,63.15
+967,2025-08-24,2025,August,8,24,Chennai,Telangana,South,S138,Super,Beverages,Frozen,Amul,Product-7,2,218.51,Cash,Cancelled,New,29,4.2,437.02,27.0,87.83
+968,2025-08-25,2025,August,8,25,Hyderabad,Telangana,East,S148,Express,Snacks,Fresh,Britannia,Product-19,2,63.83,Cash,Cancelled,New,43,3.1,127.66,18.11,22.93
+969,2025-08-26,2025,August,8,26,Chennai,Tamil Nadu,South,S111,Express,Fruits,Fresh,Local,Product-13,8,56.55,UPI,Delivered,Returning,32,4.6,452.4,14.35,102.7
+970,2025-08-27,2025,August,8,27,Pune,Maharashtra,South,S102,Super,Beverages,Frozen,Nestle,Product-38,6,471.39,UPI,Returned,Returning,33,3.8,2828.34,393.67,371.63
+971,2025-08-28,2025,August,8,28,Delhi,Delhi,North,S141,Express,Vegetables,Frozen,Amul,Product-44,8,418.42,UPI,Delivered,Returning,20,3.6,3347.36,141.97,679.15
+972,2025-08-29,2025,August,8,29,Mumbai,Telangana,East,S104,Super,Dairy,Fresh,Amul,Product-32,4,336.45,UPI,Delivered,New,18,4.1,1345.8,181.57,370.56
+973,2025-08-30,2025,August,8,30,Delhi,Karnataka,North,S113,Super,Vegetables,Frozen,Local,Product-24,5,119.92,Wallet,Returned,New,21,3.2,599.6,52.19,163.3
+974,2025-08-31,2025,August,8,31,Chennai,Telangana,North,S123,Super,Snacks,Organic,Britannia,Product-32,2,401.78,Wallet,Returned,New,54,3.5,803.56,106.65,158.82
+975,2025-09-01,2025,September,9,1,Bengaluru,Delhi,West,S116,Super,Fruits,Fresh,Amul,Product-27,7,169.44,Wallet,Delivered,Returning,50,4.7,1186.08,97.42,246.92
+976,2025-09-02,2025,September,9,2,Bengaluru,Delhi,West,S150,Super,Dairy,Regular,Nestle,Product-36,2,180.59,Cash,Returned,Returning,18,3.0,361.18,2.94,71.47
+977,2025-09-03,2025,September,9,3,Pune,Karnataka,West,S141,Express,Fruits,Fresh,Britannia,Product-27,9,316.7,Wallet,Cancelled,New,22,3.5,2850.3,215.21,591.65
+978,2025-09-04,2025,September,9,4,Chennai,Tamil Nadu,South,S121,Super,Dairy,Frozen,ITC,Product-45,4,127.77,Cash,Cancelled,New,26,4.8,511.08,48.67,114.17
+979,2025-09-05,2025,September,9,5,Kolkata,Maharashtra,South,S115,Super,Snacks,Fresh,Nestle,Product-37,4,75.88,Card,Delivered,New,28,4.5,303.52,13.88,35.64
+980,2025-09-06,2025,September,9,6,Mumbai,Karnataka,North,S121,Super,Fruits,Organic,Local,Product-18,1,176.74,Card,Delivered,New,29,4.4,176.74,7.66,23.94
+981,2025-09-07,2025,September,9,7,Delhi,Karnataka,East,S141,Super,Fruits,Organic,Nestle,Product-34,5,164.98,Cash,Returned,New,22,4.9,824.9,67.02,111.56
+982,2025-09-08,2025,September,9,8,Hyderabad,Maharashtra,East,S150,Express,Fruits,Frozen,Local,Product-36,8,87.91,UPI,Delivered,Returning,33,3.1,703.28,51.95,186.39
+983,2025-09-09,2025,September,9,9,Mumbai,Telangana,South,S137,Super,Fruits,Regular,Britannia,Product-14,9,379.38,UPI,Returned,New,54,5.0,3414.42,510.76,498.34
+984,2025-09-10,2025,September,9,10,Kolkata,Tamil Nadu,East,S107,Express,Snacks,Organic,Amul,Product-35,7,159.79,Card,Cancelled,Returning,39,4.3,1118.53,116.45,176.91
+985,2025-09-11,2025,September,9,11,Pune,Tamil Nadu,West,S118,Express,Vegetables,Frozen,Local,Product-7,2,467.47,Wallet,Cancelled,Returning,45,4.3,934.94,4.28,115.02
+986,2025-09-12,2025,September,9,12,Bengaluru,Telangana,West,S127,Express,Vegetables,Fresh,ITC,Product-34,1,318.48,Card,Delivered,New,51,4.8,318.48,42.55,74.57
+987,2025-09-13,2025,September,9,13,Hyderabad,Delhi,West,S111,Super,Dairy,Fresh,Britannia,Product-19,9,138.91,Wallet,Delivered,Returning,17,3.8,1250.19,114.52,358.21
+988,2025-09-14,2025,September,9,14,Delhi,Karnataka,South,S104,Super,Snacks,Organic,Amul,Product-21,2,148.89,Cash,Delivered,New,48,3.1,297.78,17.81,69.58
+989,2025-09-15,2025,September,9,15,Mumbai,Telangana,South,S112,Express,Beverages,Regular,Britannia,Product-37,4,175.92,Card,Returned,Returning,51,3.1,703.68,46.21,135.99
+990,2025-09-16,2025,September,9,16,Pune,Tamil Nadu,West,S117,Super,Fruits,Fresh,Britannia,Product-46,5,206.78,Wallet,Delivered,New,26,4.6,1033.9,133.44,175.49
+991,2025-09-17,2025,September,9,17,Hyderabad,Maharashtra,West,S120,Super,Dairy,Fresh,Britannia,Product-37,8,91.68,Cash,Delivered,New,35,4.0,733.44,12.8,196.91
+992,2025-09-18,2025,September,9,18,Delhi,Telangana,South,S146,Super,Vegetables,Fresh,Britannia,Product-29,3,364.83,Card,Cancelled,Returning,38,4.5,1094.49,83.03,287.76
+993,2025-09-19,2025,September,9,19,Delhi,Delhi,North,S133,Express,Snacks,Organic,Amul,Product-20,9,445.33,Cash,Cancelled,Returning,18,5.0,4007.97,405.02,499.1
+994,2025-09-20,2025,September,9,20,Mumbai,Telangana,North,S136,Express,Beverages,Regular,Nestle,Product-1,6,488.77,Card,Cancelled,New,44,3.2,2932.62,288.89,820.85
+995,2025-09-21,2025,September,9,21,Mumbai,Tamil Nadu,South,S118,Super,Beverages,Frozen,Amul,Product-12,2,208.38,Cash,Returned,New,19,3.5,416.76,31.75,87.17
+996,2025-09-22,2025,September,9,22,Delhi,Telangana,South,S106,Super,Beverages,Frozen,Britannia,Product-40,8,85.5,Card,Returned,Returning,46,3.6,684.0,26.83,147.79
+997,2025-09-23,2025,September,9,23,Pune,Telangana,East,S144,Express,Snacks,Fresh,Amul,Product-24,7,487.83,Cash,Delivered,Returning,54,3.2,3414.81,510.61,883.22
+998,2025-09-24,2025,September,9,24,Chennai,Karnataka,East,S139,Express,Dairy,Frozen,Amul,Product-39,6,241.94,Wallet,Delivered,Returning,39,3.0,1451.64,190.47,253.12
+999,2025-09-25,2025,September,9,25,Pune,Delhi,West,S104,Express,Dairy,Fresh,Britannia,Product-15,8,29.02,Wallet,Cancelled,Returning,30,4.4,232.16,3.41,30.93
+1000,2025-09-26,2025,September,9,26,Kolkata,Delhi,East,S128,Express,Dairy,Regular,Amul,Product-43,1,141.92,Card,Cancelled,New,41,3.0,141.92,2.91,17.98
